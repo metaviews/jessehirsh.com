@@ -88,6 +88,11 @@ Do not rewrite the meaning. You can tighten for clarity and consistency, but kee
 
 Codex must fix build errors before finishing.
 
+## Dev server policy
+- Do not run long-lived dev servers (e.g., `npm run dev`, `npx @11ty/eleventy --serve`) unless explicitly requested by the user.
+- For verification, prefer one-shot checks (`npm run build`) and static output inspection.
+- If a dev server is required, ask first and use a short timeout or explicit stop plan.
+
 ## Deliverables
 1) Working Eleventy site with the IA above.
 2) Clean base layout, nav, footer, and a consistent CTA component.
