@@ -1,22 +1,9 @@
 [
-  {
-    "name": "National Public Policy Summit",
-    "year": "2025"
-  },
-  {
-    "name": "Municipal Digital Governance Forum",
-    "year": "2025"
-  },
-  {
-    "name": "Canadian Association Leadership Congress",
-    "year": "2024"
-  },
-  {
-    "name": "Higher Education Futures Roundtable",
-    "year": "2024"
-  },
-  {
-    "name": "Public Media Strategy Series",
-    "year": "2024"
-  }
+  { "name": "Exporttag (Vienna)", "type": "Keynote / conference session" },
+  { "name": "Canada’s Innovation Corridor Summit", "type": "Talk / presentation" },
+  { "name": "ITUofT (conference session)", "type": "Featured speaker" },
+  { "name": "Digital Main Street Forum", "type": "Speaker" },
+  { "name": "Toronto Insurance Conference (Black Tie Dinner)", "type": "Speaker" },
+  { "name": "CPJ RPC 150th anniversary event", "type": "Speaker" },
+  { "name": "Agri-Food 2050", "type": "Headline talk" }
 ]

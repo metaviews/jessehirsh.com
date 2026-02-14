@@ -59,7 +59,7 @@ Conference organizers, associations, public institutions, executive teams, and m
 ### Selected engagements
 
 {% for item in engagements %}
-- {{ item.year }}: {{ item.name }}
+- {% if item.year %}{{ item.year }}: {% endif %}{{ item.name }}{% if item.type %} ({{ item.type }}){% endif %}
 {% endfor %}
 
 {% include "partials/cta.njk" %}

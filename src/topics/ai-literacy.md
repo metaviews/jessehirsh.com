@@ -1,25 +1,37 @@
 ---
 layout: layouts/page.njk
-title: AI Literacy
-dek: Practical literacy for leaders who need to make accountable AI decisions.
-description: Speaking topic page for AI Literacy.
+title: AI Literacy for Leaders
+description: Govern AI responsibly, communicate clearly, and avoid hype-driven strategy.
 permalink: /topics/ai-literacy/
+cta:
+  label: Book this talk
+  href: "mailto:speaking@jessehirsh.com?subject=AI%20Literacy%20Speaking%20Inquiry"
 ---
 
-AI literacy here means operational judgment: knowing what tools can do, where they fail, and what governance standards are non-negotiable.
+# AI Literacy for Leaders
 
-{% include "partials/cta.njk" %}
+Most organizations are being forced into “AI decisions” without the literacy to know what they’re actually buying, building, or delegating. That gap creates waste, reputational risk, and avoidable governance failures.
 
-## Audience outcomes
+This talk gives leaders a usable framework for understanding AI capabilities, limitations, and political economy — and how to deploy it in ways that serve real needs.
 
-- Evaluate claims about model capability with evidence-based criteria.
-- Identify governance, procurement, and workforce risks early.
-- Prioritize AI use cases that match institutional goals.
+## Who this is for
+
+Executives, boards, public-sector leaders, policy teams, comms teams, and program managers who need practical clarity without hype.
+
+## Audience takeaways
+
+- What AI is (and isn’t) — explained in decision-grade terms
+- Where AI creates value vs where it creates fragility and dependency
+- How to evaluate AI projects and vendors without getting dazzled
+- Why data governance matters more than “innovation” rhetoric
+- How to communicate AI decisions to staff, stakeholders, and the public
 
 ## Sample titles
 
-- AI Literacy for Decision-Makers
-- Hype, Capability, and Institutional Risk
-- Responsible Adoption Under Real Constraints
+- **AI Without the Hype**
+- **Governing Automation**
+- **The Literacy Gap: Why Most AI Projects Fail**
 
-{% include "partials/cta.njk" %}
+## Best formats
+
+Keynote for broad audiences; workshop for leadership teams; fireside conversation paired with Q&A.

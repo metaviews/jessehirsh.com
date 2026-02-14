@@ -1,25 +1,37 @@
 ---
 layout: layouts/page.njk
-title: Disinformation
-dek: Strategic responses to manipulation, narrative conflict, and trust degradation.
-description: Speaking topic page for Disinformation.
+title: Media, Disinformation, and Democratic Resilience
+description: Attention systems, narrative conflict, and institutional communication under pressure.
 permalink: /topics/disinformation/
+cta:
+  label: Book this talk
+  href: "mailto:speaking@jessehirsh.com?subject=Disinformation%20Speaking%20Inquiry"
 ---
 
-Leaders need durable methods for identifying manipulative narratives and responding without amplifying noise.
+# Media, Disinformation, and Democratic Resilience
 
-{% include "partials/cta.njk" %}
+Disinformation isn’t just “bad information.” It’s an adaptive strategy inside attention systems that reward outrage, speed, and identity conflict.
 
-## Audience outcomes
+This talk reframes disinformation as a governance problem: how institutions speak, how publics form beliefs, and how narratives compete in fragmented media environments.
 
-- Map influence operations to organizational vulnerabilities.
-- Design communication protocols for contested information events.
-- Build trust repair strategies grounded in transparency.
+## Who this is for
+
+Public institutions, NGOs, educators, journalists, researchers, and any organization that must communicate credibly under polarization.
+
+## Audience takeaways
+
+- Why “fact-checking” is necessary but insufficient
+- How attention incentives shape what becomes “true” in public life
+- The difference between misinformation, disinformation, propaganda, and narrative warfare
+- Practical communication moves that reduce backlash and increase comprehension
+- How to build resilience through literacy, transparency, and participatory sensemaking
 
 ## Sample titles
 
-- Disinformation as Strategic Environment
-- Trust, Attention, and Narrative Conflict
-- Institutional Response in the Age of Manipulation
+- **The Supply Chain of Attention**
+- **Disinformation as Governance**
+- **How Narratives Capture Institutions**
 
-{% include "partials/cta.njk" %}
+## Best formats
+
+Keynote; workshop for comms teams; moderated stakeholder sessions; panels and roundtables.

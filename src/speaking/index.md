@@ -1,35 +1,78 @@
 ---
 layout: layouts/page.njk
 title: Speaking
-dek: Keynotes and briefings that turn uncertainty into concrete organizational decisions.
-description: Speaking formats, outcomes, endorsements, and booking information for Jesse Hirsh.
+description: Keynotes, workshops, and facilitation on authority, AI, media, and systems thinking from the farm.
 permalink: /speaking/
+cta:
+  label: Book Jesse to speak
+  href: "mailto:speaking@jessehirsh.com?subject=Speaking%20Inquiry"
 ---
 
-Jesse works with conferences, associations, public institutions, and executive teams that need strategic clarity on complex systems.
+# Speaking
 
-{% include "partials/cta.njk" %}
+If you’re organizing a conference, retreat, summit, or strategic convening, you want more than a “talk.” You want a moment that clarifies what’s happening, shifts how people think, and gives them language they can actually use afterward.
 
-## Outcomes your audience leaves with
+Jesse Hirsh delivers keynotes and facilitated sessions that translate complexity into shared understanding — with energy, precision, and an insistence on practical literacy.
 
-- Better judgment on AI and media narratives.
-- Practical framing for governance and trust.
-- A decision agenda matched to institutional realities.
+## What audiences leave with
+
+- A framework for making decisions under uncertainty (instead of reacting to headlines)
+- Clear language for talking about AI, media systems, and institutional legitimacy without hype
+- Better questions — the kind that reshape strategy, policy, and public communication
+- A shared map of tensions and trade-offs, so teams stop talking past each other
+- A sense of agency: what can be done now, by real people, in real institutions
 
 ## Formats
 
-- Keynote: high-context framing with direct strategic implications.
-- Briefing: focused analysis for leadership teams.
-- Conversation: moderated Q and A, fireside, or panel anchoring.
-- Workshop: hands-on strategic synthesis for working groups.
+**Keynote (45–60 min)**  
+High-energy clarity with a tight narrative arc and strong Q&A.
 
-## Proof
+**Fireside / interview (30–45 min + Q&A)**  
+Best for executive audiences or public-facing events that need signal over spectacle.
 
-- <a href="/speaking/endorsements/">Read endorsements</a>
-- Selected engagements:
+**Workshop (90–180 min)**  
+Hands-on literacy: frameworks, exercises, and group sensemaking.
 
-{% for item in engagements %}
-  - {{ item.year }}: {{ item.name }}
-{% endfor %}
+**Moderation & facilitation**  
+Panels, roundtables, and stakeholder conversations designed for emergence, not theatre.
 
-{% include "partials/cta.njk" %}
+## Core topic areas
+
+- **Future of Authority** — legitimacy, governance, and power in networked society  
+- **AI literacy for leaders** — what AI can and cannot do; how to govern it responsibly  
+- **Media, disinformation, and democratic resilience** — attention systems, narratives, polarization  
+- **Agroecology as systems thinking** — food systems as governance; resilience as design
+
+Browse full topic pages: [View all topics](/topics/)
+
+## Recent and notable engagements
+
+A selection of conferences and organizations where Jesse has delivered keynotes, sessions, or featured talks:
+
+- Exporttag (Vienna)  
+- Canada’s Innovation Corridor Summit  
+- ITUofT (conference session)  
+- Digital Main Street Forum  
+- Toronto Insurance Conference (Black Tie Dinner)  
+- CPJ RPC 150th anniversary event  
+- Agri-Food 2050 (headline talk)
+
+(Full list available on request.)
+
+## Endorsements
+
+> “Brilliant, ethical, and forward-thinking — I recommend him to any group that values deep insight.”  
+— CEO, Association of Workers’ Compensation Boards of Canada
+
+> “Engaging, thought-provoking, and absolutely fantastic.”  
+— Canadian Health Informatics Association
+
+> “Deep understanding of modern society and technology.”  
+— Hon. Bob Rae
+
+More endorsements: [Read endorsements](/speaking/endorsements/)
+
+## Booking
+
+To discuss fit, availability, and formats, email: [speaking@jessehirsh.com](mailto:speaking@jessehirsh.com?subject=Speaking%20Inquiry)  
+Include: date, location (or virtual), audience size, desired format, and your theme.
