@@ -27,8 +27,6 @@ Conference organizers, associations, public institutions, executive teams, and m
 - Moderated conversations and fireside sessions
 - Strategy workshops (half-day)
 
-{% include "partials/cta.njk" %}
-
 ## Topics
 
 <div class="grid">
@@ -63,5 +61,3 @@ Conference organizers, associations, public institutions, executive teams, and m
 {% for item in engagements %}
 - {% if item.year %}{{ item.year }}: {% endif %}{{ item.name }}{% if item.type %} ({{ item.type }}){% endif %}
 {% endfor %}
-
-{% include "partials/cta.njk" %}
