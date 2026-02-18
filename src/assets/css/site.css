@@ -76,6 +76,38 @@ h1 {
   margin-bottom: 2rem;
 }
 
+.page-image {
+  margin: 1rem 0 1.5rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.page-image img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.page-image--hero img {
+  aspect-ratio: 16 / 9;
+}
+
+.page-image--tall img {
+  aspect-ratio: 3 / 4;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.image-grid .page-image {
+  margin: 0;
+}
+
 .cta {
   display: inline-block;
   text-decoration: none;

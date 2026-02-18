@@ -4,6 +4,8 @@ title: Jesse Hirsh | Speaking
 dek: Strategic keynotes and briefings for organizations that need decision-grade clarity under pressure.
 description: Book Jesse Hirsh for practical, outcome-driven speaking engagements on AI, media, governance, and systems change.
 permalink: /
+heroImage: /assets/img/PXL_20230904_124710967.jpg
+heroAlt: Jesse Hirsh speaking on stage in front of a projected city skyline and his name.
 ---
 
 ## Who this is for

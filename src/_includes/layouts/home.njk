@@ -3,7 +3,11 @@
 <section class="hero">
   <h1>{{ title }}</h1>
   <p class="dek">{{ dek }}</p>
-  {% include "partials/cta.njk" %}
+  {% if heroImage %}
+  <figure class="page-image page-image--hero">
+    <img src="{{ heroImage }}" alt="{{ heroAlt or '' }}" loading="eager" decoding="async">
+  </figure>
+  {% endif %}
 </section>
 {{ content | safe }}
 {% endblock %}

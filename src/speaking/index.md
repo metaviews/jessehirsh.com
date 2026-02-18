@@ -3,6 +3,8 @@ layout: layouts/page.njk
 title: Speaking
 description: Keynotes, workshops, and facilitation on authority, AI, media, and systems thinking from the farm.
 permalink: /speaking/
+heroImage: /assets/img/ELVLOY1092319_04.JPG
+heroAlt: Jesse Hirsh smiling in a wooded area beside two dogs.
 cta:
   label: Book Jesse to speak
   href: "mailto:speaking@jessehirsh.com?subject=Speaking%20Inquiry"
@@ -44,6 +46,23 @@ Panels, roundtables, and stakeholder conversations designed for emergence, not t
 - **Agroecology as systems thinking** — food systems as governance; resilience as design
 
 Browse full topic pages: [View all topics](/topics/)
+
+## Speaking snapshots
+
+<div class="image-grid">
+  <figure class="page-image">
+    <img src="/assets/img/Jesse-Hirsh-Deloitte-1.jpg" alt="Jesse Hirsh speaking at a podium in front of a National Speakers Bureau screen." loading="lazy" decoding="async">
+  </figure>
+  <figure class="page-image">
+    <img src="/assets/img/20231210_074415.jpg" alt="Jesse Hirsh speaking at a Delta hotel podium." loading="lazy" decoding="async">
+  </figure>
+  <figure class="page-image">
+    <img src="/assets/img/jessehirshdog.jpg" alt="Jesse Hirsh speaking into a handheld microphone onstage with his name projected behind him." loading="lazy" decoding="async">
+  </figure>
+  <figure class="page-image page-image--tall">
+    <img src="/assets/img/jesse.barcelona.jpg" alt="Jesse Hirsh standing on a tiled floor in strong sunlight, viewed from above." loading="lazy" decoding="async">
+  </figure>
+</div>
 
 ## Recent and notable engagements
 

@@ -4,6 +4,8 @@ title: Media
 dek: Briefings and commentary for producers covering AI, governance, media power, and systems risk.
 description: Media background and inquiry page for Jesse Hirsh.
 permalink: /media/
+heroImage: /assets/img/HowtoBuyaTV_JesseHirsh.jpg
+heroAlt: Jesse Hirsh standing with two television hosts in a studio.
 ctaLabel: Media inquiry
 ctaHref: mailto:speaking@jessehirsh.com?subject=Media%20Inquiry
 ---
