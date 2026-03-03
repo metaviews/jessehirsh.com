@@ -2,7 +2,10 @@
 layout: layouts/page.njk
 title: AI Literacy for Leaders
 description: Govern AI responsibly, communicate clearly, and avoid hype-driven strategy.
+cardDek: Decision frameworks for AI capability, risk, and governance.
 permalink: /topics/ai-literacy/
+tags: topics
+order: 2
 cta:
   label: Book this talk
   href: "mailto:speaking@jessehirsh.com?subject=AI%20Literacy%20Speaking%20Inquiry"

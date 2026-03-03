@@ -4,10 +4,12 @@
   "bookingEmail": "speaking@jessehirsh.com",
   "primaryCtaLabel": "Book Jesse to speak",
   "primaryCtaHref": "mailto:speaking@jessehirsh.com?subject=Speaking%20Inquiry",
+  "url": "https://jessehirsh.com",
+  "defaultOgImage": "/assets/img/PXL_20230904_124710967.jpg",
   "social": [
     {
       "label": "LinkedIn",
-      "url": "https://www.linkedin.com"
+      "url": "https://www.linkedin.com/in/jessehirsh/"
     }
   ]
 }

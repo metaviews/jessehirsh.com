@@ -2,7 +2,10 @@
 layout: layouts/page.njk
 title: Future of Authority
 description: Legitimacy, governance, and power in a networked society.
+cardDek: Institutional legitimacy and power in networked environments.
 permalink: /topics/future-of-authority/
+tags: topics
+order: 1
 cta:
   label: Book this talk
   href: "mailto:speaking@jessehirsh.com?subject=Future%20of%20Authority%20Speaking%20Inquiry"

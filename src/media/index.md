@@ -10,17 +10,27 @@ ctaLabel: Media inquiry
 ctaHref: mailto:speaking@jessehirsh.com?subject=Media%20Inquiry
 ---
 
-## What I am good on
+## What I am currently thinking about
 
 - AI capability claims, governance tradeoffs, and policy implications.
 - Disinformation, influence operations, and public trust dynamics.
 - Institutional legitimacy and the future of authority.
-- Food systems, agroecology, and resilience as governance practice.
+- Agentic computing and the governance of autonomous systems.
 
 ## Selected appearances
 
-- [Open Source Intelligence and Public Debate](https://www.jessehirsh.ca/)
-- [AI Governance and Institutional Risk](https://www.youtube.com/)
-- [Narrative Conflict in Networked Publics](https://soundcloud.com/)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0G_Q-0_tZek?si=IiDsB4DhtjbzIcy1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- [Canadian Cybersecurity and Fighting a Digital War](https://podcasts.apple.com/ca/podcast/canadian-cybersecurity-and-fighting-a-digital-war/id1800592241?i=1000699618336) — Elbows Up podcast, March 2025
+- [An Issue Worth Torching Your Job Over](https://www.canadaland.com/podcast/an-issue-worth-torching-your-job-over/) — Canadaland, 2023
+- [Does Rural Canada Have a Radicalization Problem?](https://www.cbc.ca/listen/live-radio/1-110-daybreak-south/clip/15897078-does-rural-canada-radicalization-problem-a-conversation-jesse?share=true) — CBC Daybreak South
+- [Margin of Error: AI, Polling and Elections](https://www.sidewaysfilm.com/margin-of-error-ai-polling-and-elections/) — TVO Original documentary, 2020
+- [Canadian Elections Can't Side-Step Social Media Influence](https://www.cigionline.org/articles/canadian-elections-cant-side-step-social-media-influence/) — Centre for International Governance Innovation
+
+## My shows
+
+- [The Future Herd](https://thefutureherd.ca/) — Collaborative Leadership and the Future of Food
+- [Metaviews to the Future](https://news.metaviews.ca/episodes/) — political economy, technology, and culture
+- [MyFM Ontario](https://www.myfmradio.ca/) — recurring techxpert across MyFM stations in Ontario
 
 {% include "partials/cta.njk" %}

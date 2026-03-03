@@ -130,6 +130,22 @@ h1 {
   padding: 1rem;
 }
 
+.card-label {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--link);
+  margin-bottom: 0.4rem;
+}
+
+.card .cta {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+}
+
 a {
   color: var(--link);
 }

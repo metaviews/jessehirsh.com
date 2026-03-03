@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\jesse\\webdev\\jessehirsh.com\\src\\topics",
+      "C:\\Users\\jesse\\.claude\\projects\\c--Users-jesse-webdev-jessehirsh-com"
+    ]
+  }
+}

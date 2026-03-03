@@ -2,29 +2,34 @@
 layout: layouts/page.njk
 title: Topics
 dek: Outcome-driven sessions built for leaders making high-stakes decisions.
-description: Speaking topics offered by Jesse Hirsh.
+description: Speaking topics offered by Jesse Hirsh — current and core.
 permalink: /topics/
 ---
 
 Choose the topic area that best matches your audience mandate.
 
+## What I'm speaking on right now
+
 <div class="grid">
+{% for item in currentFocus %}
   <article class="card">
-    <h3><a href="/topics/future-of-authority/">Future of Authority</a></h3>
-    <p>Institutional legitimacy and power in networked environments.</p>
+    <span class="card-label">Speaking now</span>
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.hook }}</p>
+    <a class="cta" href="mailto:speaking@jessehirsh.com?subject={{ item.bookingSubject }}">Book this talk</a>
   </article>
+{% endfor %}
+</div>
+
+## Core topics
+
+<div class="grid">
+{% for topic in collections.topics %}
   <article class="card">
-    <h3><a href="/topics/ai-literacy/">AI Literacy</a></h3>
-    <p>Decision frameworks for capability, risk, and governance.</p>
+    <h3><a href="{{ topic.url }}">{{ topic.data.title }}</a></h3>
+    <p>{{ topic.data.cardDek }}</p>
   </article>
-  <article class="card">
-    <h3><a href="/topics/disinformation/">Disinformation</a></h3>
-    <p>Countering narrative manipulation and trust erosion.</p>
-  </article>
-  <article class="card">
-    <h3><a href="/topics/agroecology/">Agroecology</a></h3>
-    <p>Systems thinking through food, land, and resilience.</p>
-  </article>
+{% endfor %}
 </div>
 
 {% include "partials/cta.njk" %}

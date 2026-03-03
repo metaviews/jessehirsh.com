@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title or site.siteName }}</title>
   <meta name="description" content="{{ description or site.tagline }}">
+  <meta property="og:title" content="{{ title or site.siteName }}">
+  <meta property="og:description" content="{{ description or site.tagline }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}{{ heroImage or site.defaultOgImage }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>

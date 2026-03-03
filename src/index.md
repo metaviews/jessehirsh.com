@@ -29,23 +29,27 @@ Conference organizers, associations, public institutions, executive teams, and m
 
 ## Topics
 
+### What I'm speaking on right now
+
 <div class="grid">
+{% for item in currentFocus %}
   <article class="card">
-    <h3><a href="/topics/future-of-authority/">Future of Authority</a></h3>
-    <p>How institutions retain legitimacy in networked publics.</p>
+    <span class="card-label">Speaking now</span>
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.hook }}</p>
   </article>
+{% endfor %}
+</div>
+
+### Core topics
+
+<div class="grid">
+{% for topic in collections.topics %}
   <article class="card">
-    <h3><a href="/topics/ai-literacy/">AI Literacy</a></h3>
-    <p>How leaders separate capability, hype, and implementation risk.</p>
+    <h3><a href="{{ topic.url }}">{{ topic.data.title }}</a></h3>
+    <p>{{ topic.data.cardDek }}</p>
   </article>
-  <article class="card">
-    <h3><a href="/topics/disinformation/">Disinformation</a></h3>
-    <p>Operational responses to manipulation, narratives, and trust decay.</p>
-  </article>
-  <article class="card">
-    <h3><a href="/topics/agroecology/">Agroecology</a></h3>
-    <p>Food systems as practical models for resilient policy and governance.</p>
-  </article>
+{% endfor %}
 </div>
 
 ## Proof
@@ -53,7 +57,7 @@ Conference organizers, associations, public institutions, executive teams, and m
 ### Endorsements
 
 {% for item in endorsements %}
-- "{{ item.quote }}" - {{ item.attribution }}
+- "{{ item.quote }}" — {{ item.attribution }}
 {% endfor %}
 
 ### Selected engagements
@@ -61,3 +65,5 @@ Conference organizers, associations, public institutions, executive teams, and m
 {% for item in engagements %}
 - {% if item.year %}{{ item.year }}: {% endif %}{{ item.name }}{% if item.type %} ({{ item.type }}){% endif %}
 {% endfor %}
+
+{% include "partials/cta.njk" %}

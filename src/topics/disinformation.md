@@ -2,7 +2,10 @@
 layout: layouts/page.njk
 title: Media, Disinformation, and Democratic Resilience
 description: Attention systems, narrative conflict, and institutional communication under pressure.
+cardDek: Countering narrative manipulation and trust erosion.
 permalink: /topics/disinformation/
+tags: topics
+order: 3
 cta:
   label: Book this talk
   href: "mailto:speaking@jessehirsh.com?subject=Disinformation%20Speaking%20Inquiry"
