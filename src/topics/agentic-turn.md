@@ -11,8 +11,6 @@ cta:
   href: "mailto:speaking@jessehirsh.com?subject=Agentic%20Turn%20Speaking%20Inquiry"
 ---
 
-# The Agentic Turn
-
 AI has moved from answering questions to taking action. Agentic systems now plan, research, decide, and execute on behalf of organizations — drafting, communicating, hiring, trading — without human approval at each step.
 
 Most institutions are unprepared. They have no governance framework for delegating to AI agents, no accountability structures for when agents fail, and no shared language for what "oversight" even means in practice. The gap between what agentic AI can do and what organizations know how to govern is growing fast.

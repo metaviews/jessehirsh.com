@@ -11,8 +11,6 @@ cta:
   href: "mailto:speaking@jessehirsh.com?subject=AI%20Literacy%20Speaking%20Inquiry"
 ---
 
-# AI Literacy for Leaders
-
 Most organizations are being forced into “AI decisions” without the literacy to know what they’re actually buying, building, or delegating. That gap creates waste, reputational risk, and avoidable governance failures.
 
 This talk gives leaders a usable framework for understanding AI capabilities, limitations, and political economy — and how to deploy it in ways that serve real needs.

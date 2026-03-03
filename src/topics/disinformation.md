@@ -11,8 +11,6 @@ cta:
   href: "mailto:speaking@jessehirsh.com?subject=Disinformation%20Speaking%20Inquiry"
 ---
 
-# Media, Disinformation, and Democratic Resilience
-
 Disinformation isn’t just “bad information.” It’s an adaptive strategy inside attention systems that reward outrage, speed, and identity conflict.
 
 This talk reframes disinformation as a governance problem: how institutions speak, how publics form beliefs, and how narratives compete in fragmented media environments.

@@ -11,8 +11,6 @@ cta:
   href: "mailto:speaking@jessehirsh.com?subject=Future%20of%20Authority%20Speaking%20Inquiry"
 ---
 
-# Future of Authority
-
 Authority is not a personality trait. It’s a design problem.
 
 In a networked society, legitimacy is manufactured, contested, and hacked — through platforms, narratives, institutions, and everyday interactions. This talk helps audiences understand how authority is produced now, why it’s destabilizing, and what it means for governance, leadership, and public trust.

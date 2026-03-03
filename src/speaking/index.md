@@ -10,8 +10,6 @@ cta:
   href: "mailto:speaking@jessehirsh.com?subject=Speaking%20Inquiry"
 ---
 
-# Speaking
-
 If you’re organizing a conference, retreat, summit, or strategic convening, you want more than a “talk.” You want a moment that clarifies what’s happening, shifts how people think, and gives them language they can actually use afterward.
 
 Jesse Hirsh delivers keynotes and facilitated sessions that translate complexity into shared understanding — with energy, precision, and an insistence on practical literacy.
@@ -40,10 +38,10 @@ Panels, roundtables, and stakeholder conversations designed for emergence, not t
 
 ## Core topic areas
 
-- **Future of Authority** — legitimacy, governance, and power in networked society  
-- **AI literacy for leaders** — what AI can and cannot do; how to govern it responsibly  
-- **Media, disinformation, and democratic resilience** — attention systems, narratives, polarization  
-- **Agroecology as systems thinking** — food systems as governance; resilience as design
+- **Future of Authority** — legitimacy, governance, and power in networked society
+- **AI literacy for leaders** — what AI can and cannot do; how to govern it responsibly
+- **Media, disinformation, and democratic resilience** — attention systems, narratives, polarization
+- **The Agentic Turn** — governing autonomous AI systems before they govern you
 
 Browse full topic pages: [View all topics](/topics/)
 

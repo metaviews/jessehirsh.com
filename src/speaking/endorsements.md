@@ -8,8 +8,6 @@ cta:
   href: "mailto:speaking@jessehirsh.com?subject=Speaking%20Inquiry"
 ---
 
-# Endorsements
-
 A selection of feedback from conference organizers and institutional audiences.
 
 > “Brilliant, ethical, and forward-thinking — I recommend him to any group that values deep insight.”  
