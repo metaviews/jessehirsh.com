@@ -19,7 +19,9 @@ ctaHref: mailto:speaking@jessehirsh.com?subject=Media%20Inquiry
 
 ## Selected appearances
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0G_Q-0_tZek?si=IiDsB4DhtjbzIcy1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/0G_Q-0_tZek?si=IiDsB4DhtjbzIcy1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 - [Canadian Cybersecurity and Fighting a Digital War](https://podcasts.apple.com/ca/podcast/canadian-cybersecurity-and-fighting-a-digital-war/id1800592241?i=1000699618336) — Elbows Up podcast, March 2025
 - [An Issue Worth Torching Your Job Over](https://www.canadaland.com/podcast/an-issue-worth-torching-your-job-over/) — Canadaland, 2023

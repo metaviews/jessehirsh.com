@@ -1,6 +1,9 @@
 <footer class="site-footer">
   <div class="container">
     <p>Booking: <a href="mailto:{{ site.bookingEmail }}">{{ site.bookingEmail }}</a></p>
-    <p><a href="/speaking/">View speaking formats and availability</a></p>
+    <p>
+      <a href="/speaking/">Speaking</a> &middot;
+      {% for link in site.social %}<a href="{{ link.url }}">{{ link.label }}</a>{% if not loop.last %} &middot; {% endif %}{% endfor %}
+    </p>
   </div>
 </footer>
