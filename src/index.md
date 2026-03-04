@@ -1,47 +1,30 @@
 ---
 layout: layouts/home.njk
-title: Jesse Hirsh | Speaking
-dek: Strategic keynotes and briefings for organizations that need decision-grade clarity under pressure.
-description: Book Jesse Hirsh for practical, outcome-driven speaking engagements on AI, media, governance, and systems change.
+title: Jesse Hirsh
+dek: Researcher, speaker, and strategist working at the intersection of AI, media, and governance.
+description: Jesse Hirsh helps leaders and organizations make sense of AI, disinformation, and systems disruption through speaking, research, and strategic counsel.
 permalink: /
 heroImage: /assets/img/PXL_20230904_124710967.jpg
 heroAlt: Jesse Hirsh speaking on stage in front of a projected city skyline and his name.
 ---
 
-## Who this is for
+## What I work on
 
-Conference organizers, associations, public institutions, executive teams, and media producers booking audiences that need signal over noise.
+AI adoption and governance, media literacy, disinformation, institutional trust, and the systems pressures reshaping how we lead, decide, and communicate. I bring these to conference stages, executive briefings, podcasts, and public commentary.
 
-{% include "partials/cta.njk" %}
-
-## Audience outcomes
-
-- Clear frameworks to evaluate AI and media claims.
-- Shared language for risk, governance, and institutional trust.
-- Action priorities leaders can execute in the next quarter.
-
-## Formats you can book
-
-- Keynotes (30-60 minutes)
-- Executive briefings (45-90 minutes)
-- Moderated conversations and fireside sessions
-- Strategy workshops (half-day)
-
-## Topics
-
-### What I'm speaking on right now
+## Current focus
 
 <div class="grid">
 {% for item in currentFocus %}
   <article class="card">
-    <span class="card-label">Speaking now</span>
+    <span class="card-label">Current focus</span>
     <h3>{{ item.title }}</h3>
     <p>{{ item.hook }}</p>
   </article>
 {% endfor %}
 </div>
 
-### Core topics
+## Topics
 
 <div class="grid">
 {% for topic in collections.topics %}
@@ -52,15 +35,13 @@ Conference organizers, associations, public institutions, executive teams, and m
 {% endfor %}
 </div>
 
-## Proof
-
-### Endorsements
+## What people say
 
 {% for item in endorsements %}
 - "{{ item.quote }}" — {{ item.attribution }}
 {% endfor %}
 
-### Selected engagements
+## Selected engagements
 
 {% for item in engagements %}
 - {% if item.year %}{{ item.year }}: {% endif %}{{ item.name }}{% if item.type %} ({{ item.type }}){% endif %}
