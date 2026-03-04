@@ -16,6 +16,11 @@ heroAlt: Jesse Hirsh speaking on stage in front of a projected city skyline and 
 
 AI adoption and governance, media literacy, disinformation, institutional trust, and the systems pressures reshaping how we lead, decide, and communicate. I bring these to conference stages, executive briefings, podcasts, and public commentary — and to the agricultural sector through [The Future Herd](https://thefutureherd.ca), a podcast and leadership forum at the intersection of technology, policy, and farming.
 
+## Build a talk
+
+Tell me about your audience and I'll generate a custom talk concept — title, premise, opening hook, and a draft booking email — built for your specific room.
+
+[Build a talk →](/brief/)
 
 ## Current focus
 
@@ -56,11 +61,5 @@ AI adoption and governance, media literacy, disinformation, institutional trust,
 {% for item in engagements %}
 - {% if item.year %}{{ item.year }}: {% endif %}{{ item.name }}{% if item.type %} ({{ item.type }}){% endif %}
 {% endfor %}
-
-## Build a talk
-
-Tell me about your audience and I'll generate a custom talk concept — title, premise, opening hook, and a draft booking email — built for your specific room.
-
-[Build a talk →](/brief/)
 
 {% include "partials/cta.njk" %}
