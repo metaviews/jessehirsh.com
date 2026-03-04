@@ -1,16 +1,17 @@
 ---
 layout: layouts/page.njk
 title: Brief Jesse
-dek: Tell me about your room. I'll build the talk.
+dek: Tell me about your event. I'll build the talk.
 description: Describe your organization or event and receive a custom talk concept — title, premise, opening hook, and a draft booking email — built for your specific room.
 permalink: /brief/
 ---
 
-This isn't a topic menu. Describe your organization, sector, or event in a sentence or two — Jesse will build something for it.
+Describe your organization, sector, or event in a sentence or two — Jesse will build something for it.
 
 <div class="brief-wrap">
   <form id="brief-form" class="brief-form" novalidate>
     <label for="brief-description">Describe your organization or event</label>
+    <br>
     <textarea
       id="brief-description"
       name="description"
@@ -19,6 +20,7 @@ This isn't a topic menu. Describe your organization, sector, or event in a sente
       placeholder="e.g. We're a national association of municipal leaders, about 400 people, meeting in October. The conversation is dominated by AI procurement anxiety and nobody knows what questions to ask."
       required
     ></textarea>
+    <br>
     <div class="brief-form-footer">
       <span id="brief-charcount" class="brief-charcount">0 / 1000</span>
       <button type="submit" id="brief-submit">Brief Jesse →</button>

@@ -18,7 +18,7 @@ AI adoption and governance, media literacy, disinformation, institutional trust,
 
 ## Brief Jesse
 
-Tell me about your room. I'll build the talk — title, premise, opening hook, and a draft booking email — specific to your audience.
+Tell me about your event. I'll build the talk — title, premise, opening hook, and a draft booking email — specific to your needs.
 
 [Brief Jesse →](/brief/)
 
