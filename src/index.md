@@ -31,8 +31,7 @@ AI adoption and governance, media literacy, disinformation, institutional trust,
     <span class="card-label">Podcast & convening</span>
     <h3><a href="/future-herd/">The Future Herd</a></h3>
     <p>Bringing together farmers, policymakers, and technologists to think clearly about the future of agriculture. Hosted by Jesse at the intersection of technology, policy, and practice.</p>
-</div>
-
+  </article>
 </div>
 
 ## Topics
@@ -57,5 +56,11 @@ AI adoption and governance, media literacy, disinformation, institutional trust,
 {% for item in engagements %}
 - {% if item.year %}{{ item.year }}: {% endif %}{{ item.name }}{% if item.type %} ({{ item.type }}){% endif %}
 {% endfor %}
+
+## Get a custom briefing
+
+Describe your organization or event and receive a tailored pitch: relevant topic angle, suggested format, draft booking email — generated from Jesse's actual work.
+
+[Generate your briefing →](/brief/)
 
 {% include "partials/cta.njk" %}

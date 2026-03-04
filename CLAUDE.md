@@ -25,6 +25,8 @@ src/
   about/index.md
   contact/index.md
   404.md
+  brief/index.md            # AI briefing generator page
+  future-herd/index.md      # The Future Herd page
 
   _includes/
     layouts/
@@ -127,6 +129,15 @@ Do not rewrite meaning when editing copy. Tighten for clarity and consistency on
 `agroecology` was removed — farm is a background lens only, not a speaking topic.
 
 ---
+
+## Briefing generator
+
+- Page: `/brief/` — form where visitors describe their org/event
+- Cloudflare Pages Function: `functions/api/brief.js` — POST `/api/brief`
+- Calls OpenRouter API (`google/gemini-2.0-flash-001`) with a system prompt grounded in Jesse's topics, voice, and formats
+- Returns: recommended topic, suggested format, 3 outcome bullets, draft booking email
+- Client JS: `src/assets/js/brief.js` (vanilla, no dependencies, renders basic markdown to HTML)
+- API key: `OPENROUTER_API_KEY` env var — set in Cloudflare Pages dashboard, never committed to repo
 
 ## Deployment
 
