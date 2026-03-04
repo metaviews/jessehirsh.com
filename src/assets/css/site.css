@@ -397,6 +397,12 @@ a:focus-visible,
   font-size: 0.9rem;
 }
 
+.brief-gallery-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
 .brief-save-prompt {
   margin-top: 1.75rem;
   padding-top: 1.25rem;

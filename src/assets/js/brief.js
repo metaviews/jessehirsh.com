@@ -31,7 +31,13 @@
 
   let loadingInterval = null;
   let loadingIndex = 0;
-  let lastParsed = null; // stores { title, premise, opening } for optional save
+  let lastParsed = null;
+
+  // Initialise display states explicitly — don't rely on [hidden] attribute
+  hide(loading);
+  hide(result);
+  hide(error);
+  show(form);
 
   textarea.addEventListener('input', function () {
     charcount.textContent = textarea.value.length + ' / 1000';
@@ -63,10 +69,10 @@
 
       lastParsed = parseForSave(data.brief);
       output.innerHTML = renderBrief(data.brief);
-      form.hidden = true;
-      result.hidden = false;
+      hide(form);
+      show(result);
       if (saveCheck) saveCheck.checked = false;
-      if (saveStatus) { saveStatus.hidden = true; saveStatus.textContent = ''; }
+      if (saveStatus) { hide(saveStatus); saveStatus.innerHTML = ''; }
     } catch {
       stopLoading();
       setError('Could not reach the server. Please check your connection and try again.');
@@ -78,7 +84,7 @@
       if (!saveCheck.checked || !lastParsed) return;
       saveCheck.disabled = true;
       saveStatus.textContent = 'Saving…';
-      saveStatus.hidden = false;
+      show(saveStatus);
 
       try {
         const res = await fetch('/api/save-talk', {
@@ -88,11 +94,8 @@
         });
         const data = await res.json();
         if (res.ok && data.ok) {
-          saveStatus.textContent = 'Added to the gallery. ';
-          const link = document.createElement('a');
-          link.href = '/talks/';
-          link.textContent = 'View gallery →';
-          saveStatus.appendChild(link);
+          saveStatus.innerHTML =
+            'Added to the gallery. <a href="/talks/" class="brief-gallery-link">See all generated talks →</a>';
         } else {
           saveStatus.textContent = 'Could not save. Try again later.';
           saveCheck.checked = false;
@@ -107,8 +110,8 @@
   }
 
   reset.addEventListener('click', function () {
-    form.hidden = false;
-    result.hidden = true;
+    show(form);
+    hide(result);
     textarea.value = '';
     charcount.textContent = '0 / 1000';
     output.innerHTML = '';
@@ -117,8 +120,8 @@
 
   function startLoading() {
     submit.disabled = true;
-    form.hidden = true;
-    loading.hidden = false;
+    hide(form);
+    show(loading);
     loadingIndex = 0;
     loadingMsg.textContent = LOADING_SEQUENCE[0];
     loadingInterval = setInterval(function () {
@@ -130,18 +133,19 @@
   function stopLoading() {
     clearInterval(loadingInterval);
     loadingInterval = null;
-    loading.hidden = true;
+    hide(loading);
     submit.disabled = false;
   }
 
   function setError(msg) {
     error.textContent = msg;
-    error.hidden = !msg;
-    if (msg) form.hidden = false;
+    if (msg) { show(error); show(form); } else { hide(error); }
   }
 
+  function show(el) { if (el) el.style.display = ''; }
+  function hide(el) { if (el) el.style.display = 'none'; }
+
   // Extract title, premise, opening from the generated text for saving.
-  // Looks for the sections by their header labels.
   function parseForSave(text) {
     const sections = splitSections(text);
     return {
@@ -167,14 +171,12 @@
   }
 
   function extractTitle(talkSection) {
-    // First non-empty line is typically the title, possibly bold
     const lines = talkSection.split('\n').map(l => l.replace(/\*\*/g, '').trim()).filter(Boolean);
     return (lines[0] || '').slice(0, 200);
   }
 
   function extractPremise(talkSection) {
     const lines = talkSection.split('\n').map(l => l.replace(/\*\*/g, '').trim()).filter(Boolean);
-    // Everything after the first line is the premise
     return lines.slice(1).join(' ').slice(0, 800);
   }
 
