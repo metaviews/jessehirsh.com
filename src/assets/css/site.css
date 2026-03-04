@@ -262,22 +262,26 @@ a:focus-visible,
 
 /* ─── Brief generator ────────────────────────── */
 
+.brief-wrap {
+  margin-top: 2rem;
+}
+
 .brief-form {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  margin-top: 1.5rem;
 }
 
 .brief-form label {
   font-weight: 600;
+  font-size: 1.05rem;
 }
 
 .brief-form textarea {
   font-family: inherit;
   font-size: 1rem;
-  line-height: 1.5;
-  padding: 0.6rem 0.75rem;
+  line-height: 1.6;
+  padding: 0.75rem 1rem;
   border: 1px solid var(--border);
   border-radius: 0.25rem;
   background: var(--surface);
@@ -293,16 +297,29 @@ a:focus-visible,
   border-color: var(--link);
 }
 
+.brief-form-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brief-charcount {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
 .brief-form button[type="submit"] {
-  align-self: flex-start;
   background: var(--link);
   color: #fff;
   border: none;
   border-radius: 0.25rem;
-  padding: 0.55rem 1.25rem;
+  padding: 0.6rem 1.4rem;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .brief-form button[type="submit"]:hover {
@@ -314,26 +331,38 @@ a:focus-visible,
   cursor: not-allowed;
 }
 
+.brief-loading {
+  padding: 2.5rem 0;
+  text-align: center;
+}
+
+.brief-loading-msg {
+  font-size: 1rem;
+  color: var(--muted);
+  font-style: italic;
+  min-height: 1.5em;
+}
+
 .brief-result {
-  margin-top: 2rem;
-  padding: 1.5rem;
+  padding: 1.75rem;
   border: 1px solid var(--border);
   border-radius: 0.25rem;
   background: var(--surface);
 }
 
-.brief-result h2 {
-  margin-top: 0;
-}
-
 .brief-result h3 {
-  margin-top: 1.25rem;
-  margin-bottom: 0.25rem;
-  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   color: var(--link);
   border: none;
+}
+
+.brief-result h3:first-child {
+  margin-top: 0;
 }
 
 .brief-result p,
@@ -342,7 +371,7 @@ a:focus-visible,
 }
 
 .brief-reset {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   background: none;
   border: 1px solid var(--border);
   border-radius: 0.25rem;

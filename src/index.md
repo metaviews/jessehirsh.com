@@ -57,10 +57,10 @@ AI adoption and governance, media literacy, disinformation, institutional trust,
 - {% if item.year %}{{ item.year }}: {% endif %}{{ item.name }}{% if item.type %} ({{ item.type }}){% endif %}
 {% endfor %}
 
-## Get a custom briefing
+## Build a talk
 
-Describe your organization or event and receive a tailored pitch: relevant topic angle, suggested format, draft booking email — generated from Jesse's actual work.
+Tell me about your audience and I'll generate a custom talk concept — title, premise, opening hook, and a draft booking email — built for your specific room.
 
-[Generate your briefing →](/brief/)
+[Build a talk →](/brief/)
 
 {% include "partials/cta.njk" %}
