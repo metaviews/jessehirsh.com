@@ -16,7 +16,7 @@ Jesse's farm is not a hobby or a metaphor. It is a working operation and an epis
 
 The agricultural sector sits at the convergence of several of the largest forces of our time: AI-driven precision agriculture, supply chain fragility, climate adaptation, rural-urban political fracture, and the restructuring of global food systems. It is one of the few domains where technology, ecology, economics, and governance collide at the same time and the same scale.
 
-## Convening leaders
+## Herding leaders
 
 The Future Herd brings together people who rarely share a table: operators managing multi-generational farms, policy officials designing rural programs, agri-tech founders, researchers, and Indigenous land stewards. The shared premise is that no one sector has the full picture, and that good decisions require deliberate cross-pollination.
 
