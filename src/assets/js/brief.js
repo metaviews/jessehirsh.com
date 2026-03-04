@@ -9,6 +9,8 @@
   const reset = document.getElementById('brief-reset');
   const textarea = document.getElementById('brief-description');
   const charcount = document.getElementById('brief-charcount');
+  const saveCheck = document.getElementById('brief-save-check');
+  const saveStatus = document.getElementById('brief-save-status');
 
   if (!form) return;
 
@@ -29,10 +31,10 @@
 
   let loadingInterval = null;
   let loadingIndex = 0;
+  let lastParsed = null; // stores { title, premise, opening } for optional save
 
   textarea.addEventListener('input', function () {
-    const len = textarea.value.length;
-    charcount.textContent = len + ' / 1000';
+    charcount.textContent = textarea.value.length + ' / 1000';
   });
 
   form.addEventListener('submit', async function (e) {
@@ -41,6 +43,7 @@
     if (!description) return;
 
     setError('');
+    lastParsed = null;
     startLoading();
 
     try {
@@ -51,7 +54,6 @@
       });
 
       const data = await res.json();
-
       stopLoading();
 
       if (!res.ok || data.error) {
@@ -59,14 +61,50 @@
         return;
       }
 
+      lastParsed = parseForSave(data.brief);
       output.innerHTML = renderBrief(data.brief);
       form.hidden = true;
       result.hidden = false;
+      if (saveCheck) saveCheck.checked = false;
+      if (saveStatus) { saveStatus.hidden = true; saveStatus.textContent = ''; }
     } catch {
       stopLoading();
       setError('Could not reach the server. Please check your connection and try again.');
     }
   });
+
+  if (saveCheck) {
+    saveCheck.addEventListener('change', async function () {
+      if (!saveCheck.checked || !lastParsed) return;
+      saveCheck.disabled = true;
+      saveStatus.textContent = 'Saving…';
+      saveStatus.hidden = false;
+
+      try {
+        const res = await fetch('/api/save-talk', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(lastParsed)
+        });
+        const data = await res.json();
+        if (res.ok && data.ok) {
+          saveStatus.textContent = 'Added to the gallery. ';
+          const link = document.createElement('a');
+          link.href = '/talks/';
+          link.textContent = 'View gallery →';
+          saveStatus.appendChild(link);
+        } else {
+          saveStatus.textContent = 'Could not save. Try again later.';
+          saveCheck.checked = false;
+          saveCheck.disabled = false;
+        }
+      } catch {
+        saveStatus.textContent = 'Could not save. Try again later.';
+        saveCheck.checked = false;
+        saveCheck.disabled = false;
+      }
+    });
+  }
 
   reset.addEventListener('click', function () {
     form.hidden = false;
@@ -74,6 +112,7 @@
     textarea.value = '';
     charcount.textContent = '0 / 1000';
     output.innerHTML = '';
+    lastParsed = null;
   });
 
   function startLoading() {
@@ -101,34 +140,63 @@
     if (msg) form.hidden = false;
   }
 
+  // Extract title, premise, opening from the generated text for saving.
+  // Looks for the sections by their header labels.
+  function parseForSave(text) {
+    const sections = splitSections(text);
+    return {
+      title: extractTitle(sections['the talk'] || ''),
+      premise: extractPremise(sections['the talk'] || ''),
+      opening: (sections['the opening'] || '').trim().slice(0, 800)
+    };
+  }
+
+  function splitSections(text) {
+    const result = {};
+    let current = null;
+    for (const line of text.split('\n')) {
+      const header = line.replace(/\*\*/g, '').trim().toLowerCase();
+      if (['the talk', 'the opening', 'what the room leaves with', 'reach out'].includes(header)) {
+        current = header;
+        result[current] = '';
+      } else if (current) {
+        result[current] += line + '\n';
+      }
+    }
+    return result;
+  }
+
+  function extractTitle(talkSection) {
+    // First non-empty line is typically the title, possibly bold
+    const lines = talkSection.split('\n').map(l => l.replace(/\*\*/g, '').trim()).filter(Boolean);
+    return (lines[0] || '').slice(0, 200);
+  }
+
+  function extractPremise(talkSection) {
+    const lines = talkSection.split('\n').map(l => l.replace(/\*\*/g, '').trim()).filter(Boolean);
+    // Everything after the first line is the premise
+    return lines.slice(1).join(' ').slice(0, 800);
+  }
+
   // Render plain-text markdown into basic HTML without a library.
   function renderBrief(text) {
     const lines = text.split('\n');
     const html = [];
     let inList = false;
 
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i];
-
-      // Bold section headers: **Some text** on its own line
+    for (const line of lines) {
       if (/^\*\*[^*]+\*\*\s*$/.test(line)) {
         if (inList) { html.push('</ul>'); inList = false; }
-        const label = line.replace(/\*\*/g, '').trim();
-        html.push('<h3>' + escHtml(label) + '</h3>');
+        html.push('<h3>' + escHtml(line.replace(/\*\*/g, '').trim()) + '</h3>');
         continue;
       }
-
-      // Bullet items
       if (/^[-*]\s/.test(line)) {
         if (!inList) { html.push('<ul>'); inList = true; }
         html.push('<li>' + inlineBold(escHtml(line.replace(/^[-*]\s/, ''))) + '</li>');
         continue;
       }
-
       if (inList) { html.push('</ul>'); inList = false; }
-
       if (!line.trim()) continue;
-
       html.push('<p>' + inlineBold(escHtml(line)) + '</p>');
     }
 

@@ -397,3 +397,89 @@ a:focus-visible,
   font-size: 0.9rem;
 }
 
+.brief-save-prompt {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+}
+
+.brief-save-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.brief-save-label input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.brief-save-note {
+  margin: 0.4rem 0 0 1.5rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.brief-save-status {
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+/* ─── Talks gallery ──────────────────────────── */
+
+.talks-loading,
+.talks-empty {
+  color: var(--muted);
+  font-style: italic;
+  margin-top: 1.5rem;
+}
+
+.talks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.talk-card {
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 0.25rem;
+  background: var(--surface);
+}
+
+.talk-date {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.talk-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  border: none;
+}
+
+.talk-card p {
+  margin: 0 0 1rem;
+  color: var(--muted);
+}
+
+.talk-opening {
+  margin: 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--border);
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
