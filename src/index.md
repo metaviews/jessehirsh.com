@@ -10,7 +10,7 @@ heroAlt: Jesse Hirsh speaking on stage in front of a projected city skyline and 
 
 ## What I work on
 
-AI adoption and governance, media literacy, disinformation, institutional trust, and the systems pressures reshaping how we lead, decide, and communicate. I bring these to conference stages, executive briefings, podcasts, and public commentary.
+AI adoption and governance, media literacy, disinformation, institutional trust, and the systems pressures reshaping how we lead, decide, and communicate. I bring these to conference stages, executive briefings, podcasts, and public commentary — and to the agricultural sector through [The Future Herd](https://thefutureherd.ca), a podcast and leadership convening at the intersection of technology, policy, and farming.
 
 ## Current focus
 
@@ -33,6 +33,16 @@ AI adoption and governance, media literacy, disinformation, institutional trust,
     <p>{{ topic.data.cardDek }}</p>
   </article>
 {% endfor %}
+</div>
+
+## The Future Herd
+
+<div class="grid">
+  <article class="card">
+    <span class="card-label">Podcast & convening</span>
+    <h3><a href="/future-herd/">The Future Herd</a></h3>
+    <p>Bringing together farmers, policymakers, and technologists to think clearly about the future of agriculture. Hosted by Jesse at the intersection of technology, policy, and practice.</p>
+  </article>
 </div>
 
 ## What people say
