@@ -81,8 +81,13 @@
 
   if (saveBtn) {
     saveBtn.addEventListener('click', async function () {
-      if (!lastParsed) return;
+      console.log('[brief] save clicked, lastParsed:', lastParsed);
+      if (!lastParsed) {
+        console.log('[brief] lastParsed is null, aborting');
+        return;
+      }
       if (!lastParsed.title) {
+        console.log('[brief] title is empty, parse failed');
         saveStatus.textContent = 'Could not parse the talk for saving. Try generating a new one.';
         show(saveStatus);
         return;
@@ -92,12 +97,14 @@
       show(saveStatus);
 
       try {
+        console.log('[brief] posting to /api/save-talk:', lastParsed);
         const res = await fetch('/api/save-talk', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(lastParsed)
         });
         const data = await res.json();
+        console.log('[brief] save response:', res.status, data);
         if (res.ok && data.ok) {
           saveStatus.innerHTML =
             'Added to the gallery. <a href="/talks/" class="brief-gallery-link">See all generated talks →</a>';
@@ -105,7 +112,8 @@
           saveStatus.textContent = 'Could not save. Try again later.';
           saveBtn.disabled = false;
         }
-      } catch {
+      } catch (err) {
+        console.log('[brief] save fetch error:', err);
         saveStatus.textContent = 'Could not save. Try again later.';
         saveBtn.disabled = false;
       }
