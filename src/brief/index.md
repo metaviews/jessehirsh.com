@@ -2,7 +2,7 @@
 layout: layouts/page.njk
 title: Brief Jesse
 dek: Tell me about your event. I'll build the talk.
-description: Describe your organization or event and receive a custom talk concept — title, premise, opening hook, and a draft booking email — built for your specific room.
+description: Describe your organization or event and receive a custom talk concept — title, premise, opening hook, and a draft booking email — built for your specific event.
 permalink: /brief/
 ---
 
