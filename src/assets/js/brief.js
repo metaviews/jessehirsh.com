@@ -82,6 +82,11 @@
   if (saveBtn) {
     saveBtn.addEventListener('click', async function () {
       if (!lastParsed) return;
+      if (!lastParsed.title) {
+        saveStatus.textContent = 'Could not parse the talk for saving. Try generating a new one.';
+        show(saveStatus);
+        return;
+      }
       saveBtn.disabled = true;
       saveStatus.textContent = 'Saving…';
       show(saveStatus);

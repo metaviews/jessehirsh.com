@@ -60,7 +60,8 @@ export async function onRequestPost(context) {
           { role: 'system', content: SYSTEM_PROMPT },
           { role: 'user', content: description }
         ],
-        max_tokens: 900
+        max_tokens: 1800,
+        reasoning: { enabled: false }
       })
     });
   } catch {
@@ -72,7 +73,8 @@ export async function onRequestPost(context) {
   }
 
   const data = await apiResponse.json();
-  const brief = data.choices?.[0]?.message?.content || '';
+  const raw = data.choices?.[0]?.message?.content || '';
+  const brief = raw.replace(/<think>[\s\S]*?<\/think>/gi, '').trim();
 
   return jsonResponse({ brief });
 }
