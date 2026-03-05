@@ -142,7 +142,7 @@
     if (msg) { show(error); show(form); } else { hide(error); }
   }
 
-  function show(el) { if (el) el.style.display = ''; }
+  function show(el) { if (el) { el.removeAttribute('hidden'); el.style.display = ''; } }
   function hide(el) { if (el) el.style.display = 'none'; }
 
   // Extract title, premise, opening from the generated text for saving.
