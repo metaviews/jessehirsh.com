@@ -41,7 +41,10 @@ Describe your organization, sector, or event in a sentence or two — Jesse will
       <p class="brief-save-note">Only the generated talk — title, premise, and opening — is saved. Your description is not.</p>
     </div>
     <div id="brief-save-status" class="brief-save-status" hidden></div>
-    <button id="brief-reset" class="brief-reset">Brief Jesse again →</button>
+    <div class="brief-actions">
+      <button id="brief-reset" class="brief-reset">Brief Jesse again →</button>
+      <a href="/talks/" class="brief-reset">Browse the gallery →</a>
+    </div>
   </div>
 
   <div id="brief-error" class="brief-error" hidden></div>
