@@ -1,0 +1,6 @@
+name = "jessehirsh-com"
+pages_build_output_dir = "_site"
+
+[[kv_namespaces]]
+binding = "TALKS_KV"
+id = "04136b4d657a4fc3bfed81d3b187afba"
