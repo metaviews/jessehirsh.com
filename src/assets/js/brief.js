@@ -9,7 +9,7 @@
   const reset = document.getElementById('brief-reset');
   const textarea = document.getElementById('brief-description');
   const charcount = document.getElementById('brief-charcount');
-  const saveCheck = document.getElementById('brief-save-check');
+  const saveBtn = document.getElementById('brief-save-btn');
   const saveStatus = document.getElementById('brief-save-status');
 
   if (!form) return;
@@ -71,7 +71,7 @@
       output.innerHTML = renderBrief(data.brief);
       hide(form);
       show(result);
-      if (saveCheck) saveCheck.checked = false;
+      if (saveBtn) saveBtn.disabled = false;
       if (saveStatus) { hide(saveStatus); saveStatus.innerHTML = ''; }
     } catch {
       stopLoading();
@@ -79,10 +79,10 @@
     }
   });
 
-  if (saveCheck) {
-    saveCheck.addEventListener('change', async function () {
-      if (!saveCheck.checked || !lastParsed) return;
-      saveCheck.disabled = true;
+  if (saveBtn) {
+    saveBtn.addEventListener('click', async function () {
+      if (!lastParsed) return;
+      saveBtn.disabled = true;
       saveStatus.textContent = 'Saving…';
       show(saveStatus);
 
@@ -98,13 +98,11 @@
             'Added to the gallery. <a href="/talks/" class="brief-gallery-link">See all generated talks →</a>';
         } else {
           saveStatus.textContent = 'Could not save. Try again later.';
-          saveCheck.checked = false;
-          saveCheck.disabled = false;
+          saveBtn.disabled = false;
         }
       } catch {
         saveStatus.textContent = 'Could not save. Try again later.';
-        saveCheck.checked = false;
-        saveCheck.disabled = false;
+        saveBtn.disabled = false;
       }
     });
   }
@@ -158,10 +156,16 @@
   function splitSections(text) {
     const result = {};
     let current = null;
+    const HEADERS = ['the talk', 'the opening', 'what the room leaves with', 'reach out'];
     for (const line of text.split('\n')) {
-      const header = line.replace(/\*\*/g, '').trim().toLowerCase();
-      if (['the talk', 'the opening', 'what the room leaves with', 'reach out'].includes(header)) {
-        current = header;
+      const normalized = line
+        .replace(/\*\*/g, '')
+        .replace(/^#{1,4}\s*/, '')
+        .replace(/[:\s]+$/, '')
+        .trim()
+        .toLowerCase();
+      if (HEADERS.includes(normalized)) {
+        current = normalized;
         result[current] = '';
       } else if (current) {
         result[current] += line + '\n';

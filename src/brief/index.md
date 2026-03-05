@@ -1,12 +1,14 @@
 ---
 layout: layouts/page.njk
 title: Brief Jesse
-dek: Tell me about your event. I'll build the talk.
+dek: Describe your event. We'll build the talk together.
 description: Describe your organization or event and receive a custom talk concept — title, premise, opening hook, and a draft booking email — built for your specific event.
 permalink: /brief/
 ---
 
 Describe your organization, sector, or event in a sentence or two — Jesse will build something for it. After you press the brief Jesse button, be patient, as it takes Jesse a moment to respond...
+
+[Browse the talk concept gallery →](/talks/)
 
 <div class="brief-wrap">
   <form id="brief-form" class="brief-form" novalidate>
@@ -34,10 +36,7 @@ Describe your organization, sector, or event in a sentence or two — Jesse will
   <div id="brief-result" class="brief-result" hidden>
     <div id="brief-output"></div>
     <div class="brief-save-prompt">
-      <label class="brief-save-label">
-        <input type="checkbox" id="brief-save-check">
-        Add this talk concept to the public gallery
-      </label>
+      <button id="brief-save-btn" class="brief-save-btn">Save to gallery →</button>
       <p class="brief-save-note">Only the generated talk — title, premise, and opening — is saved. Your description is not.</p>
     </div>
     <div id="brief-save-status" class="brief-save-status" hidden></div>
