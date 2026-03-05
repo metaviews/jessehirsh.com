@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: About
-dek: Jesse Hirsh is a speaker and strategist focused on AI, authority, media systems, and institutional decision-making.
+dek: Jesse Hirsh is a futurist farmer, speaker, and strategist focused on agriculture, AI, authority, media systems, and institutional decision-making.
 description: Short bio and working lens for Jesse Hirsh.
 permalink: /about/
 heroImage: /assets/img/jesseherd.png
