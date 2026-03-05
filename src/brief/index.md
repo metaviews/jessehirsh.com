@@ -6,7 +6,7 @@ description: Describe your organization or event and receive a custom talk conce
 permalink: /brief/
 ---
 
-Describe your organization, sector, or event in a sentence or two — Jesse will build something for it. After you press the brief Jesse button, be patient, as it takes Jesse a moemnt to respond...
+Describe your organization, sector, or event in a sentence or two — Jesse will build something for it. After you press the brief Jesse button, be patient, as it takes Jesse a moment to respond...
 
 <div class="brief-wrap">
   <form id="brief-form" class="brief-form" novalidate>
