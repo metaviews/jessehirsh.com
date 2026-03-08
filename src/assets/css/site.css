@@ -88,6 +88,12 @@ body {
   color: var(--text);
 }
 
+.lang-switcher a[aria-current] {
+  color: var(--text);
+  font-weight: 600;
+  text-decoration: none;
+}
+
 /* ─── Main ───────────────────────────────────── */
 
 main {

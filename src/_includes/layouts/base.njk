@@ -13,6 +13,12 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/css/site.css">
+  {% set _base = page.url | replace('/zh/', '/') | replace('/fr/', '/') | replace('/es/', '/') | replace('/de/', '/') %}
+  <link rel="alternate" hreflang="en"    href="{{ site.url }}{{ _base }}">
+  <link rel="alternate" hreflang="zh-CN" href="{{ site.url }}/zh{{ _base }}">
+  <link rel="alternate" hreflang="fr"    href="{{ site.url }}/fr{{ _base }}">
+  <link rel="alternate" hreflang="es"    href="{{ site.url }}/es{{ _base }}">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ _base }}">
 </head>
 <body>
   <a class="skip-link" href="#main">{{ strings.skip }}</a>
