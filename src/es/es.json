@@ -1,0 +1,36 @@
+{
+  "lang": "es",
+  "strings": {
+    "skip": "Saltar al contenido",
+    "nav": {
+      "brief": "Breve de Jesse",
+      "speaking": "Charlas",
+      "topics": "Temas",
+      "media": "Medios",
+      "futureHerd": "The Future Herd",
+      "about": "Acerca de",
+      "contact": "Contacto"
+    },
+    "footer": {
+      "booking": "Reservas"
+    },
+    "cta": "Reserva a Jesse para hablar"
+  },
+  "currentFocus": [
+    {
+      "title": "Después de las Plataformas",
+      "hook": "La infraestructura mediática sobre la que la mayoría de las instituciones construyeron su presencia pública se está fragmentando. X, Facebook y los medios tradicionales están perdiendo coherencia simultáneamente mientras los sistemas de información mediados por AI están tomando el control. Esta charla mapea qué los está reemplazando — y cómo las organizaciones pueden construir una presencia pública creíble y duradera en lo que viene.",
+      "bookingSubject": "After%20the%20Platforms%20Speaking%20Inquiry"
+    },
+    {
+      "title": "Alimentando la Inteligencia: AI Encuentra la Granja",
+      "hook": "La agricultura es donde AI confronta la realidad física — suelo, clima, mano de obra, cadenas de suministro. La granja es la prueba más honesta de lo que AI puede y no puede optimizar. Esta charla utiliza los sistemas alimentarios para superar la exageración de AI y mostrar cómo se ve realmente la automatización resiliente y fundamentada.",
+      "bookingSubject": "AI%20Agriculture%20Speaking%20Inquiry"
+    },
+    {
+      "title": "Prósperar Cuando el Futuro es Incierto",
+      "hook": "Los marcos estratégicos en los que la mayoría de las organizaciones dependen fueron construidos para condiciones estables. Están fallando bajo un cambio acelerado. Esta charla ofrece a los líderes disciplinas prácticas para navegar la incertidumbre genuina — no estrategias para evitarla, sino herramientas para tomar decisiones de gran impacto cuando el terreno sigue cambiando.",
+      "bookingSubject": "Uncertainty%20Speaking%20Inquiry"
+    }
+  ]
+}

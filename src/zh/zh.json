@@ -1,0 +1,36 @@
+{
+  "lang": "zh-CN",
+  "strings": {
+    "skip": "跳过内容",
+    "nav": {
+      "brief": "Jesse 简介",
+      "speaking": "演讲",
+      "topics": "主题",
+      "media": "媒体",
+      "futureHerd": "The Future Herd",
+      "about": "关于",
+      "contact": "联系"
+    },
+    "footer": {
+      "booking": "预订"
+    },
+    "cta": "预订 Jesse 演讲"
+  },
+  "currentFocus": [
+    {
+      "title": "平台之后",
+      "hook": "大多数机构赖以建立公共影响力的媒体基础设施正在碎片化。X、Facebook 和传统媒体同时失去连贯性，而由 AI 中介的信息系统正在接管。本次演讲将描绘取代它们是什么——以及组织如何在接下来的时代建立可信、持久的公共影响力。",
+      "bookingSubject": "After%20the%20Platforms%20Speaking%20Inquiry"
+    },
+    {
+      "title": "滋养智能：AI 与农场相遇",
+      "hook": "农业是 AI 与物理现实交锋的领域——土壤、天气、劳动力、供应链。农场是对 AI 能优化和不能优化的最诚实的检验。本次演讲利用食品系统来穿透 AI 炒作，展示有韧性、接地气的自动化实际是什么样的。",
+      "bookingSubject": "AI%20Agriculture%20Speaking%20Inquiry"
+    },
+    {
+      "title": "在不确定的未来中茁壮成长",
+      "hook": "大多数组织依赖的战略框架是为稳定条件而构建的。它们在加速变化的压力下正在失效。本次演讲为领导者提供应对真正不确定性的实用准则——不是避免它的策略，而是当根基不断变动时做出重大决策的工具。",
+      "bookingSubject": "Uncertainty%20Speaking%20Inquiry"
+    }
+  ]
+}

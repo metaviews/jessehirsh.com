@@ -1,0 +1,16 @@
+{
+  "skip": "Skip to content",
+  "nav": {
+    "brief": "Brief Jesse",
+    "speaking": "Speaking",
+    "topics": "Topics",
+    "media": "Media",
+    "futureHerd": "The Future Herd",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "footer": {
+    "booking": "Booking"
+  },
+  "cta": "Book Jesse to speak"
+}

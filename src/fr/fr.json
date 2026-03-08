@@ -1,0 +1,36 @@
+{
+  "lang": "fr",
+  "strings": {
+    "skip": "Passer au contenu",
+    "nav": {
+      "brief": "Brève Jesse",
+      "speaking": "Conférences",
+      "topics": "Thèmes",
+      "media": "Médias",
+      "futureHerd": "The Future Herd",
+      "about": "À propos",
+      "contact": "Contact"
+    },
+    "footer": {
+      "booking": "Réservation"
+    },
+    "cta": "Réservez Jesse pour une conférence"
+  },
+  "currentFocus": [
+    {
+      "title": "Après les plateformes",
+      "hook": "L'infrastructure médiatique sur laquelle la plupart des institutions ont bâti leur présence publique se fragmente. X, Facebook et les médias traditionnels perdent simultanément leur cohérence tandis que les systèmes d'information médiatisés par AI prennent le dessus. Cette conférence cartographie ce qui les remplace — et comment les organisations peuvent construire une présence publique crédible et durable dans ce qui vient ensuite.",
+      "bookingSubject": "After%20the%20Platforms%20Speaking%20Inquiry"
+    },
+    {
+      "title": "Nourrir l'intelligence : AI rencontre la ferme",
+      "hook": "L'agriculture est là où AI confronte la réalité physique — le sol, la météo, la main-d'œuvre, les chaînes d'approvisionnement. La ferme est le test le plus honnête de ce que AI peut et ne peut pas optimiser. Cette conférence utilise les systèmes alimentaires pour percer à travers le battage médiatique sur AI et montrer à quoi ressemble réellement une automatisation résiliente et ancrée.",
+      "bookingSubject": "AI%20Agriculture%20Speaking%20Inquiry"
+    },
+    {
+      "title": "Prospérer quand l'avenir est incertain",
+      "hook": "Les cadres stratégiques sur lesquels la plupart des organisations dépendent ont été conçus pour des conditions stables. Ils échouent face à un changement accéléré. Cette conférence donne aux dirigeants des disciplines pratiques pour naviguer dans une incertitude réelle — pas des stratégies pour l'éviter, mais des outils pour prendre des décisions conséquentes lorsque le sol continue de bouger.",
+      "bookingSubject": "Uncertainty%20Speaking%20Inquiry"
+    }
+  ]
+}
