@@ -34,31 +34,45 @@ body {
 
 .site-header {
   background: var(--text);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.header-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1rem 0 0.5rem;
 }
 
 .site-name {
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   margin: 0;
-  padding: 1rem 0 0.5rem;
+  padding: 0;
 }
 
 .site-name a {
   color: #ffffff;
   text-decoration: none;
+  letter-spacing: 0.01em;
+}
+
+.site-name a:hover {
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .nav-list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.9rem;
+  gap: 1.1rem;
   margin: 0 0 1rem;
   padding: 0;
+  font-size: 0.9rem;
 }
 
 .nav-list a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
 }
 
@@ -66,7 +80,7 @@ body {
 .nav-list a[aria-current="page"] {
   color: #ffffff;
   text-decoration: underline;
-  text-underline-offset: 0.2em;
+  text-underline-offset: 0.25em;
 }
 
 /* ─── Footer ─────────────────────────────────── */
@@ -95,18 +109,19 @@ body {
 }
 
 .site-header .lang-switcher {
-  font-size: 0.75rem;
-  margin: 0 0 0.75rem;
+  font-size: 0.78rem;
+  margin: 0;
   padding: 0;
+  letter-spacing: 0.03em;
 }
 
 .site-header .lang-switcher a {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
 }
 
 .site-header .lang-switcher a:hover {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .site-header .lang-switcher a[aria-current] {

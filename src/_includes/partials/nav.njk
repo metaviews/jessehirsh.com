@@ -1,6 +1,15 @@
 <header class="site-header">
   <div class="container">
-    <p class="site-name"><a href="/">{{ site.siteName }}</a></p>
+    <div class="header-top">
+      <p class="site-name"><a href="/">{{ site.siteName }}</a></p>
+      {% set _base = page.url | replace('/zh/', '/') | replace('/fr/', '/') | replace('/es/', '/') | replace('/de/', '/') %}
+      <p class="lang-switcher">
+        <a href="{{ _base }}"{% if not lang %} aria-current="true"{% endif %}>EN</a> &middot;
+        <a href="/zh{{ _base }}"{% if lang == 'zh-CN' %} aria-current="true"{% endif %}>中文</a> &middot;
+        <a href="/fr{{ _base }}"{% if lang == 'fr' %} aria-current="true"{% endif %}>FR</a> &middot;
+        <a href="/es{{ _base }}"{% if lang == 'es' %} aria-current="true"{% endif %}>ES</a>
+      </p>
+    </div>
     <nav aria-label="Primary">
       <ul class="nav-list">
         <li><a href="/brief/" {% if '/brief/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.brief }}</a></li>
@@ -12,12 +21,5 @@
         <li><a href="/contact/" {% if '/contact/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.contact }}</a></li>
       </ul>
     </nav>
-    {% set _base = page.url | replace('/zh/', '/') | replace('/fr/', '/') | replace('/es/', '/') | replace('/de/', '/') %}
-    <p class="lang-switcher">
-      <a href="{{ _base }}"{% if not lang %} aria-current="true"{% endif %}>EN</a> &middot;
-      <a href="/zh{{ _base }}"{% if lang == 'zh-CN' %} aria-current="true"{% endif %}>中文</a> &middot;
-      <a href="/fr{{ _base }}"{% if lang == 'fr' %} aria-current="true"{% endif %}>FR</a> &middot;
-      <a href="/es{{ _base }}"{% if lang == 'es' %} aria-current="true"{% endif %}>ES</a>
-    </p>
   </div>
 </header>
