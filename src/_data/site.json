@@ -6,6 +6,9 @@
   "primaryCtaHref": "mailto:speaking@jessehirsh.com?subject=Speaking%20Inquiry",
   "url": "https://jessehirsh.com",
   "defaultOgImage": "/assets/img/PXL_20230904_124710967.jpg",
+  "defaultOgImageWidth": 3648,
+  "defaultOgImageHeight": 2736,
+  "defaultOgImageAlt": "Jesse Hirsh speaking on stage in front of a projected city skyline.",
   "social": [
     {
       "label": "LinkedIn",
