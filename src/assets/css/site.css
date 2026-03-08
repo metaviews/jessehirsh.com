@@ -94,6 +94,26 @@ body {
   text-decoration: none;
 }
 
+.site-header .lang-switcher {
+  font-size: 0.75rem;
+  margin: 0 0 0.75rem;
+  padding: 0;
+}
+
+.site-header .lang-switcher a {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+}
+
+.site-header .lang-switcher a:hover {
+  color: #ffffff;
+}
+
+.site-header .lang-switcher a[aria-current] {
+  color: #ffffff;
+  font-weight: 600;
+}
+
 /* ─── Main ───────────────────────────────────── */
 
 main {
