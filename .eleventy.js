@@ -1,4 +1,9 @@
 module.exports = function(eleventyConfig) {
+  // Prevent arrays in directory data files from concatenating with global data arrays.
+  // Without this, currentFocus in fr/fr.json would append to _data/currentFocus.json
+  // instead of replacing it, producing duplicate English+translated items on every page.
+  eleventyConfig.setDataDeepMerge(false);
+
   eleventyConfig.addPassthroughCopy("src/assets");
 
   eleventyConfig.addCollection("topics", function(collectionApi) {
