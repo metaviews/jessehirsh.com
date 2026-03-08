@@ -172,5 +172,63 @@
       "hash": "323fa7aa60beae3f",
       "translatedAt": "2026-03-08T19:03:14.554Z"
     }
+  },
+  "de": {
+    "about/index.md": {
+      "hash": "606251e4225bba85",
+      "translatedAt": "2026-03-08T19:54:44.948Z"
+    },
+    "contact/index.md": {
+      "hash": "07b0923d668b3a59",
+      "translatedAt": "2026-03-08T19:55:24.511Z"
+    },
+    "future-herd/index.md": {
+      "hash": "083b136b0a0c7d30",
+      "translatedAt": "2026-03-08T19:56:40.980Z"
+    },
+    "index.md": {
+      "hash": "adb71d22a4b023d7",
+      "translatedAt": "2026-03-08T20:10:10.145Z"
+    },
+    "media/index.md": {
+      "hash": "009a3d72f90e988c",
+      "translatedAt": "2026-03-08T20:11:41.182Z"
+    },
+    "speaking/endorsements.md": {
+      "hash": "7bf7c6e27995e50a",
+      "translatedAt": "2026-03-08T20:13:09.518Z"
+    },
+    "speaking/index.md": {
+      "hash": "e35078433f439d7b",
+      "translatedAt": "2026-03-08T20:22:03.150Z"
+    },
+    "talks/index.md": {
+      "hash": "639ccfe3138aaa58",
+      "translatedAt": "2026-03-08T20:22:52.114Z"
+    },
+    "topics/agentic-turn.md": {
+      "hash": "d327260c0289f4b8",
+      "translatedAt": "2026-03-08T20:24:15.866Z"
+    },
+    "topics/ai-literacy.md": {
+      "hash": "1f2e63e211fa4748",
+      "translatedAt": "2026-03-08T20:25:33.000Z"
+    },
+    "topics/disinformation.md": {
+      "hash": "b08f687cb8994559",
+      "translatedAt": "2026-03-08T20:26:28.349Z"
+    },
+    "topics/future-of-authority.md": {
+      "hash": "16b38141dd3f4af9",
+      "translatedAt": "2026-03-08T20:36:34.691Z"
+    },
+    "topics/index.md": {
+      "hash": "9b15fedca0b2aab4",
+      "translatedAt": "2026-03-08T20:37:20.894Z"
+    },
+    "_data/strings+currentFocus": {
+      "hash": "323fa7aa60beae3f",
+      "translatedAt": "2026-03-08T20:38:31.237Z"
+    }
   }
 }

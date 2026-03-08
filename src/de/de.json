@@ -1,0 +1,36 @@
+{
+  "lang": "de",
+  "strings": {
+    "skip": "Zum Inhalt springen",
+    "nav": {
+      "brief": "Über Jesse",
+      "speaking": "Vorträge",
+      "topics": "Themen",
+      "media": "Medien",
+      "futureHerd": "The Future Herd",
+      "about": "Über",
+      "contact": "Kontakt"
+    },
+    "footer": {
+      "booking": "Buchung"
+    },
+    "cta": "Jesse zum Reden buchen"
+  },
+  "currentFocus": [
+    {
+      "title": "Nach den Plattformen",
+      "hook": "Die Medieninfrastruktur, auf die die meisten Institutionen ihren öffentlichen Auftritt aufgebaut haben, zerfällt. X, Facebook und traditionelle Medien verlieren gleichzeitig an Kohärenz, während AI-gestützte Informationssysteme die Kontrolle übernehmen. Dieser Vortrag kartiert, was sie ersetzt — und wie Organisationen eine glaubwürdige, dauerhafte öffentliche Präsenz in der Zukunft aufbauen können.",
+      "bookingSubject": "After%20the%20Platforms%20Speaking%20Inquiry"
+    },
+    {
+      "title": "Intelligenz füttern: AI trifft die Landwirtschaft",
+      "hook": "Landwirtschaft ist der Bereich, in dem AI mit der physischen Realität konfrontiert wird — Boden, Wetter, Arbeit, Lieferketten. Der Bauernhof ist der ehrlichste Test dafür, was AI optimieren kann und was nicht. Dieser Vortrag nutzt Ernährungssysteme, um den AI-Hype zu durchdringen und zu zeigen, wie widerstandsfähige, bodenständige Automatisierung tatsächlich aussieht.",
+      "bookingSubject": "AI%20Agriculture%20Speaking%20Inquiry"
+    },
+    {
+      "title": "Gedeihen, wenn die Zukunft unsicher ist",
+      "hook": "Die strategischen Rahmenwerke, auf die die meisten Organisationen angewiesen sind, wurden für stabile Bedingungen entwickelt. Sie versagen unter beschleunigtem Wandel. Dieser Vortrag bietet Führungskräften praktische Disziplinen für den Umgang mit echter Unsicherheit — keine Strategien zur Vermeidung, sondern Werkzeuge, um folgenreiche Entscheidungen zu treffen, wenn sich der Boden ständig verschiebt.",
+      "bookingSubject": "Uncertainty%20Speaking%20Inquiry"
+    }
+  ]
+}
