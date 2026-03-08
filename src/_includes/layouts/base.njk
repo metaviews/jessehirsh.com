@@ -11,6 +11,7 @@
   {% if lang == 'zh-CN' %}{% set _ogLocale = 'zh_CN' %}
   {% elif lang == 'fr' %}{% set _ogLocale = 'fr_FR' %}
   {% elif lang == 'es' %}{% set _ogLocale = 'es_ES' %}
+  {% elif lang == 'de' %}{% set _ogLocale = 'de_DE' %}
   {% else %}{% set _ogLocale = 'en_CA' %}{% endif %}
 
   <!-- Open Graph -->
@@ -30,6 +31,7 @@
   {% if _ogLocale != 'zh_CN' %}<meta property="og:locale:alternate" content="zh_CN">{% endif %}
   {% if _ogLocale != 'fr_FR' %}<meta property="og:locale:alternate" content="fr_FR">{% endif %}
   {% if _ogLocale != 'es_ES' %}<meta property="og:locale:alternate" content="es_ES">{% endif %}
+  {% if _ogLocale != 'de_DE' %}<meta property="og:locale:alternate" content="de_DE">{% endif %}
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
@@ -44,6 +46,7 @@
   <link rel="alternate" hreflang="zh-CN" href="{{ site.url }}/zh{{ _base }}">
   <link rel="alternate" hreflang="fr"    href="{{ site.url }}/fr{{ _base }}">
   <link rel="alternate" hreflang="es"    href="{{ site.url }}/es{{ _base }}">
+  <link rel="alternate" hreflang="de"    href="{{ site.url }}/de{{ _base }}">
   <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ _base }}">
 
   <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
