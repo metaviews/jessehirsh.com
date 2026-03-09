@@ -1,7 +1,12 @@
 <header class="site-header">
   <div class="container">
     <div class="header-top">
-      <p class="site-name"><a href="/">{{ site.siteName }}</a></p>
+      {% if lang == 'zh-CN' %}{% set _lp = '/zh' %}
+      {% elif lang == 'fr' %}{% set _lp = '/fr' %}
+      {% elif lang == 'es' %}{% set _lp = '/es' %}
+      {% elif lang == 'de' %}{% set _lp = '/de' %}
+      {% else %}{% set _lp = '' %}{% endif %}
+      <p class="site-name"><a href="{{ _lp }}/">{{ site.siteName }}</a></p>
       {% set _base = page.url | replace('/zh/', '/') | replace('/fr/', '/') | replace('/es/', '/') | replace('/de/', '/') %}
       <p class="lang-switcher">
         <a href="{{ _base }}"{% if not lang %} aria-current="true"{% endif %}>EN</a> &middot;
@@ -14,12 +19,12 @@
     <nav aria-label="Primary">
       <ul class="nav-list">
         <li><a href="/brief/" {% if '/brief/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.brief }}</a></li>
-        <li><a href="/speaking/" {% if '/speaking/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.speaking }}</a></li>
-        <li><a href="/topics/" {% if '/topics/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.topics }}</a></li>
-        <li><a href="/media/" {% if '/media/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.media }}</a></li>
-        <li><a href="/future-herd/" {% if '/future-herd/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.futureHerd }}</a></li>
-        <li><a href="/about/" {% if '/about/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.about }}</a></li>
-        <li><a href="/contact/" {% if '/contact/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.contact }}</a></li>
+        <li><a href="{{ _lp }}/speaking/" {% if '/speaking/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.speaking }}</a></li>
+        <li><a href="{{ _lp }}/topics/" {% if '/topics/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.topics }}</a></li>
+        <li><a href="{{ _lp }}/media/" {% if '/media/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.media }}</a></li>
+        <li><a href="{{ _lp }}/future-herd/" {% if '/future-herd/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.futureHerd }}</a></li>
+        <li><a href="{{ _lp }}/about/" {% if '/about/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.about }}</a></li>
+        <li><a href="{{ _lp }}/contact/" {% if '/contact/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.contact }}</a></li>
       </ul>
     </nav>
   </div>
