@@ -19,6 +19,7 @@
     <nav aria-label="Primary">
       <ul class="nav-list">
         <li><a href="/brief/" {% if '/brief/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.brief }}</a></li>
+        <li><a href="/hire/" {% if '/hire/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.hire }}</a></li>
         <li><a href="{{ _lp }}/speaking/" {% if '/speaking/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.speaking }}</a></li>
         <li><a href="{{ _lp }}/topics/" {% if '/topics/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.topics }}</a></li>
         <li><a href="{{ _lp }}/media/" {% if '/media/' in page.url %}aria-current="page"{% endif %}>{{ strings.nav.media }}</a></li>

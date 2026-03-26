@@ -8,10 +8,6 @@ heroImage: /assets/img/PXL_20230904_124710967.jpg
 heroAlt: Jesse Hirsh speaking on stage in front of a projected city skyline and his name.
 ---
 
-## Upcoming event
-
-**Building with AI: Community Workshop** — March 21, 2026, 9:30–11:00 AM, John Levi Community Centre, Lanark County. A free, hands-on session on AI literacy, LLMs, and responsible use. [Register here](https://metaviews.ca/LINK/event/)
-
 ## What I work on
 
 AI adoption and governance, media literacy, disinformation, institutional trust, and the systems pressures reshaping how we lead, decide, and communicate. I bring these to conference stages, executive briefings, podcasts, and public commentary — and to the agricultural sector through [The Future Herd](https://thefutureherd.ca), a podcast and leadership forum at the intersection of technology, policy, and farming.

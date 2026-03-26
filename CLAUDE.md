@@ -26,6 +26,7 @@ src/
   contact/index.md
   404.md
   brief/index.md            # AI briefing generator page
+  hire/index.md             # Hire Jesse — broader engagement types beyond speaking
   future-herd/index.md      # The Future Herd page
 
   _includes/
@@ -34,7 +35,7 @@ src/
       home.njk              # Home layout (extends base)
       page.njk              # All other pages (extends base)
     partials/
-      nav.njk               # Dark header, aria-current active state
+      nav.njk               # Light header, aria-current active state
       footer.njk            # Booking email + LinkedIn
       cta.njk               # Reusable CTA button
       card.njk              # Topic card
@@ -86,7 +87,7 @@ Do not rewrite meaning when editing copy. Tighten for clarity and consistency on
 
 - **Typography:** System font stack · h1: `clamp(1.75rem, 5vw, 2.75rem)` weight 800 · h2: bottom border
 - **Layout:** Max-width container (~70ch) · mobile-first · no horizontal scroll
-- **Colors:** Dark header (`#111827`) · white nav links · `--link` blue for CTAs and hover states
+- **Colors:** Light header (`#ffffff` bg, `var(--border)` bottom rule) · dark/muted nav links · `--link` blue for CTAs, active nav, and hover states
 - **Cards:** `border-radius: 0.25rem` · border-color hover transition to `--link`
 - **Video:** `.video-wrapper` class for responsive 16:9 iframes
 - **No heavy animation.** Accessible, high-contrast, visible focus styles.
@@ -107,8 +108,7 @@ Do not rewrite meaning when editing copy. Tighten for clarity and consistency on
 
 ## Key facts about Jesse
 
-- Canadian professional speaker
-- Co-hosts **Red-Tory** podcast with Allan Gregg (launched Jan 2025): https://red-tory.com/
+- Canadian professional speaker, futurist farmer, researcher, and strategist
 - Co-hosts **Metaviews to the Future** podcast: https://news.metaviews.ca/episodes/
 - Long-running CBC Metro Morning tech columnist
 - Speaker bureau profiles: NSB / Talent Bureau / Global Speakers
