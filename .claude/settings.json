@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(grep -h \"cardDek\\\\|^title:\" c:/Users/jesse/webdev/jessehirsh.com/src/topics/*.md)"
+      "Bash(grep -h \"cardDek\\\\|^title:\" c:/Users/jesse/webdev/jessehirsh.com/src/topics/*.md)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/jesse/webdev/jessehirsh.com/src/topics/**)",
+      "Bash(node scripts/translate.js --lang de --force)"
     ]
   }
 }

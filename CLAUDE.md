@@ -95,6 +95,13 @@ Do not rewrite meaning when editing copy. Tighten for clarity and consistency on
 
 ---
 
+## Working method
+
+- **Explore before acting.** Before building anything, check whether a tool, script, or existing pattern already handles the task. Look in `scripts/`, `functions/`, and the codebase before writing new code.
+- **Plan, then ask for approval.** For any multi-step or resource-intensive task, propose the approach and wait for explicit direction before proceeding. Do not act on assumptions.
+- **Be frugal.** Do not spawn agents, make API calls, or generate large volumes of output unless explicitly asked. Token use has a cost — treat it accordingly.
+- **Minimum necessary action.** Do only what was asked. Do not layer on improvements, refactors, or additions beyond the stated request.
+
 ## Dev guidelines
 
 - Prefer editing existing files over creating new ones
@@ -103,6 +110,7 @@ Do not rewrite meaning when editing copy. Tighten for clarity and consistency on
 - Do not add features beyond what is requested
 - Internal links must remain valid after any restructure
 - No placeholder or lorem ipsum content
+- **Translations:** use `node scripts/translate.js --lang <zh|fr|de|es>` — do not write translation files manually. The script handles incremental updates via a manifest; use `--force` only if explicitly asked.
 
 ---
 
