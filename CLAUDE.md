@@ -122,11 +122,19 @@ Do not rewrite meaning when editing copy. Tighten for clarity and consistency on
 | Order | Slug | Title |
 |-------|------|-------|
 | 1 | future-of-authority | Future of Authority |
-| 2 | ai-literacy | AI Literacy |
-| 3 | disinformation | Disinformation |
+| 2 | ai-literacy | AI Literacy for Leaders |
+| 3 | disinformation | Media, Disinformation, and Democratic Resilience |
 | 4 | agentic-turn | The Agentic Turn |
+| 5 | human-in-the-loop | The Human in the Loop |
+| 6 | trust-recession | The Trust Recession |
+| 7 | world-building | The Power of World Building |
+| 8 | food-systems | Food Systems and the Future |
+| 9 | info-war | Info War for the Rest of Us |
+| 10 | after-the-platforms | After the Platforms |
+| 11 | feeding-intelligence | Feeding Intelligence: AI Meets the Farm |
+| 12 | thriving-under-uncertainty | Thriving When the Future Is Uncertain |
 
-`agroecology` was removed — farm is a background lens only, not a speaking topic.
+`agroecology` was removed — farm is a background lens, not a standalone speaking topic.
 
 ---
 

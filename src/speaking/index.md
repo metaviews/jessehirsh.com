@@ -38,12 +38,25 @@ Panels, roundtables, and stakeholder conversations designed for emergence, not t
 
 ## Core topic areas
 
-- **Future of Authority** — legitimacy, governance, and power in networked society
-- **AI literacy for leaders** — what AI can and cannot do; how to govern it responsibly
-- **Media, disinformation, and democratic resilience** — attention systems, narratives, polarization
+**AI and technology governance**
+- **AI Literacy for Leaders** — decision frameworks for AI capability, risk, and governance
 - **The Agentic Turn** — governing autonomous AI systems before they govern you
+- **The Human in the Loop** — deciding which decisions to keep
+- **Feeding Intelligence: AI Meets the Farm** — what agriculture reveals about what AI can and cannot do
 
-Browse full topic pages: [View all topics](/topics/)
+**Information, media, and narrative**
+- **Disinformation** — countering narrative manipulation and trust erosion
+- **After the Platforms** — building credible public presence after platform coherence fails
+- **The Power of World Building** — who constructs reality, and how
+- **Info War for the Rest of Us** — a field guide to information warfare for non-specialists
+
+**Authority, trust, and systems**
+- **Future of Authority** — institutional legitimacy and power in networked environments
+- **The Trust Recession** — earning credibility when authority no longer transfers
+- **Food Systems and the Future** — the pressures reshaping what we grow, how, and who eats it
+- **Thriving When the Future Is Uncertain** — practical disciplines for leading when stability is not coming back
+
+[View all topics →](/topics/)
 
 ## Speaking snapshots
 

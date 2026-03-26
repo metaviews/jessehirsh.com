@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -h \"cardDek\\\\|^title:\" c:/Users/jesse/webdev/jessehirsh.com/src/topics/*.md)"
+    ]
+  }
+}
