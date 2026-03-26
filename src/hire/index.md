@@ -2,7 +2,7 @@
 layout: layouts/page.njk
 title: Hire Jesse
 dek: Keynotes are one way. Here are the others.
-description: Jesse Hirsh works with organizations in multiple capacities — strategic advisory, research, facilitation, training, and media commentary.
+description: Jesse Hirsh works with organizations in multiple capacities — strategic advisory, agentic systems design and deployment, AI governance frameworks, research, facilitation, training, and media commentary.
 permalink: /hire/
 cta:
   label: Get in touch
@@ -15,6 +15,12 @@ Jesse works with organizations in multiple capacities. Not every need fits a key
 
 **Strategic advisory**
 Retained or project-based counsel for leaders navigating AI adoption, media disruption, or institutional change. Works best for executive teams that need a steady outside perspective grounded in real operational knowledge — not a consultant's slide deck.
+
+**Agentic systems design and deployment**
+For organizations that have moved past the question of whether to adopt agentic AI and are ready to build. Jesse designs, builds, and deploys agentic systems — from initial scoping and architecture through to production deployment. Grounded in practical knowledge of what agentic AI can actually do in real operational environments, not just what it promises in a demo.
+
+**AI governance frameworks and policy**
+Governance that works has to be built from the inside out — tied to specific systems, specific risks, and the organization's actual ethical commitments. Jesse designs governance frameworks and policies for how AI systems and agents operate: acceptable use, oversight structures, accountability chains, escalation protocols, and alignment with organizational values and ethics. Built to hold when systems are under pressure, not just when they're working as intended.
 
 **Research and briefings**
 Custom research and written briefings on specific questions: emerging risk, policy trajectory, competitive landscape, or technology assessment. Deliverable-driven. Decision-grade. Scoped to what you actually need to know.
