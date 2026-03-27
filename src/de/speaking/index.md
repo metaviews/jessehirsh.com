@@ -10,9 +10,6 @@ cta:
   label: Jesse für einen Vortrag buchen
   href: "mailto:speaking@jessehirsh.com?subject=Speaking%20Inquiry"
 ---
-
-</think>
-
 Wenn Sie eine Konferenz, ein Retreat, einen Gipfel oder eine strategische Zusammenkunft organisieren, wünschen Sie mehr als nur einen „Vortrag". Sie wünschen einen Moment, der klärt, was geschieht, das Denken verändert und Sprache liefert, die danach tatsächlich nutzbar ist.
 
 Jesse Hirsh hält Keynotes und moderierte Sitzungen, die Komplexität in gemeinsames Verständnis übersetzen – mit Energie, Präzision und dem Anspruch praktischer Kompetenz.

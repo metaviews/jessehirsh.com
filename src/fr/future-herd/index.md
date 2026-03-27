@@ -8,9 +8,6 @@ permalink: /fr/future-herd/
 heroImage: /assets/img/jesseherd.png
 heroAlt: Jesse Hirsh on his farm surrounded by goats, dogs, and chickens, with horses in the background.
 ---
-
-</think>
-
 [The Future Herd](https://thefutureherd.ca) est un podcast et un espace de rassemblement pour les leaders agricoles naviguant dans les pressions de l'adoption technologique, du changement de politique et de la perturbation systémique dans le secteur de l'alimentation et de l'agriculture. Jesse anime et rassemble des conversations qui réunissent des agriculteurs, des défenseurs ruraux, des décideurs politiques et des technologues — travaillant au-delà des divisions qui séparent habituellement ces voix.
 
 ## Pourquoi l'agriculture

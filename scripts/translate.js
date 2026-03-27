@@ -82,6 +82,21 @@ function parseFrontMatter(content) {
 
 const PROPER_NOUNS = 'Jesse Hirsh, The Future Herd, Red-Tory, Metaviews, CBC, LinkedIn, AI, OpenRouter';
 
+function sanitizeModelOutput(text) {
+  if (typeof text !== 'string') return text;
+
+  let cleaned = text.replace(/\uFEFF/g, '').trim();
+
+  if (cleaned.includes('</think>')) {
+    cleaned = cleaned.slice(cleaned.lastIndexOf('</think>') + '</think>'.length).trim();
+  }
+
+  cleaned = cleaned.replace(/<think\b[^>]*>[\s\S]*?<\/think>/gi, '').trim();
+  cleaned = cleaned.replace(/^\s*<\/think>\s*$/gim, '').trim();
+
+  return cleaned;
+}
+
 async function translateFrontMatter(fm, langName, client) {
   const fieldsNote = TRANSLATE_FM_FIELDS.join(', ');
   const prompt =
@@ -93,11 +108,12 @@ Leave every other key and value exactly unchanged.
 Rules:
 - Do NOT translate: layout, permalink, tags, order, heroImage, heroAlt, cta.href, ctaHref, bookingSubject, lang
 - Keep proper nouns in English: ${PROPER_NOUNS}
+- Never include reasoning, analysis, or any <think> tags
 - Output the complete YAML block with only those values translated — no fences, no explanations
 
 YAML:
 ${fm}`;
-  return client.ask(prompt);
+  return sanitizeModelOutput(await client.ask(prompt));
 }
 
 async function translateBody(body, langName, topicsTag, client) {
@@ -111,12 +127,13 @@ Translate the markdown below. Rules:
 - Preserve ALL markdown structure (##, **, -, [ ], etc.) — translate only the text
 - Keep proper nouns in English: ${PROPER_NOUNS}
 - Professional, direct, outcome-focused tone
+- Never include reasoning, analysis, or any <think> tags
 - Output ONLY the translated markdown — no fences, no explanations
 
 Markdown:
 ${body}`;
 
-  let translated = await client.ask(prompt);
+  let translated = sanitizeModelOutput(await client.ask(prompt));
   // Repoint Eleventy collection reference to the language-specific tag
   translated = translated.replace(/collections\.topics\b/g, `collections.${topicsTag}`);
   return translated;
@@ -127,11 +144,12 @@ async function translateJSON(obj, langName, client, extraInstructions = '') {
 `Translate the following JSON values from English to ${langName}.
 Keep all JSON keys exactly unchanged.${extraInstructions ? '\n' + extraInstructions : ''}
 Keep proper nouns in English: ${PROPER_NOUNS}
+Never include reasoning, analysis, or any <think> tags.
 Output only valid JSON — no fences, no explanations.
 
 ${JSON.stringify(obj, null, 2)}`;
 
-  const raw = await client.ask(prompt);
+  const raw = sanitizeModelOutput(await client.ask(prompt));
   try {
     return JSON.parse(raw.trim());
   } catch {

@@ -11,9 +11,6 @@ cta:
   label: Réserver cette conférence
   href: "mailto:speaking@jessehirsh.com?subject=Future%20of%20Authority%20Speaking%20Inquiry"
 ---
-
-</think>
-
 L'autorité n'est pas un trait de personnalité. C'est un problème de conception.
 
 Dans une société en réseau, la légitimité est fabriquée, contestée et piratée — via des plateformes, des récits, des institutions et des interactions quotidiennes. Cette intervention aide les auditoires à comprendre comment l'autorité est produite aujourd'hui, pourquoi elle est déstabilisante, et ce que cela implique pour la gouvernance, le leadership et la confiance publique.

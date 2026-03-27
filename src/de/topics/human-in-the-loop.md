@@ -1,8 +1,5 @@
 ---
 lang: de
-
-</think>
-
 layout: layouts/page.njk
 title: Der Mensch im Regelkreis
 description: Da AI mehr folgenreiche Arbeit übernimmt, welche Entscheidungen müssen menschlich bleiben? Ein praktischer Rahmen für Entscheidungsbefugnis, Aufsicht und Rechenschaftspflicht.

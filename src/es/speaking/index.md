@@ -10,9 +10,6 @@ cta:
   label: Reserva a Jesse para hablar
   href: "mailto:speaking@jessehirsh.com?subject=Speaking%20Inquiry"
 ---
-
-</think>
-
 Si está organizando una conferencia, retiro, cumbre o reunión estratégica, quiere más que una “charla”. Quiere un momento que aclare qué está sucediendo, cambie cómo piensa la gente y les dé un lenguaje que puedan usar realmente después.
 
 Jesse Hirsh ofrece conferencias magistrales y sesiones facilitadas que traducen la complejidad en comprensión compartida — con energía, precisión y un énfasis en la alfabetización práctica.

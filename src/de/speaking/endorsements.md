@@ -8,9 +8,6 @@ cta:
   label: Jesse für einen Vortrag buchen
   href: "mailto:speaking@jessehirsh.com?subject=Speaking%20Inquiry"
 ---
-
-</think>
-
 Eine Auswahl an Rückmeldungen von Konferenzveranstaltern und institutionellen Zielgruppen.
 
 > „Brilliant, ethisch und zukunftsorientiert — Ich empfehle ihn jeder Gruppe, die tiefgreifende Einblicke schätzt."  

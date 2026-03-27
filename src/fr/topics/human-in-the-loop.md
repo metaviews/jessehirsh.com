@@ -11,9 +11,6 @@ cta:
   label: Réserver cette conférence
   href: "mailto:speaking@jessehirsh.com?subject=Human%20in%20the%20Loop%20Speaking%20Inquiry"
 ---
-
-</think>
-
 Alors que les systèmes AI assument des tâches plus déterminantes — recrutement, octroi de prêts, diagnostic, allocation des ressources, application de la loi — la question du jugement humain devient plus urgente, et non moins. Mais la plupart des organisations ne disposent pas d'un cadre clair pour déterminer quelles décisions doivent être déléguées à l'AI et lesquelles doivent rester entre les mains des humains. L'écart entre ce que l'AI peut faire et ce que les institutions savent gouverner s'élargit rapidement.
 
 Cette intervention offre aux dirigeants un cadre pratique pour cartographier l'autorité décisionnelle, concevoir une supervision significative et bâtir des structures de responsabilité qui demeurent solides, même lorsque les systèmes opèrent plus vite que l'examen humain.
