@@ -1,9 +1,12 @@
 ---
 lang: de
+
+</think>
+
 layout: layouts/page.njk
-title: Der Mensch in der Schleife
-description: Wenn AI mehr Verantwortung übernimmt, welche Entscheidungen müssen beim Menschen bleiben? Ein praktisches Rahmenwerk für Entscheidungskompetenz, Aufsicht und Verantwortlichkeit.
-cardDek: Entscheiden, welche Entscheidungen man behält.
+title: Der Mensch im Regelkreis
+description: Da AI mehr folgenreiche Arbeit übernimmt, welche Entscheidungen müssen menschlich bleiben? Ein praktischer Rahmen für Entscheidungsbefugnis, Aufsicht und Rechenschaftspflicht.
+cardDek: Entscheiden, welche Entscheidungen zu behalten sind.
 permalink: /de/topics/human-in-the-loop/
 tags: deTopics
 order: 5
@@ -11,29 +14,28 @@ cta:
   label: Diesen Vortrag buchen
   href: "mailto:speaking@jessehirsh.com?subject=Human%20in%20the%20Loop%20Speaking%20Inquiry"
 ---
+Da AI-Systeme zunehmend folgenschwere Aufgaben übernehmen – Einstellung, Kreditvergabe, Diagnose, Ressourcenverteilung, Durchsetzung – wird die Frage menschlicher Urteilskraft dringlicher, nicht weniger. Doch die meisten Organisationen verfügen nicht über einen klaren Rahmen, welche Entscheidungen an AI delegiert werden sollen und welche beim Menschen verbleiben müssen. Die Kluft zwischen dem, was AI leisten kann, und dem, was Institutionen zu regieren wissen, weitet sich rapide aus.
 
-Wenn AI-Systeme folgenreichere Aufgaben übernehmen — Einstellungen, Kreditvergabe, Diagnosen, Ressourcenverteilung, Durchsetzung — wird die Frage nach menschlichem Urteilsvermögen dringlicher, nicht weniger. Doch die meisten Organisationen haben kein klares Rahmenwerk dafür, welche Entscheidungen an AI delegiert werden sollten und welche beim Menschen bleiben müssen. Die Kluft zwischen dem, was AI leisten kann, und dem, was Institutionen zu steuern wissen, wächst schnell.
-
-Dieser Vortrag gibt Führungskräften ein praktisches Rahmenwerk zur Kartierung von Entscheidungskompetenz, zur Gestaltung bedeutungsvoller Aufsicht und zum Aufbau von Verantwortlichkeitsstrukturen, die selbst dann standhalten, wenn Systeme schneller agieren als menschliche Überprüfung.
+Dieser Vortrag bietet Führungskräften einen praktischen Rahmen, um Entscheidungsbefugnisse zu kartieren, sinnvolle Aufsicht zu gestalten und Verantwortungsstrukturen aufzubauen, die standhalten, selbst wenn Systeme schneller agieren als menschliche Kontrollen.
 
 ## Zielgruppe
 
-Führungskräfte, Aufsichtsräte, Rechts- und Compliance-Teams, Technologieverantwortliche und HR — insbesondere in regulierten Branchen oder öffentlich zugänglichen Institutionen, in denen AI-gestützte Entscheidungen reale Konsequenzen für echte Menschen haben.
+Führungskräfte, Vorstände, Rechts- und Compliance-Teams, Technologieverantwortliche und HR – insbesondere in regulierten Branchen oder Institutionen mit öffentlichem Bezug, wo AI-gestützte Entscheidungen echte Konsequenzen für echte Menschen haben.
 
 ## Was Sie mitnehmen
 
-- Wie Entscheidungen nach Konsequenz, Umkehrbarkeit und erforderlichem Urteilsvermögen kategorisiert werden — bevor sie delegiert werden
-- Was „bedeutungsvolle Aufsicht" in der Praxis tatsächlich bedeutet — und was als Aufsicht gilt, aber keine ist
-- Wie Verantwortlichkeitsstrukturen für AI-gestützte Entscheidungen gestaltet werden, bevor etwas schiefgeht
-- Die regulatorische und rechtliche Landschaft, die sich rund um automatisierte Entscheidungsfindung herausbildet — und wie man ihr zuvorkommt
-- Wie AI-Entscheidungsfindung gegenüber Stakeholdern kommuniziert werden kann, um Vertrauen aufzubauen statt zu untergraben
+- Wie Entscheidungen nach Konsequenz, Reversibilität und erforderlicher Urteilskraft kategorisiert werden – bevor sie delegiert werden
+- Wie „sinnvolle Aufsicht" in der Praxis tatsächlich aussieht und was sich als Aufsicht ausgibt, es aber nicht ist
+- Wie Verantwortungsstrukturen für AI-gestützte Entscheidungen gestaltet werden können, bevor etwas schiefgeht
+- Die regulatorische und rechtliche Landschaft, die sich rund um automatisierte Entscheidungsfindung formt – und wie man ihr voraus ist
+- Wie AI-Entscheidungsfindung gegenüber Stakeholdern so kommuniziert wird, dass Vertrauen aufgebaut statt abgebaut wird
 
-## Mögliche Titel
+## Beispielhafte Titel
 
-- **Der Mensch in der Schleife**
-- **Wer entscheidet? Menschliches Urteilsvermögen im Zeitalter der AI**
-- **Bedeutungsvolle Aufsicht: AI-Entscheidungen steuern**
+- **Der Mensch im Loop**
+- **Wer entscheidet? Menschliche Urteilskraft im Zeitalter der AI**
+- **Sinnvolle Aufsicht: Governance von AI-Entscheidungen**
 
-## Geeignete Formate
+## Empfohlene Formate
 
-Keynote; Executive Briefing; Workshop zu AI-Governance und Verantwortlichkeit; Gespräch am Kamin mit Q&A.
+Keynote; Executive Briefing; Workshop zu AI-Governance und Rechenschaftspflicht; Fireside Conversation mit Q&A.

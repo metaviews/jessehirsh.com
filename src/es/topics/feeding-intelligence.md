@@ -1,39 +1,40 @@
 ---
 lang: es
 layout: layouts/page.njk
-title: "Alimentando la Inteligencia: La AI Llega a la Granja"
-description: La agricultura es donde la AI se enfrenta a la realidad física — variabilidad del suelo, clima impredecible, equipos envejecidos, márgenes estrechos. Jesse Hirsh trabaja en la granja y analiza tecnología por oficio.
-cardDek: Lo que la granja revela sobre lo que la AI puede y no puede hacer.
+title: "Alimentando la Inteligencia: AI se Encuentra con la Granja"
+description: La agricultura es donde AI confronta la realidad física. La granja es la prueba más honesta de lo que AI puede y no puede optimizar — y lo que eso revela sobre los límites y el potencial de la tecnología en general.
+cardDek: Lo que la granja revela sobre lo que AI puede y no puede hacer.
 permalink: /es/topics/feeding-intelligence/
 tags: esTopics
 order: 11
 cta:
-  label: Reservar esta charla
+  label: Reserva esta charla
   href: "mailto:speaking@jessehirsh.com?subject=Feeding%20Intelligence%20Speaking%20Inquiry"
 ---
+Agriculture is where AI confronts physical reality — soil variability, unpredictable weather, aging equipment, thin margins, and labour markets that don't respond to software updates. The farm cannot be A/B tested. It cannot be rolled back. The consequences of failure are measured in seasons, not sprints.
 
-La agricultura es donde la AI se enfrenta a la realidad física — variabilidad del suelo, clima impredecible, equipos envejecidos, márgenes estrechos. La granja no puede someterse a pruebas A/B. Las consecuencias del fracaso se miden en temporadas, no en sprints.
+That makes farming the most honest test of what AI can and cannot optimize. And it makes the lessons from agricultural AI adoption directly applicable to every other domain where the gap between a demo and a deployment is measured in stakes.
 
-Jesse Hirsh trabaja en la granja y analiza tecnología por oficio. Esta charla corta a través del ruido de la AI y muestra cómo es realmente la automatización resiliente y arraigada.
+Jesse Hirsh farms. He also analyzes technology for a living. This talk uses that combination to cut through AI hype and show what resilient, grounded automation actually looks like when it has to work in the mud.
 
-## Para quién es esta charla
+## Para quién es esto
 
-Empresas de tecnología agrícola, asociaciones de agricultores, responsables de políticas rurales, líderes del sector agroalimentario y públicos empresariales que buscan una alfabetización en AI fundamentada en la realidad física.
+Empresas de tecnología agrícola, asociaciones agrícolas, formuladores de políticas rurales, líderes del sector agroalimentario y audiencias empresariales generales que buscan una sesión de alfabetización en AI fundamentada en la realidad física en lugar del optimismo de Silicon Valley.
 
-## Lo que el público se llevará
+## Puntos clave para la audiencia
 
-- Dónde la AI está generando valor genuino en la agricultura — y dónde los estudios de caso son engañosos
-- Los modos de fallo específicos de la AI en entornos físicos complejos
-- Lo que la adopción de AI agrícola enseña sobre la adopción tecnológica en general
-- Cómo evaluar las afirmaciones de los proveedores de AI antes de comprometerse
-- Cómo es la automatización resiliente a escala agrícola
+- Dónde AI está entregando un valor genuino y medible en la agricultura — y dónde los estudios de caso son engañosos
+- Los modos de fallo específicos de AI cuando se despliega en entornos complejos, físicos y variables
+- Qué enseña la experiencia del sector agrícola con la tecnología de precisión sobre la adopción de AI en general
+- Cómo evaluar las afirmaciones de proveedores de AI antes de comprometerse con un despliegue
+- Qué aspecto tiene la automatización resiliente cuando tiene que trabajar a la escala y el ritmo de una operación agrícola
 
-## Títulos sugeridos
+## Títulos de ejemplo
 
-- **Alimentando la inteligencia: La AI llega a la granja**
-- **Verificación de la realidad: Lo que la agricultura nos enseña sobre la AI**
-- **En el barro: Lecciones de adopción de AI desde la granja**
+- **Alimentando la Inteligencia: AI se Encuentra con la Granja**
+- **Toque de Realidad: Qué Nos Enseña la Agricultura Sobre AI**
+- **En el Barro: Lecciones de Adopción de AI desde la Granja**
 
 ## Formatos recomendados
 
-Conferencia magistral; panel de debate para públicos agroalimentarios; conversación informal con preguntas y respuestas.
+Keynote; mesa redonda para audiencias agroalimentarias y de tecnología agrícola; charla informal con Q&A.

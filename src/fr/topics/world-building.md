@@ -1,8 +1,8 @@
 ---
 lang: fr
 layout: layouts/page.njk
-title: Le pouvoir de la construction du monde
-description: Qui construit la réalité partagée, et comment. L'AI générative a transformé la construction narrative d'un outil de communication en instrument géopolitique.
+title: Le Pouvoir de la Construction de Mondes
+description: Les médias synthétiques ont transformé la construction de la réalité en un champ ouvert. Cette intervention examine qui construit des mondes avec AI, comment cela fonctionne, et comment les organisations naviguent — ou participent — délibérément.
 cardDek: Qui construit la réalité, et comment.
 permalink: /fr/topics/world-building/
 tags: frTopics
@@ -11,30 +11,30 @@ cta:
   label: Réserver cette conférence
   href: "mailto:speaking@jessehirsh.com?subject=World%20Building%20Speaking%20Inquiry"
 ---
-La construction du monde a toujours été un acte politique. Ce qui a changé, c'est la vitesse, l'échelle et l'accessibilité des outils — et la mesure dans laquelle les publics ont perdu leurs repères partagés sur ce qui est réel.
+La construction de mondes a toujours été un acte politique. Les religions, les nations, les entreprises et les mouvements ont toujours construit des versions de la réalité qui servent leurs objectifs. Ce qui a changé, c'est la vitesse, l'échelle et l'accessibilité des outils — ainsi que le degré auquel les publics ont perdu des repères partagés sur ce qui est réel.
 
-Les médias synthétiques — images, sons, vidéos et textes générés par AI — sont passés d'une curiosité technique à un instrument géopolitique. Le changement profond ne concerne pas les faux. Il concerne qui peut construire les récits partagés à travers lesquels les gens comprennent le monde, prennent des décisions et accordent leur confiance.
+Les médias synthétiques — images, audio, vidéo et textes générés par AI — sont passés d'une curiosité technique à un instrument géopolitique. Mais le changement plus profond ne concerne pas les faux. Il s'agit de savoir qui peut construire les récits, environnements et cadres partagés à travers lesquels les gens comprennent le monde, prennent des décisions et accordent leur confiance.
 
-Cette conférence examine les mécanismes et les implications de la construction du monde activée par l'AI : qui la pratique, comment elle fonctionne, à quoi elle sert, et comment les leaders peuvent y naviguer — ou y participer de manière délibérée.
+Cette conférence examine les mécanismes et les implications de la construction de mondes alimentée par AI : qui le fait, comment cela fonctionne, à quoi cela sert, et comment les leaders, les institutions et les communautés peuvent le naviguer — ou y participer délibérément.
 
-## À qui s'adresse ce discours
+## Public visé
 
-Organisations médiatiques, professionnels de la communication, agences gouvernementales, éducateurs, leaders en marketing et en stratégie de marque, décideurs politiques.
+Organisations médiatiques, professionnels de la communication, agences gouvernementales, éducateurs, responsables du marketing et de la marque, décideurs politiques, et toute institution évoluant dans un environnement où le contrôle du récit est contesté.
 
 ## Ce que l'audience retiendra
 
-- Comment fonctionnent les médias synthétiques générés par AI et ce qui est réellement possible aujourd'hui
-- La différence entre les opérations de désinformation et la construction narrative ordinaire
+- Comment fonctionnent les médias synthétiques générés par AI et ce qui est réellement possible actuellement
+- La différence entre les opérations de désinformation et la construction de mondes quotidienne — et pourquoi cette distinction compte pour votre réponse
 - Comment détecter, résister et immuniser les institutions contre les récits synthétiques
-- Comment les organisations peuvent développer une capacité authentique de construction narrative sans sacrifier leur crédibilité
-- À quoi ressemblera la prochaine génération de l'environnement informationnel
+- Comment les organisations peuvent construire une capacité authentique de construction de mondes sans sacrifier leur crédibilité
+- À quoi ressemblera la prochaine génération d'environnements informationnels et comment se positionner dès maintenant
 
 ## Titres suggérés
 
-- **Le pouvoir de la construction du monde**
-- **Qui construit le monde ? AI, récit et réalité partagée**
-- **Réalité synthétique : naviguer dans l'environnement informationnel construit par l'AI**
+- **La Puissance de la Construction de Mondes**
+- **Qui construit le monde ? AI, Récit et Réalité Partagée**
+- **Réalité Synthétique : Naviguer dans l'Environnement Informationnel Construit par AI**
 
 ## Formats recommandés
 
-Conférence principale ; panel sur les médias et l'information ; atelier sur la littératie médiatique et les communications stratégiques.
+Conférence principale ; table ronde sur les médias et l'information ; atelier sur la littératie médiatique et les communications stratégiques.

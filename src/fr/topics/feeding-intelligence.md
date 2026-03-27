@@ -1,9 +1,9 @@
 ---
 lang: fr
 layout: layouts/page.njk
-title: "Nourrir l'intelligence : L'AI rencontre la ferme"
-description: Ce que la ferme révèle sur ce que l'AI peut et ne peut pas faire — une lecture au sol de l'adoption de la technologie dans des environnements complexes et physiques.
-cardDek: Ce que la ferme révèle sur ce que l'AI peut et ne peut pas faire.
+title: "Nourrir l'intelligence : AI rencontre la ferme"
+description: "L'agriculture est le domaine où AI confronte la réalité physique. La ferme est le test le plus honnête de ce qu'AI peut et ne peut pas optimiser — et de ce que cela révèle sur les limites et le potentiel de la technologie plus largement."
+cardDek: Ce que la ferme révèle sur ce qu'AI peut et ne peut pas faire.
 permalink: /fr/topics/feeding-intelligence/
 tags: frTopics
 order: 11
@@ -11,28 +11,30 @@ cta:
   label: Réserver cette conférence
   href: "mailto:speaking@jessehirsh.com?subject=Feeding%20Intelligence%20Speaking%20Inquiry"
 ---
-L'agriculture est l'endroit où l'AI affronte la réalité physique — variabilité des sols, météo imprévisible, équipement vieillissant, marges étroites. La ferme ne peut pas faire l'objet de tests A/B. Elle ne peut pas être annulée. Les conséquences d'un échec se mesurent en saisons, pas en sprints.
+L'agriculture est le domaine où AI confronte la réalité physique — variabilité des sols, météo imprévisible, équipements vieillissants, marges réduites, et marchés du travail qui ne répondent pas aux mises à jour logicielles. La ferme ne peut pas être testée en A/B. Elle ne peut pas être annulée. Les conséquences de l'échec se mesurent en saisons, pas en sprints.
 
-Jesse Hirsh cultive. Il analyse aussi la technologie de façon professionnelle. Cette conférence utilise cette combinaison pour dépasser le battage médiatique autour de l'AI et montrer à quoi ressemble réellement une automatisation résiliente et ancrée.
+Cela fait de l'agriculture le test le plus honnête de ce que AI peut et ne peut pas optimiser. Et cela rend les leçons de l'adoption de l'AI agricole directement applicables à tous les autres domaines où l'écart entre une démo et un déploiement se mesure en enjeux.
 
-## À qui s'adresse ce discours
+Jesse Hirsh est agriculteur. Il gagne sa vie à analyser la technologie. Cette présentation utilise cette combinaison pour percer l'hype de l'AI et montrer à quoi ressemble une automatisation résiliente et ancrée dans la réalité lorsqu'elle doit fonctionner dans la boue.
 
-Entreprises de technologie agricole, associations d'agriculteurs, décideurs politiques ruraux, leaders du secteur agroalimentaire, et publics d'affaires généraux souhaitant une littératie AI ancrée dans la réalité physique.
+## À qui s'adresse cette présentation
+
+Entreprises de technologie agricole, associations agricoles, décideurs politiques ruraux, leaders du secteur agroalimentaire, et publics d'entreprise généraux qui souhaitent une session de littératie AI ancrée dans la réalité physique plutôt que dans l'optimisme de la Silicon Valley.
 
 ## Ce que l'audience retiendra
 
-- Où l'AI génère une vraie valeur en agriculture — et où les études de cas sont trompeuses
-- Les modes d'échec spécifiques de l'AI dans des environnements complexes, physiques et variables
-- Ce que l'adoption de l'AI agricole enseigne sur l'adoption des technologies en général
-- Comment évaluer les promesses des fournisseurs d'AI avant de s'engager
-- À quoi ressemble une automatisation résiliente à l'échelle d'une exploitation agricole
+- Où AI délivre une valeur réelle et mesurable dans l'agriculture — et où les études de cas sont trompeuses
+- Les modes d'échec spécifiques de l'AI lorsqu'elle est déployée dans des environnements complexes, physiques et variables
+- Ce que l'expérience du secteur agricole avec les technologies de précision enseigne sur l'adoption de l'AI en général
+- Comment évaluer les affirmations des fournisseurs d'AI avant de s'engager dans un déploiement
+- À quoi ressemble une automatisation résiliente lorsqu'elle doit fonctionner à l'échelle et au rythme d'une exploitation agricole
 
-## Titres suggérés
+## Titres possibles
 
-- **Nourrir l'intelligence : L'AI rencontre la ferme**
+- **Nourrir l'intelligence : AI rencontre la ferme**
 - **Vérification de la réalité : Ce que l'agriculture nous apprend sur l'AI**
-- **Dans la boue : Les leçons d'adoption de l'AI tirées de la ferme**
+- **Dans la boue : Leçons d'adoption de l'AI tirées de l'exploitation agricole**
 
 ## Formats recommandés
 
-Conférence principale ; panel pour les publics agroalimentaires ; discussion informelle avec questions-réponses.
+Keynote ; table ronde pour les publics agroalimentaire et technologie agricole ; échange informel avec séance de questions-réponses.

@@ -1,39 +1,40 @@
 ---
 lang: es
 layout: layouts/page.njk
-title: La Guerra de la Información para el Resto de Nosotros
-description: La guerra de la información ya no es dominio exclusivo de las agencias de inteligencia. Las técnicas se despliegan contra corporaciones, sociedad civil e instituciones democráticas a toda escala.
-cardDek: Una guía de campo sobre guerra de la información para no especialistas.
+title: Guerra de información para el resto de nosotros
+description: La guerra de la información ya no está confinada a las agencias de inteligencia. Una guía práctica de campo para líderes y organizaciones que operan en entornos de información disputados.
+cardDek: Una guía de campo sobre la guerra de la información para no especialistas.
 permalink: /es/topics/info-war/
 tags: esTopics
 order: 9
 cta:
-  label: Reservar esta charla
+  label: Reserva esta charla
   href: "mailto:speaking@jessehirsh.com?subject=Info%20War%20Speaking%20Inquiry"
 ---
+La guerra de información ya no es el dominio exclusivo de las agencias de inteligencia y los planificadores militares. Las técnicas — manipulación narrativa, suplantación de identidad, comportamiento inauténtico coordinado, amplificación estratégica de la división — ahora se despliegan contra corporaciones, organizaciones de la sociedad civil, comunidades e instituciones democráticas a todas las escalas.
 
-La guerra de la información ya no es dominio exclusivo de las agencias de inteligencia. Las técnicas — manipulación narrativa, suplantación de identidad, comportamiento inauténtico coordinado — se despliegan contra corporaciones, sociedad civil e instituciones democráticas a toda escala.
+La mayoría de las organizaciones no tienen un marco para comprender las operaciones de información, mucho menos para defenderse de ellas. Confunden las campañas de influencia con controversias orgánicas. Amplifican los ataques al responder a ellos. No tienen una doctrina sobre cuándo intervenir y cuándo dejar que una narrativa muera.
 
-La mayoría de las organizaciones no tienen un marco para comprender las operaciones de información. Confunden campañas de influencia con controversia orgánica. Amplifican los ataques al responderles.
+Esta charla ofrece a líderes no especialistas un mapa práctico de cómo funciona realmente la guerra de información — las tácticas, los actores, los objetivos y las defensas. No un informe paranoico. Un marco operativo para organizaciones que operan en entornos de información disputados y que necesitan estar preparadas antes de ser objetivo.
 
-## Para quién es esta charla
+## Para quién es esto
 
-Ejecutivos, responsables de comunicación, funcionarios gubernamentales, líderes de asociaciones y cualquier organización que haya sido o espere ser objetivo de desinformación coordinada.
+Ejecutivos, responsables de comunicaciones, funcionarios gubernamentales, líderes de asociaciones, instituciones públicas y cualquier organización que haya sido — o espere ser — objetivo de críticas coordinadas, desinformación u operaciones de influencia.
 
-## Lo que el público se llevará
+## Puntos clave para la audiencia
 
-- Cómo funcionan realmente las operaciones de información
-- Cómo distinguir campañas coordinadas de críticas legítimas
-- Qué hacer (y qué no hacer) cuando su organización es atacada
-- Cómo construir resiliencia organizacional frente a los ataques narrativos
-- El panorama de la guerra de la información habilitada por AI que se está configurando ahora
+- Cómo funcionan realmente las operaciones de información — la mecánica detrás de lo que parece una controversia orgánica
+- Cómo distinguir las campañas coordinadas de la crítica legítima — y por qué la distinción cambia tu respuesta
+- Qué hacer (y qué no hacer) cuando tu organización es objetivo, incluyendo los errores que empeoran la situación
+- Cómo construir resiliencia organizacional contra ataques narrativos antes de que ocurran
+- El panorama de la guerra de información habilitada por AI que se está formando ahora, y qué necesitan vigilar los líderes
 
-## Títulos sugeridos
+## Títulos de ejemplo
 
-- **La guerra de la información para el resto de nosotros**
-- **Bajo fuego: Guerra de la información para líderes que no son espías**
-- **El manual de la influencia: Lo que toda organización necesita saber**
+- **Guerra de Información para el Resto de Nosotros**
+- **Bajo Fuego: Guerra de Información para Líderes que No Son Espías**
+- **El Manual de Influencia: Lo que Toda Organización Necesita Saber**
 
-## Formatos recomendados
+## Mejores formatos
 
-Conferencia magistral; briefing ejecutivo de seguridad; taller sobre resiliencia informativa organizacional; conversación informal con preguntas y respuestas.
+Conferencia magistral; informe ejecutivo de seguridad; taller sobre resiliencia de información organizacional; charla informal con preguntas y respuestas.

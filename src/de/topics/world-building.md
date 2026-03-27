@@ -1,9 +1,9 @@
 ---
 lang: de
 layout: layouts/page.njk
-title: Die Macht des Weltenbauens
-description: Synthetische Medien haben die Konstruktion von Wirklichkeit zu einem offenen Feld gemacht. Dieser Vortrag untersucht, wer mit AI Welten baut, wie es funktioniert und wie Organisationen bewusst navigieren — oder teilnehmen.
-cardDek: Wer konstruiert Wirklichkeit — und wie.
+title: Die Kraft des Weltbaus
+description: Synthetische Medien haben die Realitätskonstruktion zu einem offenen Feld gemacht. Dieser Vortrag untersucht, wer mit KI Welten erschafft, wie es funktioniert und wie Organisationen navigieren – oder gezielt teilnehmen.
+cardDek: Wer konstruiert die Realität und wie.
 permalink: /de/topics/world-building/
 tags: deTopics
 order: 7
@@ -11,30 +11,29 @@ cta:
   label: Diesen Vortrag buchen
   href: "mailto:speaking@jessehirsh.com?subject=World%20Building%20Speaking%20Inquiry"
 ---
+Weltbau war schon immer ein politischer Akt. Religionen, Nationen, Unternehmen und Bewegungen haben stets Versionen der Realität konstruiert, die ihren Zwecken dienen. Was sich geändert hat, ist die Geschwindigkeit, der Umfang und die Zugänglichkeit der Werkzeuge — und der Grad, in dem Publikum gemeinsame Ankerpunkte für das, was real ist, verloren hat.
 
-Weltenbauen war schon immer ein politischer Akt. Religionen, Nationen, Konzerne und Bewegungen haben stets Wirklichkeitsversionen konstruiert, die ihren Zwecken dienen. Was sich verändert hat, sind Geschwindigkeit, Ausmaß und Zugänglichkeit der Werkzeuge — und das Ausmaß, in dem das Publikum gemeinsame Anker für das Reale verloren hat.
+Synthetische Medien — AI-generierte Bilder, Audio, Video und Text — haben sich von einer technischen Kuriosität zu einem geopolitischen Instrument entwickelt. Aber die tiefgreifendere Verschiebung betrifft nicht Fälschungen. Es geht darum, wer die geteilten Narrative, Umgebungen und Rahmenwerke konstruieren darf, durch die Menschen die Welt verstehen, Entscheidungen treffen und Vertrauen schenken.
 
-Synthetische Medien — AI-generierte Bilder, Audio, Video und Text — haben sich von einer technischen Kuriosität zu einem geopolitischen Instrument entwickelt. Doch die tiefgreifendere Verschiebung betrifft nicht Fälschungen. Es geht darum, wer die gemeinsamen Narrative, Umgebungen und Rahmen konstruieren darf, durch die Menschen die Welt verstehen, Entscheidungen treffen und Vertrauen zuweisen.
-
-Dieser Vortrag untersucht die Mechanismen und Implikationen des AI-gestützten Weltenbauens: wer es betreibt, wie es funktioniert, wofür es eingesetzt wird und wie Führungskräfte, Institutionen und Gemeinschaften darin navigieren — oder bewusst daran teilnehmen können.
+Dieser Vortrag untersucht die Mechanismen und Implikationen von AI-gestütztem Weltbau: Wer betreibt dies, wie es funktioniert, wozu es dient und wie Führungskräfte, Institutionen und Gemeinschaften sich darin zurechtfinden oder bewusst daran teilnehmen können.
 
 ## Zielgruppe
 
-Medienorganisationen, Kommunikationsfachleute, Regierungsbehörden, Lehrende, Marketing- und Markenverantwortliche, politische Entscheidungsträger und jede Institution, die in einem Umfeld agiert, in dem die narrative Kontrolle umkämpft ist.
+Medienorganisationen, Kommunikationsfachleute, Behörden, Lehrende, Marketing- und Markenverantwortliche, politische Entscheidungsträger sowie jede Institution, die in einem Umfeld operiert, in dem die Kontrolle über Narrative umstritten ist.
 
-## Was Sie mitnehmen
+## Wichtige Erkenntnisse
 
-- Wie AI-generierte synthetische Medien funktionieren und was derzeit tatsächlich möglich ist
-- Der Unterschied zwischen Desinformationsoperationen und alltäglichem Weltenbauen — und warum die Unterscheidung für die Reaktion entscheidend ist
-- Wie synthetische Narrative erkannt, abgewehrt und Institutionen dagegen immunisiert werden können
-- Wie Organisationen authentische Weltenbaukapazität aufbauen können, ohne Glaubwürdigkeit zu opfern
-- Wie das Informationsumfeld der nächsten Generation aussieht und wie man sich jetzt positioniert
+- Wie AI-generierte synthetische Medien funktionieren und was aktuell tatsächlich möglich ist
+- Der Unterschied zwischen Desinformationskampagnen und alltäglichem Weltbau — und warum diese Unterscheidung für Ihre Reaktion wichtig ist
+- Wie Institutionen synthetische Narrative erkennen, widerstehen und immunisieren können
+- Wie Organisationen authentische Weltbau-Kapazitäten aufbauen können, ohne ihre Glaubwürdigkeit zu opfern
+- Wie die nächste Generation der Informationsumgebung aussieht und wie Sie sich jetzt positionieren können
 
-## Mögliche Titel
+## Beispielhafte Titel
 
-- **Die Macht des Weltenbauens**
-- **Wer baut die Welt? AI, Narrative und gemeinsame Wirklichkeit**
-- **Synthetische Wirklichkeit: Navigation in der AI-konstruierten Informationsumgebung**
+- **Die Macht des Weltbaus**
+- **Wer baut die Welt? AI, Narrative und geteilte Realität**
+- **Synthetische Realität: Navigation in der von AI konstruierten Informationsumgebung**
 
 ## Geeignete Formate
 

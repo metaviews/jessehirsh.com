@@ -2,27 +2,23 @@
 lang: fr
 layout: layouts/home.njk
 title: Jesse Hirsh
-dek: Chercheur, conférencier et stratège travaillant à l'intersection de l'AI, des médias et de la gouvernance.
-description: Jesse Hirsh aide les dirigeants et les organisations à décrypter l'AI, la désinformation et les perturbations systémiques grâce à la prise de parole, à la recherche et à des conseils stratégiques.
+dek: Chercheur, conférencier et stratège travaillant à l'intersection de AI, des médias et de la gouvernance.
+description: Jesse Hirsh aide les leaders et les organisations à comprendre AI, la désinformation et la perturbation des systèmes grâce à ses conférences, sa recherche et son conseil stratégique.
 permalink: /fr/
 heroImage: /assets/img/PXL_20230904_124710967.jpg
 heroAlt: Jesse Hirsh speaking on stage in front of a projected city skyline and his name.
 ---
-## Événement à venir
+## Mes domaines d'intervention
 
-**Construire avec AI : Atelier communautaire** — 21 mars 2026, 9h30–11h00, John Levi Community Centre, Lanark County. Une session gratuite et pratique sur la littératie en AI, les LLM et l'utilisation responsable. [S'inscrire ici](https://metaviews.ca/LINK/event/)
+L'adoption et la gouvernance de l'AI, la littératie médiatique, la désinformation, la confiance institutionnelle, et les pressions systémiques qui transforment la façon dont nous menons, décidons et communiquons. Je les aborde sur les scènes de conférence, dans les briefings exécutifs, les podcasts et les commentaires publics — et dans le secteur agricole via [The Future Herd](https://thefutureherd.ca), un podcast et un forum de leadership à l'intersection de la technologie, de la politique et de l'agriculture.
 
-## Ce sur quoi je travaille
+## Envoyez un brief à Jesse
 
-Adoption et gouvernance de l'AI, littératie médiatique, désinformation, confiance institutionnelle, et les pressions systémiques qui transforment notre façon de diriger, décider et communiquer. J'interviens sur des scènes de conférence, des briefings pour cadres, des podcasts et des commentaires publics — et dans le secteur agricole grâce à [The Future Herd](https://thefutureherd.ca), un podcast et un forum de leadership à l'intersection de la technologie, de la politique et de l'agriculture.
+Parlez-moi de votre événement. Je concevrai la conférence — titre, prémisse, accroche d'ouverture et un projet d'email de réservation — spécifiquement adaptée à vos besoins.
 
-## Brief Jesse
+[Envoyez un brief →](/brief/)
 
-Dites-moi en plus sur votre événement. Je construirai la conférence — titre, prémisse, accroche d'ouverture et un projet d'email de réservation — adaptés à vos besoins.
-
-[Brief Jesse →](/brief/)
-
-## Focus actuel
+## Axes actuels
 
 <div class="grid">
 {% for item in currentFocus %}
@@ -33,9 +29,9 @@ Dites-moi en plus sur votre événement. Je construirai la conférence — titre
   </article>
 {% endfor %}
   <article class="card">
-    <span class="card-label">Podcast et rassemblement</span>
+    <span class="card-label">Podcast & rassemblements</span>
     <h3><a href="/future-herd/">The Future Herd</a></h3>
-    <p>Rassembler agriculteurs, décideurs et technologues pour penser clairement l'avenir de l'agriculture. Animé par Jesse à l'intersection de la technologie, de la politique et de la pratique.</p>
+    <p>Rassembler des agriculteurs, des décideurs politiques et des technologues pour réfléchir clairement à l'avenir de l'agriculture. Animé par Jesse à l'intersection de la technologie, de la politique et de la pratique.</p>
   </article>
 </div>
 
@@ -50,16 +46,16 @@ Dites-moi en plus sur votre événement. Je construirai la conférence — titre
 {% endfor %}
 </div>
 
-## Ce que les gens disent
+## Ce qu'ils en disent
 
 {% for item in endorsements %}
 - "{{ item.quote }}" — {{ item.attribution }}
 {% endfor %}
 
-## Engagements sélectionnés
+## Interventions sélectionnées
 
 {% for item in engagements %}
-- {% if item.year %}{{ item.year }} : {% endif %}{{ item.name }}{% if item.type %} ({{ item.type }}){% endif %}
+- {% if item.year %}{{ item.year }}: {% endif %}{{ item.name }}{% if item.type %} ({{ item.type }}){% endif %}
 {% endfor %}
 
 {% include "partials/cta.njk" %}

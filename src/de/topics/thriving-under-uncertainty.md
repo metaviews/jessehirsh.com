@@ -1,9 +1,9 @@
 ---
 lang: de
 layout: layouts/page.njk
-title: Gedeihen wenn die Zukunft ungewiss ist
-description: Die strategischen Rahmenwerke, auf die die meisten Organisationen angewiesen sind, wurden für stabile Bedingungen entwickelt. Dieser Vortrag gibt Führungskräften praktische Disziplinen für folgenreiche Entscheidungen, wenn sich der Boden ständig verschiebt.
-cardDek: Praktische Disziplinen für Führung, wenn Stabilität nicht zurückkommt.
+title: Gedeihen in einer unsicheren Zukunft
+description: Die strategischen Rahmenwerke, auf die die meisten Organisationen angewiesen sind, wurden für stabile Bedingungen entwickelt. Dieser Vortrag bietet Führungskräften praktische Disziplinen, um folgenreiche Entscheidungen zu treffen, wenn sich der Boden ständig verschiebt.
+cardDek: Praktische Disziplinen für Führung, wenn Stabilität nicht zurückkehrt.
 permalink: /de/topics/thriving-under-uncertainty/
 tags: deTopics
 order: 12
@@ -11,31 +11,30 @@ cta:
   label: Diesen Vortrag buchen
   href: "mailto:speaking@jessehirsh.com?subject=Uncertainty%20Speaking%20Inquiry"
 ---
+Die strategischen Rahmenwerke, auf die die meisten Organisationen setzen, wurden für stabile Verhältnisse entwickelt: vorhersehbare Märkte, kohärente Informationsumgebungen, funktionierende Institutionen und Veränderungen, die in einem Tempo voranschritten, das die Führungsebene bewältigen konnte. Diese Verhältnisse sind Geschichte. Sie werden nicht wiederkommen.
 
-Die strategischen Rahmenwerke, auf die die meisten Organisationen angewiesen sind, wurden für stabile Bedingungen entwickelt: vorhersehbare Märkte, kohärente Informationsumgebungen, funktionsfähige Institutionen und Wandel, der sich in einem Tempo vollzog, das Führungskräfte verfolgen konnten. Diese Bedingungen sind vorbei. Sie kommen nicht zurück.
+Die Reaktion, auf die die meisten Organisationen zurückgreifen – mehr Daten, bessere Prognosen, schnellere Zyklen – ist eine Lösung aus der Ära der Stabilität, angewendet auf ein wirklich unsicheres Umfeld. Es erzeugt den Anschein von Kontrolle, ohne die Realität zu liefern.
 
-Die Reaktion, nach der die meisten Organisationen greifen — mehr Daten, bessere Prognosen, schnellere Zyklen — ist eine Stabilitäts-Ära-Lösung, die auf eine echte Unsicherheitsumgebung angewendet wird. Sie erzeugt den Anschein von Kontrolle ohne deren Wirklichkeit.
+Dieser Vortrag bietet Führungskräften praktische Disziplinen zur Bewältigung echter Unsicherheit – keine Strategien zur Vermeidung, sondern Werkzeuge für folgenreiche Entscheidungen, wenn sich der Boden verschiebt, die Karte falsch ist und die Prognose eine Schätzung bleibt.
 
-Dieser Vortrag gibt Führungskräften praktische Disziplinen für die Navigation in echter Unsicherheit — keine Strategien zur Vermeidung, sondern Werkzeuge für folgenreiche Entscheidungen, wenn sich der Boden ständig verschiebt, die Karte falsch ist und die Prognose eine Schätzung ist.
+## Für wen dieser Vortrag geeignet ist
 
-## Zielgruppe
-
-Leitende Führungskräfte, Aufsichtsräte und Führungsteams in jeder Branche, die gleichzeitige Disruption erleben — technologisch, politisch, wirtschaftlich oder ökologisch. Besonders wertvoll für Organisationen, deren Planungshorizonte sich verkürzt haben oder deren bisherige Strategien sichtbar scheitern.
+Senior Führungskräfte, Vorstände und Führungsteams in allen Sektoren, die mit gleichzeitigen Störungen konfrontiert sind – technologisch, politisch, wirtschaftlich oder ökologisch. Besonders geeignet für Organisationen, deren Planungshorizonte kollabiert sind oder deren vorherige Strategien offensichtlich scheitern.
 
 ## Was Sie mitnehmen
 
-- Der Unterschied zwischen Risiko (berechenbar) und echter Unsicherheit (nicht) — und warum die Gleichsetzung beider zu schlechten Entscheidungen führt
-- Welche Disziplinen Führungskräften tatsächlich bei der Navigation von Unsicherheit helfen — gegenüber dem, was falsches Vertrauen erzeugt
-- Wie folgenreiche Entscheidungen mit unvollständigen Informationen getroffen werden, ohne gelähmt oder leichtsinnig zu werden
-- Welche Organisationsstrukturen adaptive Kapazität unterstützen — und welche verbreiteten Strukturen sie aktiv verhindern
-- Wie Unsicherheit gegenüber Stakeholdern, Aufsichtsräten und der Öffentlichkeit kommuniziert werden kann, ohne Glaubwürdigkeit zu verlieren
+- Der Unterschied zwischen Risiko (berechenbar) und echter Unsicherheit (nicht) – und warum ihre Verwechslung zu Fehlentscheidungen führt
+- Welche Disziplinen Führungskräften tatsächlich helfen, Unsicherheit zu bewältigen, versus was ein falsches Sicherheitsgefühl erzeugt
+- Wie man folgenreiche Entscheidungen mit unvollständigen Informationen trifft, ohne handlungsunfähig oder unbesonnen zu werden
+- Welche Organisationsstrukturen die Anpassungsfähigkeit unterstützen – und welche üblichen Strukturen dies aktiv verhindern
+- Wie man Unsicherheit gegenüber Stakeholdern, Vorständen und der Öffentlichkeit kommuniziert, ohne Glaubwürdigkeit zu verlieren
 
-## Mögliche Titel
+## Beispieltitel
 
-- **Gedeihen wenn die Zukunft ungewiss ist**
-- **Die Unsicherheitsdisziplinen: Führen, wenn die Karte falsch ist**
-- **Fester Boden: Entscheidungsfindung für Führungskräfte in echten Turbulenzen**
+- **Gedeihen in einer unsicheren Zukunft**
+- **Die Disziplinen der Unsicherheit: Führen, wenn die Karte falsch ist**
+- **Stabiler Boden: Entscheidungsfindung für Führungskräfte in wirklich turbulenten Zeiten**
 
 ## Geeignete Formate
 
-Keynote; Executive-Leadership-Retreat; Workshop zu organisatorischer Resilienz und Entscheidungsfindung unter Unsicherheit.
+Keynote; Führungskräfteretreat; Workshop zu organisatorischer Resilienz und Entscheidungsfindung unter Unsicherheit.

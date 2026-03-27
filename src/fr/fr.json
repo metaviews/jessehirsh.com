@@ -3,11 +3,11 @@
   "strings": {
     "skip": "Passer au contenu",
     "nav": {
-      "brief": "Brève Jesse",
+      "brief": "Présentation Jesse",
       "hire": "Engager Jesse",
       "speaking": "Conférences",
-      "topics": "Thèmes",
-      "media": "Médias",
+      "topics": "Sujets",
+      "media": "Média",
       "futureHerd": "The Future Herd",
       "about": "À propos",
       "contact": "Contact"
@@ -15,27 +15,27 @@
     "footer": {
       "booking": "Réservation"
     },
-    "cta": "Réservez Jesse pour une conférence"
+    "cta": "Réserver Jesse pour une conférence"
   },
   "currentFocus": [
     {
       "title": "Après les plateformes",
-      "hook": "L'infrastructure médiatique sur laquelle la plupart des institutions ont bâti leur présence publique se fragmente. X, Facebook et les médias traditionnels perdent simultanément leur cohérence tandis que les systèmes d'information médiatisés par AI prennent le dessus. Cette conférence cartographie ce qui les remplace — et comment les organisations peuvent construire une présence publique crédible et durable dans ce qui vient ensuite.",
+      "hook": "L'infrastructure médiatique sur laquelle la plupart des institutions ont construit leur présence publique se fragmente. X, Facebook et les médias traditionnels perdent leur cohérence simultanément, tandis que les systèmes d'information médiatisés par AI prennent le relais. Cette conférence cartographie ce qui les remplace — et comment les organisations peuvent construire une présence publique crédible et durable dans ce qui vient ensuite.",
       "bookingSubject": "After%20the%20Platforms%20Speaking%20Inquiry"
     },
     {
       "title": "Nourrir l'intelligence : AI rencontre la ferme",
-      "hook": "L'agriculture est là où AI confronte la réalité physique — le sol, la météo, la main-d'œuvre, les chaînes d'approvisionnement. La ferme est le test le plus honnête de ce que AI peut et ne peut pas optimiser. Cette conférence utilise les systèmes alimentaires pour percer à travers le battage médiatique sur AI et montrer à quoi ressemble réellement une automatisation résiliente et ancrée.",
+      "hook": "L'agriculture est le domaine où AI confronte la réalité physique — le sol, la météo, la main-d'œuvre, les chaînes d'approvisionnement. La ferme est le test le plus honnête de ce que AI peut et ne peut pas optimiser. Cette conférence utilise les systèmes alimentaires pour percer le battage médiatique autour de AI et montrer à quoi ressemble réellement une automatisation résiliente et ancrée.",
       "bookingSubject": "AI%20Agriculture%20Speaking%20Inquiry"
     },
     {
-      "title": "Prospérer quand l'avenir est incertain",
-      "hook": "Les cadres stratégiques sur lesquels la plupart des organisations dépendent ont été conçus pour des conditions stables. Ils échouent face à un changement accéléré. Cette conférence donne aux dirigeants des disciplines pratiques pour naviguer dans une incertitude réelle — pas des stratégies pour l'éviter, mais des outils pour prendre des décisions conséquentes lorsque le sol continue de bouger.",
+      "title": "S'épanouir quand l'avenir est incertain",
+      "hook": "Les cadres stratégiques sur lesquels la plupart des organisations s'appuient ont été conçus pour des conditions stables. Ils échouent face à un changement accéléré. Cette conférence donne aux dirigeants des disciplines pratiques pour naviguer dans une incertitude réelle — pas des stratégies pour l'éviter, mais des outils pour prendre des décisions importantes lorsque le sol continue de bouger.",
       "bookingSubject": "Uncertainty%20Speaking%20Inquiry"
     },
     {
-      "title": "L'Humain dans la Boucle",
-      "hook": "Chaque organisation qui déploie l'IA pose la même question : quelles décisions conservons-nous ? L'écart entre ce que l'IA peut faire et ce que les institutions savent gouverner se creuse rapidement. Cette conférence donne aux dirigeants un cadre pratique pour cartographier l'autorité décisionnelle, concevoir une surveillance significative et mettre en place des structures de responsabilité — avant que quelque chose tourne mal.",
+      "title": "L'humain dans la boucle",
+      "hook": "Chaque organisation déployant AI pose la même question : quelles décisions gardons-nous ? L'écart entre ce que AI peut faire et ce que les institutions savent gouverner s'élargit rapidement. Cette conférence donne aux dirigeants un cadre pratique pour cartographier l'autorité décisionnelle, concevoir une supervision significative et construire des structures de reddition de comptes avant que quelque chose ne tourne mal.",
       "bookingSubject": "Human%20in%20the%20Loop%20Speaking%20Inquiry"
     }
   ]

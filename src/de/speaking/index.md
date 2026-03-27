@@ -2,7 +2,7 @@
 lang: de
 layout: layouts/page.njk
 title: Vorträge
-description: Keynotes, Workshops und Moderation zu Autorität, AI, Medien und Systemdenken vom Bauernhof.
+description: Vorträge, Workshops und Moderation zu Autorität, AI, Medien und Systemdenken vom Bauernhof.
 permalink: /de/speaking/
 heroImage: /assets/img/ELVLOY1092319_04.JPG
 heroAlt: Jesse Hirsh smiling in a wooded area beside two dogs.
@@ -10,86 +10,102 @@ cta:
   label: Jesse für einen Vortrag buchen
   href: "mailto:speaking@jessehirsh.com?subject=Speaking%20Inquiry"
 ---
-Wenn Sie eine Konferenz, ein Retreat, einen Gipfel oder ein strategisches Treffen organisieren, wünschen Sie mehr als nur einen „Vortrag". Sie möchten einen Moment, der Klarheit darüber schafft, was geschieht, Denkmuster verändert und Sprache liefert, die Sie danach tatsächlich nutzen können.
 
-Jesse Hirsh liefert Keynotes und moderierte Sessions, die Komplexität in geteiltes Verständnis übersetzen – mit Energie, Präzision und dem Anspruch an praktische Handlungskompetenz.
+</think>
 
-## Was das Publikum mitnimmt
+Wenn Sie eine Konferenz, ein Retreat, einen Gipfel oder eine strategische Zusammenkunft organisieren, wünschen Sie mehr als nur einen „Vortrag". Sie wünschen einen Moment, der klärt, was geschieht, das Denken verändert und Sprache liefert, die danach tatsächlich nutzbar ist.
 
-- Ein Rahmenwerk für Entscheidungen unter Unsicherheit (statt auf Schlagzeilen zu reagieren)
-- Klare Sprache für den Umgang mit AI, Mediensystemen und institutioneller Legitimität ohne Hype
-- Bessere Fragen – jene, die Strategie, Politik und öffentliche Kommunikation neu gestalten
-- Eine gemeinsame Landkarte von Spannungen und Zielkonflikten, damit Teams nicht mehr aneinander vorbeireden
-- Ein Gefühl von Handlungsfähigkeit: was jetzt getan werden kann, von echten Menschen, in echten Institutionen
+Jesse Hirsh hält Keynotes und moderierte Sitzungen, die Komplexität in gemeinsames Verständnis übersetzen – mit Energie, Präzision und dem Anspruch praktischer Kompetenz.
+
+## Was Teilnehmer mitnehmen
+
+- Ein Rahmenwerk für Entscheidungen unter Unsicherheit (statt Reaktion auf Schlagzeilen)
+- Klare Sprache für Gespräche über KI, Mediensysteme und institutionelle Legitimität ohne Hype
+- Bessere Fragen – die Art, die Strategie, Politik und öffentliche Kommunikation neu gestalten
+- Eine gemeinsame Landkarte von Spannungen und Abwägungen, damit Teams nicht aneinander vorbeireden
+- Ein Gefühl von Handlungsfähigkeit: Was kann jetzt getan werden, von echten Menschen, in echten Institutionen
 
 ## Formate
 
 **Keynote (45–60 min)**  
-Hohe Energie und Klarheit mit einer straffen narrativen Struktur und einer intensiven Q&A.
+Hochenergetische Klarheit mit einer straffen narrativen Struktur und starkem Q&A.
 
-**Fireside / interview (30–45 min + Q&A)**  
-Ideal für Führungskräfte oder öffentliche Veranstaltungen, bei denen Signalwirkung vor Spektakel steht.
+**Fireside / Interview (30–45 min + Q&A)**  
+Am besten für Führungskräfte oder öffentliche Events, die Signal vor Spektakel benötigen.
 
 **Workshop (90–180 min)**  
-Praktische Kompetenz: Rahmenwerke, Übungen und gemeinsames Sinnstiften.
+Hands-on Kompetenz: Rahmenwerke, Übungen und gemeinsames Sinnfinden.
 
 **Moderation & Facilitation**  
-Panels, Runden Tische und Stakeholder-Gespräche, die auf Emergenz ausgelegt sind, nicht auf Theater.
+Podien, Runden Tische und Stakeholder-Gespräche, die auf Emergenz ausgelegt sind, nicht auf Theater.
 
 ## Kernthemenbereiche
 
-- **Future of Authority** — Legitimität, Governance und Macht in einer vernetzten Gesellschaft
-- **AI-Kompetenz für Führungskräfte** — was AI kann und was nicht; wie man sie verantwortungsvoll steuert
-- **Medien, Desinformation und demokratische Resilienz** — Aufmerksamkeitsysteme, Narrative, Polarisierung
-- **The Agentic Turn** — autonome AI-Systeme steuern, bevor sie Sie steuern
+**KI und Technologie-Governance**
+- **KI-Literacy für Führungskräfte** — Entscheidungsrahmen für KI-Kapazität, Risiko und Governance
+- **Der agentische Wandel** — Autonome KI-Systeme steuern, bevor sie Sie steuern
+- **Der Mensch im Loop** — Entscheiden, welche Entscheidungen Sie behalten
+- **Intelligenz füttern: KI trifft auf die Landwirtschaft** — Was die Landwirtschaft über das enthüllt, was KI kann und was nicht
 
-Alle Themen ansehen: [Alle Themen anzeigen](/topics/)
+**Information, Medien und Narrative**
+- **Desinformation** — Gegen narrative Manipulation und Vertrauensverlust
+- **Nach den Plattformen** — Aufbau einer glaubwürdigen öffentlichen Präsenz, wenn die Kohärenz der Plattformen versagt
+- **Die Macht des Weltbaus** — Wer konstruiert Realität, und wie
+- **Informationskrieg für den Rest von uns** — Ein Feldhandbuch zu Informationskriegen für Nicht-Spezialisten
 
-## Vorträge im Überblick
+**Autorität, Vertrauen und Systeme**
+- **Zukunft der Autorität** — Institutionelle Legitimität und Macht in vernetzten Umgebungen
+- **Die Vertrauensrezession** — Glaubwürdigkeit verdienen, wenn Autorität nicht mehr automatisch übertragen wird
+- **Nahrungsmittelsysteme und die Zukunft** — Die Druckfaktoren, die formen, was wir anbauen, wie und wer es isst
+- **Aufblühen, wenn die Zukunft unsicher ist** — Praktische Disziplinen für Führung, wenn Stabilität nicht zurückkehrt
+
+[Alle Themen anzeigen →](/topics/)
+
+## Rede-Eindrücke
 
 <div class="image-grid">
   <figure class="page-image">
-    <img src="/assets/img/Jesse-Hirsh-Deloitte-1.jpg" alt="Jesse Hirsh an einem Rednerpult vor einem Bildschirm des National Speakers Bureau." loading="lazy" decoding="async">
+    <img src="/assets/img/Jesse-Hirsh-Deloitte-1.jpg" alt="Jesse Hirsh spricht an einem Rednerpult vor einem Bildschirm des National Speakers Bureau." loading="lazy" decoding="async">
   </figure>
   <figure class="page-image">
-    <img src="/assets/img/20231210_074415.jpg" alt="Jesse Hirsh an einem Rednerpult im Delta Hotel." loading="lazy" decoding="async">
+    <img src="/assets/img/20231210_074415.jpg" alt="Jesse Hirsh spricht an einem Rednerpult im Delta Hotel." loading="lazy" decoding="async">
   </figure>
   <figure class="page-image">
     <img src="/assets/img/jessehirshdog.jpg" alt="Jesse Hirsh spricht in ein Handmikrofon auf der Bühne, sein Name wird hinter ihm projiziert." loading="lazy" decoding="async">
   </figure>
   <figure class="page-image page-image--tall">
-    <img src="/assets/img/jesse.barcelona.jpg" alt="Jesse Hirsh steht auf einem gefliesten Boden in starkem Sonnenlicht, von oben betrachtet." loading="lazy" decoding="async">
+    <img src="/assets/img/jesse.barcelona.jpg" alt="Jesse Hirsh steht auf einem gefliesten Boden in starkem Sonnenlicht, von oben fotografiert." loading="lazy" decoding="async">
   </figure>
 </div>
 
-## Aktuelle und herausragende Auftritte
+## Aktuelle und bedeutende Auftritte
 
-Eine Auswahl von Konferenzen und Organisationen, bei denen Jesse Keynotes, Sessions oder Vorträge gehalten hat:
+Eine Auswahl von Konferenzen und Organisationen, bei denen Jesse Keynotes, Sitzungen oder Featured Talks gehalten hat:
 
-- Exporttag (Vienna)  
+- Exporttag (Wien)  
 - Canada’s Innovation Corridor Summit  
-- ITUofT (conference session)  
+- ITUofT (Konferenzsession)  
 - Digital Main Street Forum  
 - Toronto Insurance Conference (Black Tie Dinner)  
 - CPJ RPC 150th anniversary event  
-- Agri-Food 2050 (headline talk)
+- Agri-Food 2050 (Headline Talk)
 
 (Vollständige Liste auf Anfrage verfügbar.)
 
 ## Empfehlungen
 
-> „Brillant, ethisch und zukunftsorientiert – ich empfehle ihn jeder Gruppe, die tiefe Einsichten wertschätzt."  
+> „Brillant, ethisch und vorausschauend – ich empfehle ihn jeder Gruppe, die tiefgehende Einsichten schätzt.”  
 — CEO, Association of Workers’ Compensation Boards of Canada
 
-> „Unterhaltsam, gedankenanregend und absolut fantastisch."  
+> „Fesselnd, gedankenanstößend und absolut fantastisch.”  
 — Canadian Health Informatics Association
 
-> „Tiefes Verständnis für moderne Gesellschaft und Technologie."  
+> „Tiefes Verständnis für moderne Gesellschaft und Technologie.”  
 — Hon. Bob Rae
 
 Weitere Empfehlungen: [Empfehlungen lesen](/speaking/endorsements/)
 
-## Anfrage
+## Buchung
 
-Um Passung, Verfügbarkeit und Formate zu besprechen, schreiben Sie an: [speaking@jessehirsh.com](mailto:speaking@jessehirsh.com?subject=Speaking%20Inquiry)  
+Um Passgenauigkeit, Verfügbarkeit und Formate zu besprechen, senden Sie eine E-Mail an: [speaking@jessehirsh.com](mailto:speaking@jessehirsh.com?subject=Speaking%20Inquiry)  
 Bitte angeben: Datum, Ort (oder virtuell), Teilnehmerzahl, gewünschtes Format und Ihr Thema.

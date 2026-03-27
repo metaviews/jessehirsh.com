@@ -2,38 +2,39 @@
 lang: es
 layout: layouts/page.njk
 title: El Poder de la Construcción de Mundos
-description: La construcción de mundos siempre ha sido un acto político. Lo que ha cambiado es la velocidad, la escala y la accesibilidad de las herramientas — y el grado en que las audiencias han perdido los anclajes compartidos de lo que es real.
-cardDek: Quién construye la realidad, y cómo.
+description: Los medios sintéticos han convertido la construcción de la realidad en un campo abierto. Esta charla examina quién está construyendo mundos con AI, cómo funciona y cómo las organizaciones navegan — o participan — deliberadamente.
+cardDek: ¿Quién construye la realidad, y cómo?
 permalink: /es/topics/world-building/
 tags: esTopics
 order: 7
 cta:
-  label: Reservar esta charla
+  label: Reserva esta charla
   href: "mailto:speaking@jessehirsh.com?subject=World%20Building%20Speaking%20Inquiry"
 ---
+La construcción de mundos siempre ha sido un acto político. Religiones, naciones, corporaciones y movimientos siempre han construido versiones de la realidad que sirven a sus propósitos. Lo que ha cambiado es la velocidad, escala y accesibilidad de las herramientas — y el grado en que las audiencias han perdido anclas compartidas sobre lo que es real.
 
-La construcción de mundos siempre ha sido un acto político. Lo que ha cambiado es la velocidad, la escala y la accesibilidad de las herramientas — y el grado en que las audiencias han perdido los anclajes compartidos de lo que es real.
+Los medios sintéticos — imágenes, audio, video y texto generados por AI — han pasado de ser una curiosidad técnica a un instrumento geopolítico. Pero el cambio más profundo no se trata de lo falso. Se trata de quién tiene la potestad de construir las narrativas, entornos y marcos compartidos a través de los cuales las personas entienden el mundo, toman decisiones y asignan confianza.
 
-Los medios sintéticos — imágenes, audio, video y texto generados por AI — han pasado de ser una curiosidad técnica a un instrumento geopolítico. El cambio más profundo no es sobre los contenidos falsos. Es sobre quién construye las narrativas compartidas a través de las cuales las personas comprenden el mundo.
+Esta charla examina los mecanismos y las implicaciones de la construcción de mundos habilitada por AI: quién la está realizando, cómo funciona, para qué sirve, y cómo líderes, instituciones y comunidades pueden navegarla — o participar en ella deliberadamente.
 
-## Para quién es esta charla
+## Público objetivo
 
-Organizaciones de medios, profesionales de la comunicación, agencias gubernamentales, educadores, líderes de marketing y de marca, y responsables de políticas.
+Organizaciones mediáticas, profesionales de comunicaciones, agencias gubernamentales, educadores, líderes de marketing y marca, legisladores, y cualquier institución que opere en un entorno donde el control narrativo es disputado.
 
-## Lo que el público se llevará
+## Puntos clave para la audiencia
 
-- Cómo funcionan los medios sintéticos generados por AI en este momento
-- La diferencia entre operaciones de desinformación y la construcción cotidiana de mundos
-- Cómo detectar y resistir las narrativas sintéticas
-- Cómo las organizaciones pueden desarrollar una capacidad auténtica de construcción de mundos
-- Cómo será el próximo entorno informativo
+- Cómo funcionan los medios sintéticos generados por AI y qué es realmente posible ahora mismo
+- La diferencia entre operaciones de desinformación y la construcción de mundos cotidiana — y por qué la distinción importa para cómo respondes
+- Cómo detectar, resistir y vacunar a las instituciones contra narrativas sintéticas
+- Cómo las organizaciones pueden construir capacidad auténtica de construcción de mundos sin sacrificar credibilidad
+- Cómo se verá la próxima generación de entorno de información y cómo posicionarse ahora
 
-## Títulos sugeridos
+## Títulos de ejemplo
 
-- **El poder de la construcción de mundos**
-- **¿Quién construye el mundo? AI, narrativa y realidad compartida**
-- **Realidad sintética: Navegando el entorno informativo construido por AI**
+- **El Poder de la Construcción de Mundos**
+- **¿Quién Construye el Mundo? AI, Narrativa y Realidad Compartida**
+- **Realidad Sintética: Navegando el Entorno de Información Construido por AI**
 
 ## Formatos recomendados
 
-Conferencia magistral; panel de debate sobre medios; taller sobre alfabetización mediática y comunicación estratégica.
+Charla magistral; mesa redonda sobre medios e información; taller sobre alfabetización mediática y comunicaciones estratégicas.

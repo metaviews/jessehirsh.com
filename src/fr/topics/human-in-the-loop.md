@@ -2,8 +2,8 @@
 lang: fr
 layout: layouts/page.njk
 title: L'humain dans la boucle
-description: Alors que l'AI prend en charge des tâches de plus en plus déterminantes, quelles décisions doivent rester humaines ? Un cadre pratique pour l'autorité décisionnelle, la surveillance et la responsabilité.
-cardDek: Décider quelles décisions conserver.
+description: Alors que l'AI prend en charge des travaux plus conséquents, quelles décisions doivent rester humaines ? Un cadre pratique pour l'autorité décisionnelle, la supervision et la responsabilité.
+cardDek: Décider quelles décisions garder.
 permalink: /fr/topics/human-in-the-loop/
 tags: frTopics
 order: 5
@@ -11,28 +11,31 @@ cta:
   label: Réserver cette conférence
   href: "mailto:speaking@jessehirsh.com?subject=Human%20in%20the%20Loop%20Speaking%20Inquiry"
 ---
-Alors que les systèmes AI prennent en charge des tâches de plus en plus déterminantes — embauche, crédit, diagnostic, allocation de ressources, application des règles — la question du jugement humain devient plus urgente, pas moins. Pourtant, la plupart des organisations ne disposent pas d'un cadre clair pour déterminer quelles décisions déléguer à l'AI et lesquelles doivent rester entre les mains des humains. L'écart entre ce que l'AI peut faire et ce que les institutions savent gouverner s'élargit rapidement.
 
-Cette conférence offre aux leaders un cadre pratique pour cartographier l'autorité décisionnelle, concevoir une surveillance réelle et mettre en place des structures de responsabilité qui tiennent même lorsque les systèmes opèrent plus vite que la révision humaine.
+</think>
 
-## À qui s'adresse ce discours
+Alors que les systèmes AI assument des tâches plus déterminantes — recrutement, octroi de prêts, diagnostic, allocation des ressources, application de la loi — la question du jugement humain devient plus urgente, et non moins. Mais la plupart des organisations ne disposent pas d'un cadre clair pour déterminer quelles décisions doivent être déléguées à l'AI et lesquelles doivent rester entre les mains des humains. L'écart entre ce que l'AI peut faire et ce que les institutions savent gouverner s'élargit rapidement.
 
-Dirigeants, conseils d'administration, équipes juridiques et de conformité, responsables technologiques et DRH — en particulier dans les secteurs réglementés ou les institutions publiques où les décisions assistées par AI ont de véritables conséquences pour de vraies personnes.
+Cette intervention offre aux dirigeants un cadre pratique pour cartographier l'autorité décisionnelle, concevoir une supervision significative et bâtir des structures de responsabilité qui demeurent solides, même lorsque les systèmes opèrent plus vite que l'examen humain.
 
-## Ce que l'audience retiendra
+## À qui s'adresse cette intervention
 
-- Comment catégoriser les décisions selon leur impact, leur réversibilité et le jugement requis — avant de les déléguer
-- À quoi ressemble réellement une « surveillance significative » en pratique, et ce qui passe pour de la surveillance sans en être
+Dirigeants, conseils d'administration, équipes juridiques et de conformité, responsables technologiques et RH — particulièrement dans les industries réglementées ou les institutions publiques où les décisions assistées par AI ont des conséquences réelles pour des personnes réelles.
+
+## Ce que les participants retiendront
+
+- Comment catégoriser les décisions selon la conséquence, la réversibilité et le jugement requis — avant de les déléguer
+- À quoi ressemble vraiment une « supervision significative » en pratique, et ce qui passe pour de la supervision sans l'être
 - Comment concevoir des structures de responsabilité pour les décisions assistées par AI avant qu'un problème ne survienne
-- Le paysage réglementaire et juridique qui se dessine autour de la prise de décision automatisée — et comment l'anticiper
-- Comment communiquer la prise de décision par AI aux parties prenantes de façon à renforcer la confiance plutôt qu'à l'éroder
+- Le paysage réglementaire et juridique qui se forme autour de la prise de décision automatisée — et comment rester en avance
+- Comment communiquer la prise de décision AI aux parties prenantes de manière à renforcer plutôt qu'à éroder la confiance
 
-## Titres suggérés
+## Titres d'exemple
 
 - **L'humain dans la boucle**
 - **Qui décide ? Le jugement humain à l'ère de l'AI**
-- **Surveillance réelle : gouverner les décisions AI**
+- **Supervision significative : Gouverner les décisions AI**
 
 ## Formats recommandés
 
-Conférence principale ; briefing exécutif ; atelier sur la gouvernance et la responsabilité de l'AI ; discussion informelle avec questions-réponses.
+Conférence principale ; briefing exécutif ; atelier sur la gouvernance et la responsabilité de l'AI ; conversation informelle avec séance de questions-réponses.

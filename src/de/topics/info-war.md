@@ -1,9 +1,9 @@
 ---
 lang: de
 layout: layouts/page.njk
-title: Informationskrieg für alle
-description: Informationskriegsführung ist nicht mehr auf Nachrichtendienste beschränkt. Ein praktischer Leitfaden für Führungskräfte und Organisationen, die in umkämpften Informationsumgebungen agieren.
-cardDek: Ein Feldhandbuch zur Informationskriegsführung für Nicht-Spezialisten.
+title: Informationskrieg für den Rest von uns
+description: Informationskrieg ist nicht länger auf Geheimdienste beschränkt. Ein praktischer Leitfaden für Führungskräfte und Organisationen, die in umkämpften Informationsumgebungen operieren.
+cardDek: Ein Leitfaden zum Informationskrieg für Nicht-Spezialisten.
 permalink: /de/topics/info-war/
 tags: deTopics
 order: 9
@@ -11,31 +11,30 @@ cta:
   label: Diesen Vortrag buchen
   href: "mailto:speaking@jessehirsh.com?subject=Info%20War%20Speaking%20Inquiry"
 ---
+Informationskriegführung ist nicht länger das alleinige Domänengebiet von Nachrichtendiensten und Militärplanern. Die Techniken — Narrativ-Manipulation, Identitäts-Spoofing, koordiniertes inauthentisches Verhalten, strategische Verstärkung von Spaltung — werden nun gegen Unternehmen, zivilgesellschaftliche Organisationen, Gemeinschaften und demokratische Institutionen auf jeder Ebene eingesetzt.
 
-Informationskriegsführung ist nicht mehr die exklusive Domäne von Nachrichtendiensten und Militärplanern. Die Techniken — Narrativmanipulation, Identitätsvortäuschung, koordiniertes unechtes Verhalten, strategische Verstärkung von Spaltung — werden jetzt gegen Unternehmen, zivilgesellschaftliche Organisationen, Gemeinschaften und demokratische Institutionen auf jeder Ebene eingesetzt.
+Die meisten Organisationen verfügen über kein Rahmenwerk zum Verständnis von Informationsoperationen, geschweige denn zur Verteidigung dagegen. Sie halten Einflusskampagnen für organische Kontroversen. Sie verstärken Angriffe, indem sie darauf reagieren. Sie verfügen über keine Leitlinie, wann sie eingreifen sollen und wann sie ein Narrativ ausklingen lassen sollen.
 
-Die meisten Organisationen haben kein Rahmenwerk für das Verständnis von Informationsoperationen, geschweige denn für die Verteidigung dagegen. Sie verwechseln Einflusskampagnen mit organischen Kontroversen. Sie verstärken Angriffe, indem sie darauf reagieren. Sie haben keine Doktrin dafür, wann sie sich engagieren sollen und wann ein Narrativ absterben lassen sollen.
+Dieser Vortrag bietet Führungskräften ohne Spezialwissen eine praktische Landkarte, wie Informationskriegführung tatsächlich funktioniert — die Taktiken, die Akteure, die Ziele und die Verteidigungsmaßnahmen. Kein paranoides Briefing. Ein funktionierendes Rahmenwerk für Organisationen, die in umkämpften Informationsumgebungen operieren und bereit sein müssen, bevor sie ins Visier geraten.
 
-Dieser Vortrag gibt Nicht-Spezialisten-Führungskräften eine praktische Karte, wie Informationskriegsführung tatsächlich funktioniert — die Taktiken, die Akteure, die Ziele und die Abwehrmechanismen. Kein paranoides Briefing. Ein funktionierendes Rahmenwerk für Organisationen, die in umkämpften Informationsumgebungen operieren und bereit sein müssen, bevor sie ins Visier geraten.
+## Für wen dies gedacht ist
 
-## Zielgruppe
-
-Führungskräfte, Kommunikationsverantwortliche, Regierungsbeamte, Verbandsführer, öffentliche Institutionen und jede Organisation, die das Ziel koordinierter Kritik, Desinformation oder Einflussoperationen war — oder es erwartet.
+Führungskräfte, Kommunikationsverantwortliche, Regierungsbeamte, Verbandsführer, öffentliche Einrichtungen und jede Organisation, die Ziel koordinierter Kritik, Desinformation oder Einflussoperationen war — oder damit rechnet, Ziel zu werden.
 
 ## Was Sie mitnehmen
 
-- Wie Informationsoperationen tatsächlich funktionieren — die Mechanismen hinter dem, was wie organische Kontroverse aussieht
-- Wie koordinierte Kampagnen von legitimer Kritik unterschieden werden — und warum die Unterscheidung Ihre Reaktion verändert
-- Was zu tun (und zu lassen) ist, wenn Ihre Organisation ins Visier genommen wird — einschließlich der Fehler, die es verschlimmern
-- Wie organisatorische Resilienz gegen Narrativangriffe aufgebaut werden kann, bevor sie eintreten
-- Die AI-gestützte Informationskriegslandschaft, die sich jetzt herausbildet — und was Führungskräfte beobachten müssen
+- Wie Informationsoperationen tatsächlich funktionieren — die Mechanik hinter dem, was wie organische Kontroverse aussieht
+- Wie man koordinierte Kampagnen von legitimer Kritik unterscheidet — und warum diese Unterscheidung Ihre Reaktion verändert
+- Was Sie tun (und nicht tun) sollten, wenn Ihre Organisation ins Visier gerät, einschließlich der Fehler, die es verschlimmern
+- Wie Sie organisatorische Resilienz gegen Narrativ-Angriffe aufbauen, bevor sie geschehen
+- Die sich jetzt abzeichnende Landschaft der AI-gestützten Informationskriegführung und worauf Führungskräfte achten müssen
 
-## Mögliche Titel
+## Beispiel-Titel
 
-- **Informationskrieg für alle**
-- **Unter Beschuss: Informationskriegsführung für Führungskräfte, die keine Spione sind**
-- **Das Einfluss-Playbook: Was jede Organisation wissen muss**
+- **Informationskrieg für den Rest von uns**
+- **Unter Beschuss: Informationskriegführung für Führungskräfte, die keine Spione sind**
+- **Das Einfluss-Handbuch: Was jede Organisation wissen muss**
 
-## Geeignete Formate
+## Empfohlene Formate
 
-Keynote; Executive Security Briefing; Workshop zur organisatorischen Informationsresilienz; Kamingespräch mit Q&A.
+Keynote; Executive Security Briefing; Workshop zur organisatorischen Informationsresilienz; Fireside-Chat mit Q&A.

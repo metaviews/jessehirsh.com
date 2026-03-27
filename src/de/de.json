@@ -4,7 +4,7 @@
     "skip": "Zum Inhalt springen",
     "nav": {
       "brief": "Über Jesse",
-      "hire": "Jesse beauftragen",
+      "hire": "Jesse engagieren",
       "speaking": "Vorträge",
       "topics": "Themen",
       "media": "Medien",
@@ -15,27 +15,27 @@
     "footer": {
       "booking": "Buchung"
     },
-    "cta": "Jesse zum Reden buchen"
+    "cta": "Jesse zum Sprechen buchen"
   },
   "currentFocus": [
     {
       "title": "Nach den Plattformen",
-      "hook": "Die Medieninfrastruktur, auf die die meisten Institutionen ihren öffentlichen Auftritt aufgebaut haben, zerfällt. X, Facebook und traditionelle Medien verlieren gleichzeitig an Kohärenz, während AI-gestützte Informationssysteme die Kontrolle übernehmen. Dieser Vortrag kartiert, was sie ersetzt — und wie Organisationen eine glaubwürdige, dauerhafte öffentliche Präsenz in der Zukunft aufbauen können.",
+      "hook": "Die Medieninfrastruktur, auf die die meisten Institutionen ihren öffentlichen Auftritt aufgebaut haben, zerfällt. X, Facebook und traditionelle Medien verlieren gleichzeitig an Kohärenz, während AI-vermittelte Informationssysteme die Kontrolle übernehmen. Dieser Vortrag kartiert, was sie ersetzt — und wie Organisationen eine glaubwürdige, dauerhafte öffentliche Präsenz in der Zukunft aufbauen können.",
       "bookingSubject": "After%20the%20Platforms%20Speaking%20Inquiry"
     },
     {
-      "title": "Intelligenz füttern: AI trifft die Landwirtschaft",
-      "hook": "Landwirtschaft ist der Bereich, in dem AI mit der physischen Realität konfrontiert wird — Boden, Wetter, Arbeit, Lieferketten. Der Bauernhof ist der ehrlichste Test dafür, was AI optimieren kann und was nicht. Dieser Vortrag nutzt Ernährungssysteme, um den AI-Hype zu durchdringen und zu zeigen, wie widerstandsfähige, bodenständige Automatisierung tatsächlich aussieht.",
+      "title": "Intelligenz ernähren: AI trifft auf den Bauernhof",
+      "hook": "Landwirtschaft ist der Bereich, in dem AI auf physische Realität trifft — Boden, Wetter, Arbeitskräfte, Lieferketten. Der Bauernhof ist der ehrlichste Test dafür, was AI optimieren kann und was nicht. Dieser Vortrag nutzt Ernährungssysteme, um den AI-Hype zu durchdringen und zu zeigen, wie resiliente, bodenständige Automatisierung tatsächlich aussieht.",
       "bookingSubject": "AI%20Agriculture%20Speaking%20Inquiry"
     },
     {
       "title": "Gedeihen, wenn die Zukunft unsicher ist",
-      "hook": "Die strategischen Rahmenwerke, auf die die meisten Organisationen angewiesen sind, wurden für stabile Bedingungen entwickelt. Sie versagen unter beschleunigtem Wandel. Dieser Vortrag bietet Führungskräften praktische Disziplinen für den Umgang mit echter Unsicherheit — keine Strategien zur Vermeidung, sondern Werkzeuge, um folgenreiche Entscheidungen zu treffen, wenn sich der Boden ständig verschiebt.",
+      "hook": "Die strategischen Rahmenwerke, auf die sich die meisten Organisationen verlassen, wurden für stabile Bedingungen entwickelt. Sie versagen unter beschleunigtem Wandel. Dieser Vortrag bietet Führungskräften praktische Disziplinen, um echte Unsicherheit zu navigieren — keine Strategien, um sie zu vermeiden, sondern Werkzeuge, um folgenreiche Entscheidungen zu treffen, wenn sich der Boden ständig verschiebt.",
       "bookingSubject": "Uncertainty%20Speaking%20Inquiry"
     },
     {
       "title": "Der Mensch in der Schleife",
-      "hook": "Jede Organisation, die KI einsetzt, stellt dieselbe Frage: Welche Entscheidungen behalten wir selbst? Die Lücke zwischen dem, was KI leisten kann, und dem, was Institutionen zu steuern wissen, wächst schnell. Dieser Vortrag gibt Führungskräften einen praktischen Rahmen für die Zuordnung von Entscheidungskompetenz, die Gestaltung sinnvoller Aufsicht und den Aufbau von Rechenschaftsstrukturen — bevor etwas schiefgeht.",
+      "hook": "Jede Organisation, die AI einsetzt, stellt die gleiche Frage: Welche Entscheidungen behalten wir? Die Lücke zwischen dem, was AI tun kann, und dem, was Institutionen wissen, wie sie regeln sollen, weitet sich schnell aus. Dieser Vortrag bietet Führungskräften einen praktischen Rahmen zur Kartierung von Entscheidungsautorität, zum Entwerfen sinnvoller Aufsicht und zum Aufbauen von Verantwortungsstrukturen, bevor etwas schiefgeht.",
       "bookingSubject": "Human%20in%20the%20Loop%20Speaking%20Inquiry"
     }
   ]

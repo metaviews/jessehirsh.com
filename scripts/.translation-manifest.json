@@ -13,8 +13,8 @@
       "translatedAt": "2026-03-08T17:52:54.720Z"
     },
     "index.md": {
-      "hash": "adb71d22a4b023d7",
-      "translatedAt": "2026-03-08T17:54:40.637Z"
+      "hash": "ffb0926816b66b05",
+      "translatedAt": "2026-03-27T04:32:33.992Z"
     },
     "media/index.md": {
       "hash": "009a3d72f90e988c",
@@ -25,8 +25,8 @@
       "translatedAt": "2026-03-08T17:57:23.261Z"
     },
     "speaking/index.md": {
-      "hash": "e35078433f439d7b",
-      "translatedAt": "2026-03-08T17:58:49.958Z"
+      "hash": "54b83a44fecd6798",
+      "translatedAt": "2026-03-27T04:34:12.638Z"
     },
     "talks/index.md": {
       "hash": "639ccfe3138aaa58",
@@ -53,8 +53,44 @@
       "translatedAt": "2026-03-08T18:06:06.324Z"
     },
     "_data/strings+currentFocus": {
-      "hash": "323fa7aa60beae3f",
-      "translatedAt": "2026-03-08T18:07:22.101Z"
+      "hash": "a1ce8e714ba5eaa4",
+      "translatedAt": "2026-03-27T04:45:06.872Z"
+    },
+    "hire/index.md": {
+      "hash": "1482463475bdff15",
+      "translatedAt": "2026-03-27T04:31:10.592Z"
+    },
+    "topics/after-the-platforms.md": {
+      "hash": "ae6fa31c130f7147",
+      "translatedAt": "2026-03-27T04:35:35.167Z"
+    },
+    "topics/feeding-intelligence.md": {
+      "hash": "fabfb52649f40f1e",
+      "translatedAt": "2026-03-27T04:37:01.573Z"
+    },
+    "topics/food-systems.md": {
+      "hash": "0e38793761ba7241",
+      "translatedAt": "2026-03-27T04:38:09.772Z"
+    },
+    "topics/human-in-the-loop.md": {
+      "hash": "06db521d05db6a13",
+      "translatedAt": "2026-03-27T04:40:01.016Z"
+    },
+    "topics/info-war.md": {
+      "hash": "ab4a3addac1b5dfb",
+      "translatedAt": "2026-03-27T04:41:12.492Z"
+    },
+    "topics/thriving-under-uncertainty.md": {
+      "hash": "433d71220f0f1dc3",
+      "translatedAt": "2026-03-27T04:42:28.840Z"
+    },
+    "topics/trust-recession.md": {
+      "hash": "ecc4af8f09ab0ac9",
+      "translatedAt": "2026-03-27T04:42:49.871Z"
+    },
+    "topics/world-building.md": {
+      "hash": "7d8bfccd40b23a37",
+      "translatedAt": "2026-03-27T04:43:45.061Z"
     }
   },
   "fr": {
@@ -71,8 +107,8 @@
       "translatedAt": "2026-03-08T18:33:51.541Z"
     },
     "index.md": {
-      "hash": "adb71d22a4b023d7",
-      "translatedAt": "2026-03-08T18:36:07.667Z"
+      "hash": "ffb0926816b66b05",
+      "translatedAt": "2026-03-27T04:53:19.733Z"
     },
     "media/index.md": {
       "hash": "009a3d72f90e988c",
@@ -83,8 +119,8 @@
       "translatedAt": "2026-03-08T18:39:11.118Z"
     },
     "speaking/index.md": {
-      "hash": "e35078433f439d7b",
-      "translatedAt": "2026-03-08T18:40:42.664Z"
+      "hash": "54b83a44fecd6798",
+      "translatedAt": "2026-03-27T04:55:20.734Z"
     },
     "talks/index.md": {
       "hash": "639ccfe3138aaa58",
@@ -111,8 +147,44 @@
       "translatedAt": "2026-03-08T18:47:10.108Z"
     },
     "_data/strings+currentFocus": {
-      "hash": "323fa7aa60beae3f",
-      "translatedAt": "2026-03-08T18:48:07.925Z"
+      "hash": "a1ce8e714ba5eaa4",
+      "translatedAt": "2026-03-27T05:08:59.701Z"
+    },
+    "hire/index.md": {
+      "hash": "1482463475bdff15",
+      "translatedAt": "2026-03-27T04:51:47.729Z"
+    },
+    "topics/after-the-platforms.md": {
+      "hash": "ae6fa31c130f7147",
+      "translatedAt": "2026-03-27T04:56:30.893Z"
+    },
+    "topics/feeding-intelligence.md": {
+      "hash": "fabfb52649f40f1e",
+      "translatedAt": "2026-03-27T04:58:14.517Z"
+    },
+    "topics/food-systems.md": {
+      "hash": "0e38793761ba7241",
+      "translatedAt": "2026-03-27T05:00:10.160Z"
+    },
+    "topics/human-in-the-loop.md": {
+      "hash": "06db521d05db6a13",
+      "translatedAt": "2026-03-27T05:02:02.157Z"
+    },
+    "topics/info-war.md": {
+      "hash": "ab4a3addac1b5dfb",
+      "translatedAt": "2026-03-27T05:04:00.855Z"
+    },
+    "topics/thriving-under-uncertainty.md": {
+      "hash": "433d71220f0f1dc3",
+      "translatedAt": "2026-03-27T05:05:46.346Z"
+    },
+    "topics/trust-recession.md": {
+      "hash": "ecc4af8f09ab0ac9",
+      "translatedAt": "2026-03-27T05:06:08.029Z"
+    },
+    "topics/world-building.md": {
+      "hash": "7d8bfccd40b23a37",
+      "translatedAt": "2026-03-27T05:07:30.151Z"
     }
   },
   "es": {
@@ -129,8 +201,8 @@
       "translatedAt": "2026-03-08T18:51:18.331Z"
     },
     "index.md": {
-      "hash": "adb71d22a4b023d7",
-      "translatedAt": "2026-03-08T18:51:58.731Z"
+      "hash": "ffb0926816b66b05",
+      "translatedAt": "2026-03-27T05:22:58.952Z"
     },
     "media/index.md": {
       "hash": "009a3d72f90e988c",
@@ -141,8 +213,8 @@
       "translatedAt": "2026-03-08T18:55:40.862Z"
     },
     "speaking/index.md": {
-      "hash": "e35078433f439d7b",
-      "translatedAt": "2026-03-08T18:56:57.529Z"
+      "hash": "54b83a44fecd6798",
+      "translatedAt": "2026-03-27T05:25:20.678Z"
     },
     "talks/index.md": {
       "hash": "639ccfe3138aaa58",
@@ -169,8 +241,44 @@
       "translatedAt": "2026-03-08T19:02:20.186Z"
     },
     "_data/strings+currentFocus": {
-      "hash": "323fa7aa60beae3f",
-      "translatedAt": "2026-03-08T19:03:14.554Z"
+      "hash": "a1ce8e714ba5eaa4",
+      "translatedAt": "2026-03-27T05:38:21.929Z"
+    },
+    "hire/index.md": {
+      "hash": "1482463475bdff15",
+      "translatedAt": "2026-03-27T05:11:10.551Z"
+    },
+    "topics/after-the-platforms.md": {
+      "hash": "ae6fa31c130f7147",
+      "translatedAt": "2026-03-27T05:26:40.005Z"
+    },
+    "topics/feeding-intelligence.md": {
+      "hash": "fabfb52649f40f1e",
+      "translatedAt": "2026-03-27T05:29:24.159Z"
+    },
+    "topics/food-systems.md": {
+      "hash": "0e38793761ba7241",
+      "translatedAt": "2026-03-27T05:30:54.091Z"
+    },
+    "topics/human-in-the-loop.md": {
+      "hash": "06db521d05db6a13",
+      "translatedAt": "2026-03-27T05:32:23.387Z"
+    },
+    "topics/info-war.md": {
+      "hash": "ab4a3addac1b5dfb",
+      "translatedAt": "2026-03-27T05:34:00.929Z"
+    },
+    "topics/thriving-under-uncertainty.md": {
+      "hash": "433d71220f0f1dc3",
+      "translatedAt": "2026-03-27T05:35:14.710Z"
+    },
+    "topics/trust-recession.md": {
+      "hash": "ecc4af8f09ab0ac9",
+      "translatedAt": "2026-03-27T05:35:33.439Z"
+    },
+    "topics/world-building.md": {
+      "hash": "7d8bfccd40b23a37",
+      "translatedAt": "2026-03-27T05:36:58.888Z"
     }
   },
   "de": {
@@ -187,8 +295,8 @@
       "translatedAt": "2026-03-08T19:56:40.980Z"
     },
     "index.md": {
-      "hash": "adb71d22a4b023d7",
-      "translatedAt": "2026-03-08T20:10:10.145Z"
+      "hash": "ffb0926816b66b05",
+      "translatedAt": "2026-03-26T22:37:14.574Z"
     },
     "media/index.md": {
       "hash": "009a3d72f90e988c",
@@ -199,8 +307,8 @@
       "translatedAt": "2026-03-08T20:13:09.518Z"
     },
     "speaking/index.md": {
-      "hash": "e35078433f439d7b",
-      "translatedAt": "2026-03-08T20:22:03.150Z"
+      "hash": "54b83a44fecd6798",
+      "translatedAt": "2026-03-26T22:38:41.751Z"
     },
     "talks/index.md": {
       "hash": "639ccfe3138aaa58",
@@ -227,8 +335,44 @@
       "translatedAt": "2026-03-08T20:37:20.894Z"
     },
     "_data/strings+currentFocus": {
-      "hash": "323fa7aa60beae3f",
-      "translatedAt": "2026-03-08T20:38:31.237Z"
+      "hash": "a1ce8e714ba5eaa4",
+      "translatedAt": "2026-03-26T22:53:02.090Z"
+    },
+    "hire/index.md": {
+      "hash": "1482463475bdff15",
+      "translatedAt": "2026-03-26T22:35:56.753Z"
+    },
+    "topics/after-the-platforms.md": {
+      "hash": "ae6fa31c130f7147",
+      "translatedAt": "2026-03-26T22:41:17.915Z"
+    },
+    "topics/feeding-intelligence.md": {
+      "hash": "fabfb52649f40f1e",
+      "translatedAt": "2026-03-26T22:43:38.335Z"
+    },
+    "topics/food-systems.md": {
+      "hash": "0e38793761ba7241",
+      "translatedAt": "2026-03-26T22:45:09.080Z"
+    },
+    "topics/human-in-the-loop.md": {
+      "hash": "06db521d05db6a13",
+      "translatedAt": "2026-03-26T22:46:54.504Z"
+    },
+    "topics/info-war.md": {
+      "hash": "ab4a3addac1b5dfb",
+      "translatedAt": "2026-03-26T22:48:34.395Z"
+    },
+    "topics/thriving-under-uncertainty.md": {
+      "hash": "433d71220f0f1dc3",
+      "translatedAt": "2026-03-26T22:49:48.181Z"
+    },
+    "topics/trust-recession.md": {
+      "hash": "ecc4af8f09ab0ac9",
+      "translatedAt": "2026-03-26T22:50:09.230Z"
+    },
+    "topics/world-building.md": {
+      "hash": "7d8bfccd40b23a37",
+      "translatedAt": "2026-03-26T22:51:34.239Z"
     }
   }
 }
