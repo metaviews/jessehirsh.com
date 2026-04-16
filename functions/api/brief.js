@@ -55,7 +55,7 @@ export async function onRequestPost(context) {
         'X-Title': 'Jesse Hirsh Briefing Generator'
       },
       body: JSON.stringify({
-        model: 'qwen/qwen3-235b-a22b-2507',
+        model: 'qwen/qwen3.5-flash-02-23',
         messages: [
           { role: 'system', content: SYSTEM_PROMPT },
           { role: 'user', content: description }
