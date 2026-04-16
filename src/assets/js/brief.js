@@ -151,9 +151,10 @@
   // Extract title, premise, opening from the generated text for saving.
   function parseForSave(text) {
     const sections = splitSections(text);
+    const talkSection = sections['the talk'] || '';
     return {
-      title: extractTitle(sections['the talk'] || ''),
-      premise: extractPremise(sections['the talk'] || ''),
+      title: extractTitle(talkSection),
+      premise: extractPremise(talkSection),
       opening: (sections['the opening'] || '').trim().slice(0, 800)
     };
   }
@@ -163,15 +164,11 @@
     let current = null;
     const HEADERS = ['the talk', 'the opening', 'what the room leaves with', 'reach out'];
     for (const line of text.split('\n')) {
-      const normalized = line
-        .replace(/\*\*/g, '')
-        .replace(/^#{1,4}\s*/, '')
-        .replace(/[:\s]+$/, '')
-        .trim()
-        .toLowerCase();
-      if (HEADERS.includes(normalized)) {
-        current = normalized;
+      const section = readSectionHeader(line, HEADERS);
+      if (section) {
+        current = section.name;
         result[current] = '';
+        if (section.inline) result[current] += section.inline + '\n';
       } else if (current) {
         result[current] += line + '\n';
       }
@@ -179,14 +176,71 @@
     return result;
   }
 
+  function readSectionHeader(line, headers) {
+    let cleaned = line
+      .trim()
+      .replace(/^#{1,6}\s*/, '')
+      .replace(/^[-*]\s+/, '')
+      .replace(/^\d+[.)]\s+/, '')
+      .replace(/\*\*/g, '')
+      .replace(/__/g, '')
+      .replace(/`/g, '')
+      .trim();
+
+    for (const header of headers) {
+      const escaped = header.replace(/\s+/g, '\\s+');
+      const match = cleaned.match(new RegExp('^' + escaped + '\\s*(?:[:\\-–—]\\s*(.*))?$', 'i'));
+      if (match) {
+        return {
+          name: header,
+          inline: cleanMarkdown(match[1] || '')
+        };
+      }
+    }
+    return null;
+  }
+
   function extractTitle(talkSection) {
-    const lines = talkSection.split('\n').map(l => l.replace(/\*\*/g, '').trim()).filter(Boolean);
-    return (lines[0] || '').slice(0, 200);
+    const lines = cleanLines(talkSection);
+    if (!lines.length) return '';
+    const titleMatch = lines[0].match(/^(?:title|talk title)\s*[:\-–—]\s*(.+)$/i);
+    return cleanTitle(titleMatch ? titleMatch[1] : lines[0]).slice(0, 200);
   }
 
   function extractPremise(talkSection) {
-    const lines = talkSection.split('\n').map(l => l.replace(/\*\*/g, '').trim()).filter(Boolean);
-    return lines.slice(1).join(' ').slice(0, 800);
+    const lines = cleanLines(talkSection);
+    if (!lines.length) return '';
+    const titleMatch = lines[0].match(/^(?:title|talk title)\s*[:\-–—]\s*(.+)$/i);
+    const premiseLines = titleMatch ? lines.slice(1) : lines.slice(1);
+    const premise = premiseLines
+      .join(' ')
+      .replace(/^(?:premise|description)\s*[:\-–—]\s*/i, '')
+      .trim();
+    return premise.slice(0, 800);
+  }
+
+  function cleanLines(text) {
+    return text
+      .split('\n')
+      .map(cleanMarkdown)
+      .filter(Boolean);
+  }
+
+  function cleanMarkdown(line) {
+    return String(line || '')
+      .replace(/^#{1,6}\s*/, '')
+      .replace(/^[-*]\s+/, '')
+      .replace(/^\d+[.)]\s+/, '')
+      .replace(/\*\*/g, '')
+      .replace(/__/g, '')
+      .replace(/`/g, '')
+      .trim();
+  }
+
+  function cleanTitle(title) {
+    return cleanMarkdown(title)
+      .replace(/^["“”'‘’]+|["“”'‘’]+$/g, '')
+      .trim();
   }
 
   // Render plain-text markdown into basic HTML without a library.
