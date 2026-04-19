@@ -6,12 +6,14 @@
       {% for link in site.social %}<a href="{{ link.url }}">{{ link.label }}</a>{% if not loop.last %} &middot; {% endif %}{% endfor %}
     </p>
     {% set _base = page.url | replace('/zh/', '/') | replace('/fr/', '/') | replace('/es/', '/') | replace('/de/', '/') %}
-    <p class="lang-switcher">
-      <a href="{{ _base }}"{% if not lang %} aria-current="true"{% endif %}>EN</a> &middot;
-      <a href="/zh{{ _base }}"{% if lang == 'zh-CN' %} aria-current="true"{% endif %}>中文</a> &middot;
-      <a href="/fr{{ _base }}"{% if lang == 'fr' %} aria-current="true"{% endif %}>FR</a> &middot;
-      <a href="/es{{ _base }}"{% if lang == 'es' %} aria-current="true"{% endif %}>ES</a> &middot;
-      <a href="/de{{ _base }}"{% if lang == 'de' %} aria-current="true"{% endif %}>DE</a>
-    </p>
+    {% if not noHreflang %}
+      <p class="lang-switcher">
+        <a href="{{ _base }}"{% if not lang %} aria-current="true"{% endif %}>EN</a> &middot;
+        <a href="/zh{{ _base }}"{% if lang == 'zh-CN' %} aria-current="true"{% endif %}>中文</a> &middot;
+        <a href="/fr{{ _base }}"{% if lang == 'fr' %} aria-current="true"{% endif %}>FR</a> &middot;
+        <a href="/es{{ _base }}"{% if lang == 'es' %} aria-current="true"{% endif %}>ES</a> &middot;
+        <a href="/de{{ _base }}"{% if lang == 'de' %} aria-current="true"{% endif %}>DE</a>
+      </p>
+    {% endif %}
   </div>
 </footer>

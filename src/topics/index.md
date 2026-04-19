@@ -2,7 +2,7 @@
 layout: layouts/page.njk
 title: Topics
 dek: Outcome-driven sessions built for leaders making high-stakes decisions.
-description: Speaking topics offered by Jesse Hirsh — current and core.
+description: Speaking topics from Jesse Hirsh on AI governance, media disruption, disinformation, authority, food systems, uncertainty, and systems change.
 permalink: /topics/
 ---
 

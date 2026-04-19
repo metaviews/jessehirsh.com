@@ -2,7 +2,7 @@
 layout: layouts/page.njk
 title: Contact
 dek: Book Jesse for keynotes, briefings, workshops, and media conversations.
-description: Direct speaking booking contact for Jesse Hirsh.
+description: Contact Jesse Hirsh for keynotes, executive briefings, workshops, facilitation, media interviews, and strategic advisory work.
 permalink: /contact/
 ---
 

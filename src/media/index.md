@@ -2,7 +2,7 @@
 layout: layouts/page.njk
 title: Media
 dek: Briefings and commentary for producers covering AI, governance, media power, and systems risk.
-description: Media background and inquiry page for Jesse Hirsh.
+description: Media inquiry page for Jesse Hirsh, with expert commentary on AI, governance, media power, disinformation, agriculture, and systems risk.
 permalink: /media/
 heroImage: /assets/img/HowtoBuyaTV_JesseHirsh.jpg
 heroAlt: Jesse Hirsh standing with two television hosts in a studio.

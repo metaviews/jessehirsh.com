@@ -27,7 +27,7 @@ const LANG_CONFIGS = {
 };
 
 // Files to skip (relative to src/)
-const SKIP_FILES = new Set(['brief/index.md', '404.md']);
+const SKIP_FILES = new Set(['404.md']);
 
 // Front matter fields whose values should be translated
 const TRANSLATE_FM_FIELDS = ['title', 'description', 'dek', 'cardDek'];

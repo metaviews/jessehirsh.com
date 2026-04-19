@@ -5,10 +5,15 @@
   "primaryCtaLabel": "Book Jesse to speak",
   "primaryCtaHref": "mailto:speaking@jessehirsh.com?subject=Speaking%20Inquiry",
   "url": "https://jessehirsh.com",
-  "defaultOgImage": "/assets/img/PXL_20230904_124710967.jpg",
-  "defaultOgImageWidth": 3648,
-  "defaultOgImageHeight": 2736,
+  "defaultOgImage": "/assets/img/jesse-hirsh-og.jpg",
+  "defaultOgImageWidth": 1200,
+  "defaultOgImageHeight": 630,
   "defaultOgImageAlt": "Jesse Hirsh speaking on stage in front of a projected city skyline.",
+  "sameAs": [
+    "https://www.linkedin.com/in/jessehirsh/",
+    "https://news.metaviews.ca/episodes/",
+    "https://www.imdb.com/name/nm5513595/"
+  ],
   "social": [
     {
       "label": "LinkedIn",

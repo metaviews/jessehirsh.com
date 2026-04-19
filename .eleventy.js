@@ -5,6 +5,18 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setDataDeepMerge(false);
 
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addFilter("json", function(value) {
+    return JSON.stringify(value);
+  });
+
+  eleventyConfig.addCollection("sitemap", function(collectionApi) {
+    return collectionApi.getAll().filter((item) => {
+      return item.outputPath &&
+        item.outputPath.endsWith(".html") &&
+        !item.data.noindex &&
+        item.url !== "/404.html";
+    });
+  });
 
   eleventyConfig.addCollection("topics", function(collectionApi) {
     return collectionApi.getFilteredByTag("topics").sort((a, b) => {

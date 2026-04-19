@@ -1,0 +1,43 @@
+{% set galleryHref = briefGalleryHref or '/talks/' %}
+{% set copy = briefCopy %}
+<div class="brief-wrap">
+  <form id="brief-form" class="brief-form" novalidate>
+    <label for="brief-description">{{ copy.label }}</label>
+    <br>
+    <textarea
+      id="brief-description"
+      name="description"
+      rows="6"
+      maxlength="1000"
+      placeholder="{{ copy.placeholder }}"
+      required
+    ></textarea>
+    <br>
+    <div class="brief-form-footer">
+      <span id="brief-charcount" class="brief-charcount">0 / 1000</span>
+      <button type="submit" id="brief-submit">{{ copy.submit }}</button>
+    </div>
+  </form>
+
+  <div id="brief-loading" class="brief-loading" hidden>
+    <p id="brief-loading-msg" class="brief-loading-msg"></p>
+  </div>
+
+  <div id="brief-result" class="brief-result" hidden>
+    <div id="brief-output"></div>
+    <div class="brief-save-prompt">
+      <button id="brief-save-btn" class="brief-save-btn">{{ copy.save }}</button>
+      <p class="brief-save-note">{{ copy.saveNote }}</p>
+    </div>
+    <div id="brief-save-status" class="brief-save-status" hidden></div>
+    <div class="brief-actions">
+      <button id="brief-reset" class="brief-reset">{{ copy.reset }}</button>
+      <a href="{{ galleryHref }}" class="brief-reset">{{ copy.gallery }}</a>
+    </div>
+  </div>
+
+  <div id="brief-error" class="brief-error" hidden></div>
+</div>
+
+<script id="brief-copy" type="application/json">{{ copy | json | safe }}</script>
+<script src="/assets/js/brief.js"></script>

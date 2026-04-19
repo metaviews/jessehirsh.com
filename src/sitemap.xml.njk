@@ -1,0 +1,20 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{% for item in collections.sitemap %}
+  {% set _base = item.url | replace('/zh/', '/') | replace('/fr/', '/') | replace('/es/', '/') | replace('/de/', '/') %}
+  <url>
+    <loc>{{ site.url }}{{ item.url }}</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ _base }}" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="{{ site.url }}/zh{{ _base }}" />
+    <xhtml:link rel="alternate" hreflang="fr" href="{{ site.url }}/fr{{ _base }}" />
+    <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}/es{{ _base }}" />
+    <xhtml:link rel="alternate" hreflang="de" href="{{ site.url }}/de{{ _base }}" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ _base }}" />
+  </url>
+{% endfor %}
+</urlset>

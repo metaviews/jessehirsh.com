@@ -11,23 +11,20 @@
   const charcount = document.getElementById('brief-charcount');
   const saveBtn = document.getElementById('brief-save-btn');
   const saveStatus = document.getElementById('brief-save-status');
+  const copyEl = document.getElementById('brief-copy');
 
   if (!form) return;
 
-  const LOADING_SEQUENCE = [
-    'The goats are reading your brief…',
-    'The horses are considering the implications…',
-    'The dogs have convened an emergency strategy session…',
-    'The chickens have a strong opinion about your sector…',
-    'The geese are arguing about the framing…',
-    'The goats have overruled the geese…',
-    'The horses are drafting the opening line…',
-    'The dogs are fact-checking the assumptions…',
-    'The chickens insist on one more revision…',
-    'The farm has reached a consensus…',
-    'Synthesizing across three fields and five disciplines…',
-    'Almost there — final review in progress…',
-  ];
+  const copy = Object.assign({
+    parseError: 'Could not parse the talk for saving. Try generating a new one.',
+    saving: 'Saving…',
+    saved: 'Added to the gallery.',
+    savedLink: 'See all generated talks →',
+    saveFailed: 'Could not save. Try again later.',
+    requestFailed: 'Something went wrong. Please try again.',
+    networkError: 'Could not reach the server. Please check your connection and try again.',
+    loading: ['The goats are reading your brief…']
+  }, readCopy(copyEl));
 
   let loadingInterval = null;
   let loadingIndex = 0;
@@ -63,7 +60,7 @@
       stopLoading();
 
       if (!res.ok || data.error) {
-        setError(data.error || 'Something went wrong. Please try again.');
+        setError(data.error || copy.requestFailed);
         return;
       }
 
@@ -75,7 +72,7 @@
       if (saveStatus) { hide(saveStatus); saveStatus.innerHTML = ''; }
     } catch {
       stopLoading();
-      setError('Could not reach the server. Please check your connection and try again.');
+      setError(copy.networkError);
     }
   });
 
@@ -83,12 +80,12 @@
     saveBtn.addEventListener('click', async function () {
       if (!lastParsed) return;
       if (!lastParsed.title) {
-        saveStatus.textContent = 'Could not parse the talk for saving. Try generating a new one.';
+        saveStatus.textContent = copy.parseError;
         show(saveStatus);
         return;
       }
       saveBtn.disabled = true;
-      saveStatus.textContent = 'Saving…';
+      saveStatus.textContent = copy.saving;
       show(saveStatus);
 
       try {
@@ -100,13 +97,13 @@
         const data = await res.json();
         if (res.ok && data.ok) {
           saveStatus.innerHTML =
-            'Added to the gallery. <a href="/talks/" class="brief-gallery-link">See all generated talks →</a>';
+            escHtml(copy.saved) + ' <a href="' + galleryHref() + '" class="brief-gallery-link">' + escHtml(copy.savedLink) + '</a>';
         } else {
-          saveStatus.textContent = 'Could not save. Try again later.';
+          saveStatus.textContent = copy.saveFailed;
           saveBtn.disabled = false;
         }
       } catch {
-        saveStatus.textContent = 'Could not save. Try again later.';
+        saveStatus.textContent = copy.saveFailed;
         saveBtn.disabled = false;
       }
     });
@@ -126,10 +123,10 @@
     hide(form);
     show(loading);
     loadingIndex = 0;
-    loadingMsg.textContent = LOADING_SEQUENCE[0];
+    loadingMsg.textContent = copy.loading[0];
     loadingInterval = setInterval(function () {
-      loadingIndex = (loadingIndex + 1) % LOADING_SEQUENCE.length;
-      loadingMsg.textContent = LOADING_SEQUENCE[loadingIndex];
+      loadingIndex = (loadingIndex + 1) % copy.loading.length;
+      loadingMsg.textContent = copy.loading[loadingIndex];
     }, 2200);
   }
 
@@ -147,6 +144,22 @@
 
   function show(el) { if (el) { el.removeAttribute('hidden'); el.style.display = ''; } }
   function hide(el) { if (el) el.style.display = 'none'; }
+
+  function readCopy(el) {
+    if (!el) return {};
+    try {
+      const parsed = JSON.parse(el.textContent || '{}');
+      if (!Array.isArray(parsed.loading) || !parsed.loading.length) delete parsed.loading;
+      return parsed;
+    } catch {
+      return {};
+    }
+  }
+
+  function galleryHref() {
+    const galleryLink = document.querySelector('.brief-actions a');
+    return galleryLink ? galleryLink.getAttribute('href') : '/talks/';
+  }
 
   // Extract title, premise, opening from the generated text for saving.
   function parseForSave(text) {

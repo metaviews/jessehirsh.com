@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title or site.siteName }}</title>
   <meta name="description" content="{{ description or site.tagline }}">
+  <meta name="robots" content="{% if noindex %}noindex,follow{% else %}index,follow{% endif %}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
   {% set _ogImage = site.url + (heroImage or site.defaultOgImage) %}
   {% set _ogImageAlt = heroAlt or site.defaultOgImageAlt %}
@@ -41,6 +43,7 @@
   <meta name="twitter:image:alt" content="{{ _ogImageAlt }}">
 
   <!-- Hreflang -->
+  {% if not noindex and not noHreflang %}
   {% set _base = page.url | replace('/zh/', '/') | replace('/fr/', '/') | replace('/es/', '/') | replace('/de/', '/') %}
   <link rel="alternate" hreflang="en"    href="{{ site.url }}{{ _base }}">
   <link rel="alternate" hreflang="zh-CN" href="{{ site.url }}/zh{{ _base }}">
@@ -48,9 +51,67 @@
   <link rel="alternate" hreflang="es"    href="{{ site.url }}/es{{ _base }}">
   <link rel="alternate" hreflang="de"    href="{{ site.url }}/de{{ _base }}">
   <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ _base }}">
+  {% endif %}
 
   <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/css/site.css">
+
+  {% set _schemaType = schemaType or 'WebPage' %}
+  {% if '/topics/' in page.url and page.url != '/topics/' and page.url != '/zh/topics/' and page.url != '/fr/topics/' and page.url != '/es/topics/' and page.url != '/de/topics/' %}
+    {% set _schemaType = schemaType or 'Article' %}
+  {% elif page.url == '/brief/' or page.url == '/zh/brief/' or page.url == '/fr/brief/' or page.url == '/es/brief/' or page.url == '/de/brief/' %}
+    {% set _schemaType = schemaType or 'WebApplication' %}
+  {% elif page.url == '/hire/' or page.url == '/zh/hire/' or page.url == '/fr/hire/' or page.url == '/es/hire/' or page.url == '/de/hire/' or page.url == '/speaking/' or page.url == '/zh/speaking/' or page.url == '/fr/speaking/' or page.url == '/es/speaking/' or page.url == '/de/speaking/' %}
+    {% set _schemaType = schemaType or 'Service' %}
+  {% endif %}
+  {% if not noindex %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "name": {{ site.siteName | json | safe }},
+        "url": {{ site.url | json | safe }},
+        "description": {{ site.tagline | json | safe }},
+        "inLanguage": {{ (lang or 'en') | json | safe }},
+        "publisher": { "@id": "{{ site.url }}/#person" }
+      },
+      {
+        "@type": "Person",
+        "@id": "{{ site.url }}/#person",
+        "name": "Jesse Hirsh",
+        "url": {{ site.url | json | safe }},
+        "jobTitle": "Researcher, speaker, and strategist",
+        "description": {{ site.tagline | json | safe }},
+        "email": {{ site.bookingEmail | json | safe }},
+        "sameAs": {{ site.sameAs | json | safe }}
+      },
+      {
+        "@type": {{ _schemaType | json | safe }},
+        "@id": "{{ site.url }}{{ page.url }}#webpage",
+        "url": "{{ site.url }}{{ page.url }}",
+        "name": {{ (title or site.siteName) | json | safe }},
+        "description": {{ (description or site.tagline) | json | safe }},
+        "inLanguage": {{ (lang or 'en') | json | safe }},
+        "isPartOf": { "@id": "{{ site.url }}/#website" },
+        "author": { "@id": "{{ site.url }}/#person" },
+        "image": {{ _ogImage | json | safe }}
+        {% if _schemaType == 'Service' %},
+        "provider": { "@id": "{{ site.url }}/#person" },
+        "areaServed": "Worldwide",
+        "serviceType": {{ (title or 'Speaking and strategic advisory') | json | safe }}
+        {% elif _schemaType == 'WebApplication' %},
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CAD" }
+        {% endif %}
+      }
+    ]
+  }
+  </script>
+  {% endif %}
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4VNVBBE8VK"></script>
