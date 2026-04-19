@@ -3,12 +3,12 @@ lang: zh-CN
 layout: layouts/page.njk
 title: 关于
 dek: Jesse Hirsh 是一位未来主义农民、演讲者和战略家，专注于农业、AI、权威、媒体系统和机构决策。
-description: Jesse Hirsh 的简短传记和工作视角。
+description: Jesse Hirsh 的传记：加拿大研究者、演讲者、媒体主持人、未来主义农民和战略家。
 permalink: /zh/about/
 heroImage: /assets/img/jesseherd.png
 heroAlt: Jesse Hirsh standing on his farm surrounded by goats, dogs, and chickens, with horses in the background.
 ---
-Jesse Hirsh 为应对技术、政治和制度变革的领导者提供主题演讲、战略简报和主持对话。他的工作重点在于帮助决策者将复杂性转化为务实、可问责的行动。
+Jesse Hirsh 为应对技术、政治和制度变革的领导者提供主题演讲、战略简报、媒体评论、主持式对话和论坛主持。他的工作重点在于帮助决策者将复杂性转化为务实、可问责的行动。
 
 他的农场实践是一种系统视角：一种观察反馈循环、资源限制和长期 stewardship 的现实世界纪律。这种视角也影响着他处理政策、治理和组织战略的方式。
 

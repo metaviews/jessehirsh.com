@@ -3,12 +3,12 @@ lang: de
 layout: layouts/page.njk
 title: Über
 dek: Jesse Hirsh ist ein futuristischer Landwirt, Redner und Strategist, der sich auf Landwirtschaft, AI, Autorität, Mediensysteme und institutionelle Entscheidungsfindung konzentriert.
-description: Kurze Biografie und Arbeitsfokus für Jesse Hirsh.
+description: Biografie von Jesse Hirsh, kanadischer Forscher, Redner, Medienhost, futuristischer Landwirt und Stratege.
 permalink: /de/about/
 heroImage: /assets/img/jesseherd.png
 heroAlt: Jesse Hirsh standing on his farm surrounded by goats, dogs, and chickens, with horses in the background.
 ---
-Jesse Hirsh hält Keynotes, strategische Briefings und moderierte Gespräche für Führungskräfte, die technologischen, politischen und institutionellen Wandel bewältigen. Seine Arbeit konzentriert sich darauf, Entscheidungsträgern zu helfen, Komplexität in praktisches, verantwortungsvolles Handeln zu übersetzen.
+Jesse Hirsh hält Keynotes, strategische Briefings, Medienkommentare, gehostete Gespräche und moderierte Sessions für Führungskräfte, die technologischen, politischen und institutionellen Wandel bewältigen. Seine Arbeit konzentriert sich darauf, Entscheidungsträgern zu helfen, Komplexität in praktisches, verantwortungsvolles Handeln zu übersetzen.
 
 Seine landwirtschaftliche Praxis bildet eine Systemperspektive: eine handfeste Disziplin zur Beobachtung von Feedback-Schleifen, Ressourcenbeschränkungen und langfristiger Verantwortung. Diese Perspektive bestimmt, wie er Politik, Governance und Organisationsstrategie angeht.
 

@@ -3,12 +3,12 @@ lang: es
 layout: layouts/page.njk
 title: Acerca de
 dek: Jesse Hirsh es un agricultor futurista, conferencista y estratega enfocado en agricultura, AI, autoridad, sistemas mediáticos y toma de decisiones institucionales.
-description: Breve biografía y lente de trabajo para Jesse Hirsh.
+description: Biografía de Jesse Hirsh, investigador, conferencista, anfitrión de medios, agricultor futurista y estratega canadiense.
 permalink: /es/about/
 heroImage: /assets/img/jesseherd.png
 heroAlt: Jesse Hirsh standing on his farm surrounded by goats, dogs, and chickens, with horses in the background.
 ---
-Jesse Hirsh ofrece conferencias magistrales, orientaciones estratégicas y conversaciones moderadas para líderes que navegan cambios tecnológicos, políticos e institucionales. Su trabajo se centra en ayudar a los tomadores de decisiones a traducir la complejidad en acción práctica y responsable.
+Jesse Hirsh ofrece conferencias magistrales, orientaciones estratégicas, comentarios mediáticos, conversaciones conducidas y sesiones moderadas para líderes que navegan cambios tecnológicos, políticos e institucionales. Su trabajo se centra en ayudar a los tomadores de decisiones a traducir la complejidad en acción práctica y responsable.
 
 Su práctica en la granja es una lente sistémica: una disciplina del mundo real para observar bucles de retroalimentación, restricciones de recursos y gestión a largo plazo. Esa lente informa cómo aborda la política, la gobernanza y la estrategia organizacional.
 

@@ -2,13 +2,13 @@
 layout: layouts/page.njk
 title: About
 dek: Jesse Hirsh is a futurist farmer, speaker, and strategist focused on agriculture, AI, authority, media systems, and institutional decision-making.
-description: Bio for Jesse Hirsh, a Canadian researcher, speaker, futurist farmer, and strategist focused on AI, media, governance, agriculture, and systems change.
+description: Bio for Jesse Hirsh, a Canadian researcher, speaker, media host, futurist farmer, and strategist focused on AI, media, governance, agriculture, and systems change.
 permalink: /about/
 heroImage: /assets/img/jesseherd.png
 heroAlt: Jesse Hirsh standing on his farm surrounded by goats, dogs, and chickens, with horses in the background.
 ---
 
-Jesse Hirsh delivers keynotes, strategic briefings, and moderated conversations for leaders navigating technological, political, and institutional change. His work focuses on helping decision-makers translate complexity into practical, accountable action.
+Jesse Hirsh delivers keynotes, strategic briefings, media commentary, hosted conversations, and moderated sessions for leaders navigating technological, political, and institutional change. His work focuses on helping decision-makers translate complexity into practical, accountable action.
 
 His farm practice is a systems lens: a real-world discipline for observing feedback loops, resource constraints, and long-horizon stewardship. That lens informs how he approaches policy, governance, and organizational strategy.
 
