@@ -124,7 +124,7 @@
 </head>
 <body>
   <a class="skip-link" href="#main">{{ strings.skip }}</a>
-  {% include "partials/nav.njk" %}
+  {% if '/new/' in page.url %}{% include "partials/nav-preview.njk" %}{% else %}{% include "partials/nav.njk" %}{% endif %}
   <main id="main" class="container">
     {% block content %}{% endblock %}
   </main>

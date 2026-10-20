@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="container">
+    <div class="header-top">
+      <p class="site-name"><a href="/new/">Jesse Hirsh</a></p>
+      <p class="card-label">Structure preview</p>
+    </div>
+    <nav aria-label="Primary">
+      <ul class="nav-list">
+        <li><a href="/new/#threads" {% if page.url == '/new/' %}aria-current="page"{% endif %}>Threads</a></li>
+        <li><a href="/new/speaking/" {% if '/new/speaking/' in page.url %}aria-current="page"{% endif %}>Speaking</a></li>
+        <li><a href="/new/media/" {% if '/new/media/' in page.url %}aria-current="page"{% endif %}>Media</a></li>
+        <li><a href="/new/building/" {% if '/new/building/' in page.url %}aria-current="page"{% endif %}>Advisory</a></li>
+        <li><a href="/new/about/" {% if '/new/about/' in page.url %}aria-current="page"{% endif %}>About</a></li>
+        <li><a href="/new/contact/" {% if '/new/contact/' in page.url %}aria-current="page"{% endif %}>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
